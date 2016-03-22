@@ -507,11 +507,17 @@ stats_add_header(struct stats *st)
     int64_t cur_ts, uptime;
 
     buf = &st->buf;
-    buf->data[0] = '{';
-    buf->len = 1;
+    buf->data[buf->len] = '{';
+    buf->len += 1;
 
     cur_ts = (int64_t)time(NULL);
     uptime = cur_ts - st->start_ts;
+
+
+    status = stats_add_string(st, &st->proxy_addr_str, &st->proxy_addr);
+    if (status != NC_OK) {
+        return status;
+    }
 
     status = stats_add_string(st, &st->service_str, &st->service);
     if (status != NC_OK) {
@@ -889,6 +895,7 @@ stats_send_rsp(struct stats *st)
     ssize_t n;
     int sd;
 
+    st->buf.len = 0;
     status = stats_make_rsp(st);
     if (status != NC_OK) {
         return status;
@@ -910,6 +917,53 @@ stats_send_rsp(struct stats *st)
     }
 
     close(sd);
+}
+
+static rstatus_t
+stats_send_req(struct stats *st)
+{
+    rstatus_t status;
+    struct sockinfo si;
+    ssize_t n;
+    int sd;
+    char *stats_ip = "localhost";
+    struct string       addr;  
+    string_set_raw(&addr, stats_ip);
+
+    strcpy(st->buf.data, "agent_w");
+    st->buf.len = 7;
+    status = stats_make_rsp(st);
+    if (status != NC_OK) {
+        return status;
+    }
+
+    status = nc_resolve(&addr, 9997, &si);
+    if (status < 0) {
+        return status;
+    }
+
+    // 1. socket
+    sd = socket(si.family, SOCK_STREAM, 0);
+    if (sd < 0) {
+        log_debug(LOG_NOTICE, "socket failed: %s", strerror(errno));
+        return NC_ERROR;
+    }
+
+    // 2. connect
+    if (connect(sd, (struct sockaddr *) &si.addr.in, si.addrlen) < 0) {
+        log_error("ERROR connecting");
+    }
+
+    // 3. write
+    n = nc_sendn(sd, st->buf.data, st->buf.len);
+    if (n < 0) {
+        log_error("send stats on sd %d failed: %s", sd, strerror(errno));
+        close(sd);
+        return NC_ERROR;
+    }
+
+    // 4.close
+    close(sd);
 
     return NC_OK;
 }
@@ -923,15 +977,16 @@ stats_loop_callback(void *arg1, void *arg2)
     /* aggregate stats from shadow (b) -> sum (c) */
     stats_aggregate(st);
 
-    if (n == 0) {
-        return;
-    }
-
     // Record percentile latency.
     stats_summarize_latency(st);
 
     /* send aggregate stats sum (c) to collector */
-    stats_send_rsp(st);
+    if (n == 0) {
+        stats_send_req(st);
+    }
+    else {
+        stats_send_rsp(st);
+    }
 }
 
 static void *
@@ -1017,8 +1072,7 @@ stats_stop_aggregator(struct stats *st)
 }
 
 struct stats *
-stats_create(uint16_t stats_port, char *stats_ip, int stats_interval,
-             char *source, struct array *server_pool)
+stats_create(struct instance *nci, struct array *server_pool)
 {
     rstatus_t status;
     struct stats *st;
@@ -1028,9 +1082,9 @@ stats_create(uint16_t stats_port, char *stats_ip, int stats_interval,
         return NULL;
     }
 
-    st->port = stats_port;
-    st->interval = stats_interval;
-    string_set_raw(&st->addr, stats_ip);
+    st->port = nci->stats_port;
+    st->interval = nci->stats_interval;
+    string_set_raw(&st->addr, nci->stats_addr);
 
     st->start_ts = (int64_t)time(NULL);
 
@@ -1049,7 +1103,7 @@ stats_create(uint16_t stats_port, char *stats_ip, int stats_interval,
     string_set_text(&st->service, "nutcracker");
 
     string_set_text(&st->source_str, "source");
-    string_set_raw(&st->source, source);
+    string_set_raw(&st->source, nci->hostname);
 
     string_set_text(&st->version_str, "version");
     string_set_text(&st->version, NC_VERSION_STRING);
@@ -1059,6 +1113,10 @@ stats_create(uint16_t stats_port, char *stats_ip, int stats_interval,
 
     string_set_text(&st->ntotal_conn_str, "total_connections");
     string_set_text(&st->ncurr_conn_str, "curr_connections");
+
+    string_set_text(&st->proxy_addr_str, "proxy_instance");
+    sprintf(nci->proxy_ins, "%s:%d", nci->proxy_ip, nci->proxy_port);
+    string_set_text(&st->proxy_addr, nci->proxy_ins);
 
     st->updated = 0;
     st->aggregate = 0;

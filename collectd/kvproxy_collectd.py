@@ -29,7 +29,7 @@ class KVProxyPlugin(object):
       self.ports.append(port)
 
     # default interval is 20 seconds.
-    self.interval = 20
+    self.interval = 10 
     self.plugin_name = PLUGIN_NAME
     self.test = False
     self.per_server_stats = False
@@ -54,12 +54,12 @@ class KVProxyPlugin(object):
       For how to interpret config object, see here:
       https://collectd.org/documentation/manpages/collectd-python.5.shtml
     """
-    collectd.info('now config kvproxy {}'.format(conf))
+    collectd.info('!!now config kvproxy {}'.format(conf))
     for node in conf.children:
       key = node.key.lower()
 
       collectd.info('key: {0: <12}, value: {1: <12}'.format(key, node.values))
-      # collectd.info('config: key: {}, value: {}'.format(key, node.values))
+
       if key == 'proxy':
         for s in node.values:
           tp = s.split(':')
@@ -89,11 +89,12 @@ class KVProxyPlugin(object):
     log_verbose('have inited plugin {}'.format(self.plugin_name))
 
 
-  def submit(self, type, type_instance, value, server, port):
+  def submit(self, type, type_instance, value, instance):
     """
       dispatch a msg to collectd.
     """
-    plugin_instance = '{}:{}'.format(server, port)
+    #plugin_instance = '{}:{}'.format(server, port)
+    plugin_instance = instance
 
     v = collectd.Values()
     v.plugin = self.plugin_name
@@ -121,7 +122,7 @@ class KVProxyPlugin(object):
                     type_instance, value, e))
 
 
-  def parse_server(self, sname, server, ip, port):
+  def parse_server(self, sname, server, instance):
     """
       Parse proxy stats info about a server, then send to collectd
 
@@ -133,50 +134,50 @@ class KVProxyPlugin(object):
     self.submit('server_connections',
                 sname,
                 str(server['server_connections']),
-                ip, port)
+                instance)
     self.submit('server_eof',
                 sname,
                 str(server['server_eof']),
-                ip, port)
+                instance)
     self.submit('server_err',
                 sname,
                 str(server['server_err']),
-                ip, port)
+                instance)
     self.submit('req',
                 sname,
                 str(server['requests']),
-                ip, port)
+                instance)
     self.submit('reqbytes',
                 sname,
                 str(server['request_bytes']),
-                ip, port)
+                instance)
     self.submit('resp',
                 sname,
                 str(server['responses']),
-                ip, port)
+                instance)
     self.submit('respbytes',
                 sname,
                 str(server['response_bytes']),
-                ip, port)
+                instance)
     self.submit('in_queue',
                 sname,
                 str(server['in_queue']),
-                ip, port)
+                instance)
     self.submit('in_queue_bytes',
                 sname,
                 str(server['in_queue_bytes']),
-                ip, port)
+                instance)
     self.submit('out_queue',
                 sname,
                 str(server['out_queue']),
-                ip, port)
+                instance)
     self.submit('out_queue_bytes',
                 sname,
                 str(server['out_queue_bytes']),
-                ip, port)
+                instance)
 
 
-  def parse_pool(self, pname, pool, ip, port):
+  def parse_pool(self, pname, pool, instance):
     """
       Parse proxy stats info about a KV pool, then send to collectd
 
@@ -188,81 +189,78 @@ class KVProxyPlugin(object):
     # Record top summaries for this pool.
     self.submit('client_connections', pname,
                 pool['client_connections'],
-                ip, port)
+                instance)
     self.submit('client_err', pname,
                 pool['client_err'],
-                ip, port)
+                instance)
     self.submit('client_eof', pname,
                 pool['client_eof'],
-                ip, port)
+                instance)
     self.submit('server_ejects', pname,
                 pool['server_ejects'],
-                ip, port)
+                instance)
     self.submit('forward_error', pname,
                 pool['forward_error'],
-                ip, port)
+                instance)
     self.submit('fragments', pname,
                 pool['fragments'],
-                ip, port)
+                instance)
     self.submit('req', pname,
                 pool['total_requests'],
-                ip, port)
+                instance)
     self.submit('reqbytes', pname,
                 pool['total_requests_bytes'],
-                ip, port)
+                instance)
     self.submit('resp', pname,
                 pool['total_responses'],
-                ip, port)
+                instance)
     self.submit('respbytes', pname,
                 pool['total_responses_bytes'],
-                ip, port)
+                instance)
     self.submit('latency_min', pname,
                 pool['latency_min'],
-                ip, port)
+                instance)
     self.submit('latency_max', pname,
                 pool['latency_max'],
-                ip, port)
+                instance)
     self.submit('latency_p50', pname,
                 pool['latency_p50'],
-                ip, port)
+                instance)
     self.submit('latency_p90', pname,
                 pool['latency_p90'],
-                ip, port)
+                instance)
     self.submit('latency_p95', pname,
                 pool['latency_p95'],
-                ip, port)
+                instance)
     self.submit('latency_p99', pname,
                 pool['latency_p99'],
-                ip, port)
+                instance)
 
 
-  def send_stats_to_collectd(self, content, ip, port):
-    """
-      Parse stats content string, send values to collectd.
+  def send_stats_to_collectd(self, content):
 
-      :param content: stats string, in json format.
-      :param ip:      proxy ip address
-      :param port:    proxy port
-    """
-    stats = json.loads(content)
+    proxy_stats = json.loads(content)
+    
+    for pk in proxy_stats.keys():
+      stats = proxy_stats[pk]
+      
+      for k in sorted(stats.keys()):
+        # Only look into kv-pools, skip high-level summary stats.
+        v = stats[k]
+        if type(v) is dict:
+          # Now 'k' is pool name, 'v' is object representing the pool.
+          self.parse_pool(k, v, pk)
 
-    for k in sorted(stats.keys()):
-      # Only look into kv-pools, skip high-level summary stats.
-      v = stats[k]
-      if type(v) is dict:
-        # Now 'k' is pool name, 'v' is object representing the pool.
-        self.parse_pool(k, v, ip, port)
+          # Check if we should report per-dbserver stats.
+          if not self.per_server_stats:
+            continue
 
-        # Check if we should report per-dbserver stats.
-        if not self.per_server_stats:
-          continue
-
-        # Look into each server in the pool.
-        for bk in v.keys():
-          # TODO: summarize counts / errors of all servers.
-          if type(v[bk]) is dict:
-            # Now 'bk' is backend server name
-            self.parse_server(bk, v[bk], ip, port)
+          # Look into each server in the pool.
+          for bk in v.keys():
+            # TODO: summarize counts / errors of all servers.
+            if type(v[bk]) is dict:
+              # Now 'bk' is backend server name
+              self.parse_server(bk, v[bk], pk)
 
 
   def read_proxy_stats(self):
@@ -277,6 +275,7 @@ class KVProxyPlugin(object):
       try:
         log_verbose('will read stats at {}:{}'.format(ip, port))
         conn = socket.create_connection((ip, port))
+        conn.send('agent_r')
         buf = True
         content = ''
         while buf:
@@ -284,10 +283,10 @@ class KVProxyPlugin(object):
           if buf:
             content += buf
         conn.close()
-        self.send_stats_to_collectd(content, ip, port);
+        log_verbose(buf) 
+        self.send_stats_to_collectd(content);
       except Exception as e:
         log_verbose('Error:: {}'.format(e))
-
 
 
 def main():

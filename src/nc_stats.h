@@ -97,6 +97,8 @@ struct stats_buffer {
 };
 
 struct stats {
+    //int                 proxy_port;      /* proxy instance port*/    
+
     uint16_t            port;            /* stats monitoring port */
     int                 interval;        /* stats aggregation interval */
     struct string       addr;            /* stats monitoring address */
@@ -121,6 +123,8 @@ struct stats {
     struct string       timestamp_str;   /* timestamp string */
     struct string       ntotal_conn_str; /* total connections string */
     struct string       ncurr_conn_str;  /* curr connections string */
+    struct string       proxy_addr_str;  /* proxy address string */
+    struct string       proxy_addr;      /* proxy address */
 
     volatile int        aggregate;       /* shadow (b) aggregate? */
     volatile int        updated;         /* current (a) updated? */
@@ -226,7 +230,7 @@ void _stats_server_incr_by(struct context *ctx, struct server *server, stats_ser
 void _stats_server_decr_by(struct context *ctx, struct server *server, stats_server_field_t fidx, int64_t val);
 void _stats_server_set_ts(struct context *ctx, struct server *server, stats_server_field_t fidx, int64_t val);
 
-struct stats *stats_create(uint16_t stats_port, char *stats_ip, int stats_interval, char *source, struct array *server_pool);
+struct stats *stats_create(struct instance *nci, struct array *server_pool);
 void stats_destroy(struct stats *stats);
 void stats_swap(struct stats *stats);
 
