@@ -1,0 +1,1933 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APPEND_INDENT	parson/parson.c	720;"	d	file:
+APPEND_INDENT	parson/parson.c	881;"	d	file:
+APPEND_STRING	parson/parson.c	715;"	d	file:
+APPEND_STRING	parson/parson.c	880;"	d	file:
+ARRAY_MAX_CAPACITY	parson/parson.c	36;"	d	file:
+ASSERT	nc_util.h	161;"	d
+ASSERT	nc_util.h	171;"	d
+ASSERT	nc_util.h	181;"	d
+AddServerFromAddressString	nc_server.c	/^AddServerFromAddressString(struct shard *sd, char *saddr)$/;"	f
+CIRCLEQ_EMPTY	nc_queue.h	712;"	d
+CIRCLEQ_ENTRY	nc_queue.h	703;"	d
+CIRCLEQ_FIRST	nc_queue.h	714;"	d
+CIRCLEQ_FOREACH	nc_queue.h	716;"	d
+CIRCLEQ_FOREACH_REVERSE	nc_queue.h	721;"	d
+CIRCLEQ_HEAD	nc_queue.h	694;"	d
+CIRCLEQ_HEAD_INITIALIZER	nc_queue.h	700;"	d
+CIRCLEQ_INIT	nc_queue.h	726;"	d
+CIRCLEQ_INSERT_AFTER	nc_queue.h	731;"	d
+CIRCLEQ_INSERT_BEFORE	nc_queue.h	741;"	d
+CIRCLEQ_INSERT_HEAD	nc_queue.h	751;"	d
+CIRCLEQ_INSERT_TAIL	nc_queue.h	761;"	d
+CIRCLEQ_LAST	nc_queue.h	771;"	d
+CIRCLEQ_NEXT	nc_queue.h	773;"	d
+CIRCLEQ_PREV	nc_queue.h	775;"	d
+CIRCLEQ_REMOVE	nc_queue.h	777;"	d
+CLASSIC	hdr_histogram/hdr_histogram.h	/^    CLASSIC,$/;"	e	enum:__anon6
+CLASSIC_FOOTER	hdr_histogram/hdr_histogram.c	/^static const char CLASSIC_FOOTER[] =$/;"	v	file:
+CONF_DEFAULT_ARGS	nc_conf.h	35;"	d
+CONF_DEFAULT_AUTO_EJECT_HOSTS	nc_conf.h	55;"	d
+CONF_DEFAULT_CLIENT_CONNECTIONS	nc_conf.h	51;"	d
+CONF_DEFAULT_CONF_ZNODE	nc_conf.h	66;"	d
+CONF_DEFAULT_DIST	nc_conf.h	48;"	d
+CONF_DEFAULT_FILE_SAVE_PATH	nc_conf.h	69;"	d
+CONF_DEFAULT_HASH	nc_conf.h	47;"	d
+CONF_DEFAULT_KETAMA_PORT	nc_conf.h	59;"	d
+CONF_DEFAULT_LISTEN_BACKLOG	nc_conf.h	50;"	d
+CONF_DEFAULT_POOL	nc_conf.h	36;"	d
+CONF_DEFAULT_PRECONNECT	nc_conf.h	54;"	d
+CONF_DEFAULT_PROXIES	nc_conf.h	38;"	d
+CONF_DEFAULT_REDIS	nc_conf.h	52;"	d
+CONF_DEFAULT_REDIS_DB	nc_conf.h	53;"	d
+CONF_DEFAULT_SERVERS	nc_conf.h	37;"	d
+CONF_DEFAULT_SERVER_CONNECTIONS	nc_conf.h	58;"	d
+CONF_DEFAULT_SERVER_FAILURE_LIMIT	nc_conf.h	57;"	d
+CONF_DEFAULT_SERVER_RETRY_TIMEOUT	nc_conf.h	56;"	d
+CONF_DEFAULT_SHARDS	nc_conf.h	39;"	d
+CONF_DEFAULT_SLAVES	nc_conf.h	40;"	d
+CONF_DEFAULT_TCPKEEPALIVE	nc_conf.h	60;"	d
+CONF_DEFAULT_TIMEOUT	nc_conf.h	49;"	d
+CONF_ERROR	nc_conf.h	30;"	d
+CONF_MAX_DEPTH	nc_conf.h	33;"	d
+CONF_OK	nc_conf.h	29;"	d
+CONF_ROOT_DEPTH	nc_conf.h	32;"	d
+CONF_UNSET_DIST	nc_conf.h	45;"	d
+CONF_UNSET_HASH	nc_conf.h	44;"	d
+CONF_UNSET_NUM	nc_conf.h	42;"	d
+CONF_UNSET_PTR	nc_conf.h	43;"	d
+CR	nc_util.h	24;"	d
+CRLF	nc_util.h	25;"	d
+CRLF_LEN	nc_util.h	26;"	d
+CSV	hdr_histogram/hdr_histogram.h	/^    CSV$/;"	e	enum:__anon6
+ContextExists	zkutil.h	/^} ContextExists;$/;"	t	typeref:struct:ContextExists_s
+ContextExists_s	zkutil.h	/^typedef struct ContextExists_s {$/;"	s
+ContextGet	zkutil.h	/^} ContextGet;$/;"	t	typeref:struct:ContextGet_s
+ContextGet_s	zkutil.h	/^typedef struct ContextGet_s {$/;"	s
+DEFINE_ACTION	hashkit/nc_hashkit.h	43;"	d
+DEFINE_ACTION	hashkit/nc_hashkit.h	48;"	d
+DEFINE_ACTION	hashkit/nc_hashkit.h	50;"	d
+DEFINE_ACTION	hashkit/nc_hashkit.h	55;"	d
+DEFINE_ACTION	nc_conf.c	25;"	d	file:
+DEFINE_ACTION	nc_conf.c	30;"	d	file:
+DEFINE_ACTION	nc_conf.c	32;"	d	file:
+DEFINE_ACTION	nc_conf.c	37;"	d	file:
+DEFINE_ACTION	nc_conf.c	39;"	d	file:
+DEFINE_ACTION	nc_conf.c	44;"	d	file:
+DEFINE_ACTION	nc_message.c	119;"	d	file:
+DEFINE_ACTION	nc_message.c	124;"	d	file:
+DEFINE_ACTION	nc_message.h	191;"	d
+DEFINE_ACTION	nc_message.h	195;"	d
+DEFINE_ACTION	nc_stats.c	34;"	d	file:
+DEFINE_ACTION	nc_stats.c	42;"	d	file:
+DEFINE_ACTION	nc_stats.c	44;"	d	file:
+DEFINE_ACTION	nc_stats.c	52;"	d	file:
+DEFINE_ACTION	nc_stats.h	141;"	d
+DEFINE_ACTION	nc_stats.h	146;"	d
+DEFINE_ACTION	nc_stats.h	148;"	d
+DEFINE_ACTION	nc_stats.h	153;"	d
+DEFINE_ACTION	proto/nc_redis.c	32;"	d	file:
+DEFINE_ACTION	proto/nc_redis.c	34;"	d	file:
+DIST_CODEC	hashkit/nc_hashkit.h	/^    DIST_CODEC( DEFINE_ACTION )$/;"	e	enum:dist_type
+DIST_CODEC	hashkit/nc_hashkit.h	38;"	d
+DIST_SENTINEL	hashkit/nc_hashkit.h	/^    DIST_SENTINEL$/;"	e	enum:dist_type
+DOUBLE_SERIALIZATION_FORMAT	parson/parson.c	39;"	d	file:
+DefaultExistsWatcher	zkutil.c	/^void DefaultExistsWatcher(zhandle_t *zkh,$/;"	f
+DefaultGetCompletion	zkutil.c	/^void DefaultGetCompletion(int rc,$/;"	f
+DefaultGetWatcher	zkutil.c	/^void DefaultGetWatcher(zhandle_t *zkh,$/;"	f
+EVENT_ERR	event/nc_event.h	27;"	d
+EVENT_READ	event/nc_event.h	25;"	d
+EVENT_SIZE	event/nc_event.h	23;"	d
+EVENT_WRITE	event/nc_event.h	26;"	d
+F	hashkit/nc_md5.c	47;"	d	file:
+FAIL_AND_CLEANUP	hdr_histogram/hdr_histogram_log.c	41;"	d	file:
+FNV_32_INIT	hashkit/nc_fnv.c	/^static uint32_t FNV_32_INIT = 2166136261UL;$/;"	v	file:
+FNV_32_PRIME	hashkit/nc_fnv.c	/^static uint32_t FNV_32_PRIME = 16777619;$/;"	v	file:
+FNV_64_INIT	hashkit/nc_fnv.c	/^static uint64_t FNV_64_INIT = UINT64_C(0xcbf29ce484222325);$/;"	v	file:
+FNV_64_PRIME	hashkit/nc_fnv.c	/^static uint64_t FNV_64_PRIME = UINT64_C(0x100000001b3);$/;"	v	file:
+G	hashkit/nc_md5.c	48;"	d	file:
+GET	hashkit/nc_md5.c	71;"	d	file:
+GET	hashkit/nc_md5.c	80;"	d	file:
+GlobalWatcher	zkutil.c	/^void GlobalWatcher(zhandle_t *zh,$/;"	f
+H	hashkit/nc_md5.c	49;"	d	file:
+HASH_CODEC	hashkit/nc_hashkit.h	/^    HASH_CODEC( DEFINE_ACTION )$/;"	e	enum:hash_type
+HASH_CODEC	hashkit/nc_hashkit.h	24;"	d
+HASH_SENTINEL	hashkit/nc_hashkit.h	/^    HASH_SENTINEL$/;"	e	enum:hash_type
+HAVE_UNISTD_H	hdr_histogram/hdr_histogram_log.c	14;"	d	file:
+HDR_ALIGN_PREFIX	hdr_histogram/hdr_thread.h	15;"	d
+HDR_ALIGN_PREFIX	hdr_histogram/hdr_thread.h	27;"	d
+HDR_ALIGN_SUFFIX	hdr_histogram/hdr_thread.h	16;"	d
+HDR_ALIGN_SUFFIX	hdr_histogram/hdr_thread.h	28;"	d
+HDR_ATOMIC_H__	hdr_histogram/hdr_atomic.h	8;"	d
+HDR_COMPRESSION_COOKIE_MISMATCH	hdr_histogram/hdr_histogram_log.h	13;"	d
+HDR_DEFLATE_FAIL	hdr_histogram/hdr_histogram_log.h	16;"	d
+HDR_DEFLATE_INIT_FAIL	hdr_histogram/hdr_histogram_log.h	15;"	d
+HDR_ENCODED_INPUT_TOO_LONG	hdr_histogram/hdr_histogram_log.h	22;"	d
+HDR_ENCODING_COOKIE_MISMATCH	hdr_histogram/hdr_histogram_log.h	14;"	d
+HDR_ENCODING_H	hdr_histogram/hdr_encoding.h	6;"	d
+HDR_ENDIAN_H__	hdr_histogram/hdr_endian.h	7;"	d
+HDR_HISTOGRAM_H	hdr_histogram/hdr_histogram.h	11;"	d
+HDR_HISTOGRAM_H_LOG	hdr_histogram/hdr_histogram_log.h	11;"	d
+HDR_INFLATE_FAIL	hdr_histogram/hdr_histogram_log.h	18;"	d
+HDR_INFLATE_INIT_FAIL	hdr_histogram/hdr_histogram_log.h	17;"	d
+HDR_INTERVAL_RECORDER_H	hdr_histogram/hdr_interval_recorder.h	8;"	d
+HDR_LOG_INVALID_VERSION	hdr_histogram/hdr_histogram_log.h	19;"	d
+HDR_TESTS_H	hdr_histogram/hdr_tests.h	2;"	d
+HDR_THREAD_H__	hdr_histogram/hdr_thread.h	8;"	d
+HDR_TIME_H__	hdr_histogram/hdr_time.h	8;"	d
+HDR_TRAILING_ZEROS_INVALID	hdr_histogram/hdr_histogram_log.h	20;"	d
+HDR_VALUE_TRUNCATED	hdr_histogram/hdr_histogram_log.h	21;"	d
+HDR_WRITER_READER_PHASER_H	hdr_histogram/hdr_writer_reader_phaser.h	8;"	d
+HEADER_LINE_LENGTH	hdr_histogram/hdr_histogram_log.c	915;"	d	file:
+I	hashkit/nc_md5.c	50;"	d	file:
+IS_CONT	parson/parson.c	52;"	d	file:
+JENKINS_INITVAL	hashkit/nc_jenkins.c	57;"	d	file:
+JSONArray	parson/parson.h	/^    JSONArray   = 5,$/;"	e	enum:json_value_type
+JSONBoolean	parson/parson.h	/^    JSONBoolean = 6$/;"	e	enum:json_value_type
+JSONError	parson/parson.h	/^    JSONError   = -1,$/;"	e	enum:json_value_type
+JSONFailure	parson/parson.h	/^    JSONFailure = -1$/;"	e	enum:json_result_t
+JSONNull	parson/parson.h	/^    JSONNull    = 1,$/;"	e	enum:json_value_type
+JSONNumber	parson/parson.h	/^    JSONNumber  = 3,$/;"	e	enum:json_value_type
+JSONObject	parson/parson.h	/^    JSONObject  = 4,$/;"	e	enum:json_value_type
+JSONString	parson/parson.h	/^    JSONString  = 2,$/;"	e	enum:json_value_type
+JSONSuccess	parson/parson.h	/^    JSONSuccess = 0,$/;"	e	enum:json_result_t
+JSON_Array	parson/parson.h	/^typedef struct json_array_t  JSON_Array;$/;"	t	typeref:struct:json_array_t
+JSON_Free_Function	parson/parson.h	/^typedef void   (*JSON_Free_Function)(void *);$/;"	t
+JSON_Malloc_Function	parson/parson.h	/^typedef void * (*JSON_Malloc_Function)(size_t);$/;"	t
+JSON_Object	parson/parson.h	/^typedef struct json_object_t JSON_Object;$/;"	t	typeref:struct:json_object_t
+JSON_Status	parson/parson.h	/^typedef int JSON_Status;$/;"	t
+JSON_Value	parson/parson.h	/^typedef struct json_value_t  JSON_Value;$/;"	t	typeref:struct:json_value_t
+JSON_Value_Type	parson/parson.h	/^typedef int JSON_Value_Type;$/;"	t
+JSON_Value_Value	parson/parson.c	/^} JSON_Value_Value;$/;"	t	typeref:union:json_value_value	file:
+KETAMA_CONTINUUM_ADDITION	hashkit/nc_ketama.c	26;"	d	file:
+KETAMA_MAX_HOSTLEN	hashkit/nc_ketama.c	28;"	d	file:
+KETAMA_POINTS_PER_SERVER	hashkit/nc_ketama.c	27;"	d	file:
+LF	nc_util.h	23;"	d
+LIST_EMPTY	nc_queue.h	432;"	d
+LIST_ENTRY	nc_queue.h	392;"	d
+LIST_FIRST	nc_queue.h	434;"	d
+LIST_FOREACH	nc_queue.h	436;"	d
+LIST_FOREACH_SAFE	nc_queue.h	441;"	d
+LIST_HEAD	nc_queue.h	384;"	d
+LIST_HEAD_INITIALIZER	nc_queue.h	389;"	d
+LIST_INIT	nc_queue.h	446;"	d
+LIST_INSERT_AFTER	nc_queue.h	450;"	d
+LIST_INSERT_BEFORE	nc_queue.h	459;"	d
+LIST_INSERT_HEAD	nc_queue.h	467;"	d
+LIST_NEXT	nc_queue.h	475;"	d
+LIST_REMOVE	nc_queue.h	477;"	d
+LIST_SWAP	nc_queue.h	490;"	d
+LOG_ALERT	nc_log.h	29;"	d
+LOG_CRIT	nc_log.h	30;"	d
+LOG_DEBUG	nc_log.h	35;"	d
+LOG_EMERG	nc_log.h	28;"	d
+LOG_ERR	nc_log.h	31;"	d
+LOG_INFO	nc_log.h	34;"	d
+LOG_MAJOR_VERSION	hdr_histogram/hdr_histogram_log.c	741;"	d	file:
+LOG_MAX_LEN	nc_log.h	41;"	d
+LOG_NOTICE	nc_log.h	33;"	d
+LOG_PVERB	nc_log.h	39;"	d
+LOG_VERB	nc_log.h	36;"	d
+LOG_VERSION	hdr_histogram/hdr_histogram_log.c	740;"	d	file:
+LOG_VVERB	nc_log.h	37;"	d
+LOG_VVVERB	nc_log.h	38;"	d
+LOG_WARN	nc_log.h	32;"	d
+MAX	nc_util.h	31;"	d
+MAX	parson/parson.c	44;"	d	file:
+MAX_BYTES_LEB128	hdr_histogram/hdr_encoding.h	10;"	d
+MAX_NESTING	parson/parson.c	38;"	d	file:
+MBUF_HSIZE	nc_mbuf.h	40;"	d
+MBUF_MAGIC	nc_mbuf.h	36;"	d
+MBUF_MAX_SIZE	nc_mbuf.h	38;"	d
+MBUF_MIN_SIZE	nc_mbuf.h	37;"	d
+MBUF_SIZE	nc_mbuf.h	39;"	d
+MD5_CTX	hashkit/nc_md5.c	/^} MD5_CTX;$/;"	t	typeref:struct:__anon1	file:
+MD5_Final	hashkit/nc_md5.c	/^MD5_Final(unsigned char *result, MD5_CTX *ctx)$/;"	f
+MD5_Init	hashkit/nc_md5.c	/^MD5_Init(MD5_CTX *ctx)$/;"	f
+MD5_Update	hashkit/nc_md5.c	/^MD5_Update(MD5_CTX *ctx, void *data, unsigned long size)$/;"	f
+MD5_u32plus	hashkit/nc_md5.c	/^typedef unsigned int MD5_u32plus;$/;"	t	file:
+MEMCACHE_MAX_KEY_LENGTH	proto/nc_memcache.c	33;"	d	file:
+MIN	nc_util.h	30;"	d
+MODULA_CONTINUUM_ADDITION	hashkit/nc_modula.c	25;"	d	file:
+MODULA_POINTS_PER_SERVER	hashkit/nc_modula.c	26;"	d	file:
+MSG_PARSE_AGAIN	nc_message.h	/^    MSG_PARSE_AGAIN,                      \/* incomplete -> parse again *\/$/;"	e	enum:msg_parse_result
+MSG_PARSE_ERROR	nc_message.h	/^    MSG_PARSE_ERROR,                      \/* parsing error *\/$/;"	e	enum:msg_parse_result
+MSG_PARSE_OK	nc_message.h	/^    MSG_PARSE_OK,                         \/* parsing ok *\/$/;"	e	enum:msg_parse_result
+MSG_PARSE_REPAIR	nc_message.h	/^    MSG_PARSE_REPAIR,                     \/* more to parse -> repair parsed & unparsed data *\/$/;"	e	enum:msg_parse_result
+MSG_TYPE_CODEC	nc_message.h	/^    MSG_TYPE_CODEC(DEFINE_ACTION)$/;"	e	enum:msg_type
+MSG_TYPE_CODEC	nc_message.h	37;"	d
+MasterAddressWatcher	nc_server.c	/^MasterAddressWatcher(zhandle_t *zkh,$/;"	f	file:
+MasterStatusWatcher	nc_server.c	/^MasterStatusWatcher(zhandle_t *zkh,$/;"	f	file:
+NC_ALIGN	nc_util.h	67;"	d
+NC_ALIGNMENT	nc_util.h	66;"	d
+NC_ALIGN_PTR	nc_util.h	68;"	d
+NC_ASSERT_LOG	nc_core.h	34;"	d
+NC_ASSERT_PANIC	nc_core.h	30;"	d
+NC_CONF_PATH	nc.c	31;"	d	file:
+NC_DEBUG_LOG	nc_core.h	26;"	d
+NC_EAGAIN	nc_core.h	63;"	d
+NC_ENOMEM	nc_core.h	64;"	d
+NC_ERROR	nc_core.h	62;"	d
+NC_HAVE_BACKTRACE	nc_core.h	58;"	d
+NC_HAVE_EPOLL	nc_core.h	44;"	d
+NC_HAVE_EVENT_PORTS	nc_core.h	48;"	d
+NC_HAVE_KQUEUE	nc_core.h	46;"	d
+NC_INET4_ADDRSTRLEN	nc_util.h	37;"	d
+NC_INET6_ADDRSTRLEN	nc_util.h	38;"	d
+NC_INET_ADDRSTRLEN	nc_util.h	40;"	d
+NC_IOV_MAX	nc_message.c	28;"	d	file:
+NC_IOV_MAX	nc_message.c	30;"	d	file:
+NC_LITTLE_ENDIAN	nc_core.h	54;"	d
+NC_LOG_DEFAULT	nc.c	33;"	d	file:
+NC_LOG_MAX	nc.c	35;"	d	file:
+NC_LOG_MIN	nc.c	34;"	d	file:
+NC_LOG_PATH	nc.c	36;"	d	file:
+NC_MAXHOSTNAMELEN	nc_util.h	44;"	d
+NC_MBUF_MAX_SIZE	nc.c	46;"	d	file:
+NC_MBUF_MIN_SIZE	nc.c	45;"	d	file:
+NC_MBUF_SIZE	nc.c	44;"	d	file:
+NC_OK	nc_core.h	61;"	d
+NC_PID_FILE	nc.c	42;"	d	file:
+NC_PROXY_PORT	nc.c	49;"	d	file:
+NC_STATS	nc_core.h	38;"	d
+NC_STATS	nc_core.h	40;"	d
+NC_STATS_ADDR	nc.c	39;"	d	file:
+NC_STATS_INTERVAL	nc.c	40;"	d	file:
+NC_STATS_PORT	nc.c	38;"	d	file:
+NC_UINT16_MAXLEN	nc_util.h	57;"	d
+NC_UINT32_MAXLEN	nc_util.h	58;"	d
+NC_UINT64_MAXLEN	nc_util.h	59;"	d
+NC_UINT8_MAXLEN	nc_util.h	56;"	d
+NC_UINTMAX_MAXLEN	nc_util.h	60;"	d
+NC_UNIX_ADDRSTRLEN	nc_util.h	41;"	d
+NELEMS	nc_util.h	28;"	d
+NOT_REACHED	nc_util.h	167;"	d
+NOT_REACHED	nc_util.h	177;"	d
+NOT_REACHED	nc_util.h	183;"	d
+OBJECT_MAX_CAPACITY	parson/parson.c	37;"	d	file:
+QMD_LIST_CHECK_HEAD	nc_queue.h	404;"	d
+QMD_LIST_CHECK_HEAD	nc_queue.h	426;"	d
+QMD_LIST_CHECK_NEXT	nc_queue.h	411;"	d
+QMD_LIST_CHECK_NEXT	nc_queue.h	427;"	d
+QMD_LIST_CHECK_PREV	nc_queue.h	418;"	d
+QMD_LIST_CHECK_PREV	nc_queue.h	428;"	d
+QMD_SAVELINK	nc_queue.h	139;"	d
+QMD_SAVELINK	nc_queue.h	147;"	d
+QMD_TAILQ_CHECK_HEAD	nc_queue.h	525;"	d
+QMD_TAILQ_CHECK_HEAD	nc_queue.h	553;"	d
+QMD_TAILQ_CHECK_NEXT	nc_queue.h	538;"	d
+QMD_TAILQ_CHECK_NEXT	nc_queue.h	555;"	d
+QMD_TAILQ_CHECK_PREV	nc_queue.h	545;"	d
+QMD_TAILQ_CHECK_PREV	nc_queue.h	556;"	d
+QMD_TAILQ_CHECK_TAIL	nc_queue.h	532;"	d
+QMD_TAILQ_CHECK_TAIL	nc_queue.h	554;"	d
+QMD_TRACE_ELEM	nc_queue.h	171;"	d
+QMD_TRACE_ELEM	nc_queue.h	180;"	d
+QMD_TRACE_HEAD	nc_queue.h	164;"	d
+QMD_TRACE_HEAD	nc_queue.h	181;"	d
+QUEUE_MACRO_ASSERT	nc_queue.h	134;"	d
+QUEUE_MACRO_SCRUB	nc_queue.h	130;"	d
+QUEUE_MACRO_TRACE	nc_queue.h	133;"	d
+RANDOM_CONTINUUM_ADDITION	hashkit/nc_random.c	25;"	d	file:
+RANDOM_POINTS_PER_SERVER	hashkit/nc_random.c	26;"	d	file:
+RESERVED_FDS	nc_core.h	67;"	d
+RSP_STRING	proto/nc_redis.c	25;"	d	file:
+SET	hashkit/nc_md5.c	69;"	d	file:
+SET	hashkit/nc_md5.c	74;"	d	file:
+SIZEOF_TOKEN	parson/parson.c	41;"	d	file:
+SKIP_CHAR	parson/parson.c	42;"	d	file:
+SKIP_WHITESPACES	parson/parson.c	43;"	d	file:
+SLIST_EMPTY	nc_queue.h	205;"	d
+SLIST_ENTRY	nc_queue.h	197;"	d
+SLIST_FIRST	nc_queue.h	207;"	d
+SLIST_FOREACH	nc_queue.h	209;"	d
+SLIST_FOREACH_PREVPTR	nc_queue.h	219;"	d
+SLIST_FOREACH_SAFE	nc_queue.h	214;"	d
+SLIST_HEAD	nc_queue.h	189;"	d
+SLIST_HEAD_INITIALIZER	nc_queue.h	194;"	d
+SLIST_INIT	nc_queue.h	224;"	d
+SLIST_INSERT_AFTER	nc_queue.h	228;"	d
+SLIST_INSERT_HEAD	nc_queue.h	233;"	d
+SLIST_NEXT	nc_queue.h	238;"	d
+SLIST_REMOVE	nc_queue.h	240;"	d
+SLIST_REMOVE_AFTER	nc_queue.h	252;"	d
+SLIST_REMOVE_HEAD	nc_queue.h	258;"	d
+SQUARE	nc_util.h	33;"	d
+STAILQ_CONCAT	nc_queue.h	284;"	d
+STAILQ_EMPTY	nc_queue.h	292;"	d
+STAILQ_ENTRY	nc_queue.h	276;"	d
+STAILQ_FIRST	nc_queue.h	294;"	d
+STAILQ_FOREACH	nc_queue.h	296;"	d
+STAILQ_FOREACH_SAFE	nc_queue.h	301;"	d
+STAILQ_HEAD	nc_queue.h	267;"	d
+STAILQ_HEAD_INITIALIZER	nc_queue.h	273;"	d
+STAILQ_INIT	nc_queue.h	306;"	d
+STAILQ_INSERT_AFTER	nc_queue.h	311;"	d
+STAILQ_INSERT_HEAD	nc_queue.h	317;"	d
+STAILQ_INSERT_TAIL	nc_queue.h	323;"	d
+STAILQ_LAST	nc_queue.h	329;"	d
+STAILQ_NEXT	nc_queue.h	335;"	d
+STAILQ_REMOVE	nc_queue.h	337;"	d
+STAILQ_REMOVE_AFTER	nc_queue.h	358;"	d
+STAILQ_REMOVE_HEAD	nc_queue.h	349;"	d
+STAILQ_SWAP	nc_queue.h	367;"	d
+STARTING_CAPACITY	parson/parson.c	35;"	d	file:
+STATS_ADDR	nc_stats.h	61;"	d
+STATS_COUNTER	nc_stats.h	/^    STATS_COUNTER,    \/* monotonic accumulator *\/$/;"	e	enum:stats_type
+STATS_GAUGE	nc_stats.h	/^    STATS_GAUGE,      \/* non-monotonic accumulator *\/$/;"	e	enum:stats_type
+STATS_INTERVAL	nc_stats.h	63;"	d
+STATS_INVALID	nc_stats.h	/^    STATS_INVALID,$/;"	e	enum:stats_type
+STATS_POOL_CODEC	nc_stats.h	/^    STATS_POOL_CODEC(DEFINE_ACTION)$/;"	e	enum:stats_pool_field
+STATS_POOL_CODEC	nc_stats.h	23;"	d
+STATS_POOL_NFIELD	nc_stats.h	/^    STATS_POOL_NFIELD$/;"	e	enum:stats_pool_field
+STATS_PORT	nc_stats.h	62;"	d
+STATS_SENTINEL	nc_stats.h	/^    STATS_SENTINEL$/;"	e	enum:stats_type
+STATS_SERVER_CODEC	nc_stats.h	/^    STATS_SERVER_CODEC(DEFINE_ACTION)$/;"	e	enum:stats_server_field
+STATS_SERVER_CODEC	nc_stats.h	44;"	d
+STATS_SERVER_NFIELD	nc_stats.h	/^    STATS_SERVER_NFIELD$/;"	e	enum:stats_server_field
+STATS_TIMESTAMP	nc_stats.h	/^    STATS_TIMESTAMP,  \/* monotonic timestamp (in nsec) *\/$/;"	e	enum:stats_type
+STDDEV	nc_util.h	35;"	d
+STEP	hashkit/nc_md5.c	55;"	d	file:
+State2String	zkutil.c	/^const char* State2String(int state){$/;"	f
+TAILQ_CONCAT	nc_queue.h	560;"	d
+TAILQ_EMPTY	nc_queue.h	571;"	d
+TAILQ_ENTRY	nc_queue.h	513;"	d
+TAILQ_FIRST	nc_queue.h	573;"	d
+TAILQ_FOREACH	nc_queue.h	575;"	d
+TAILQ_FOREACH_REVERSE	nc_queue.h	585;"	d
+TAILQ_FOREACH_REVERSE_SAFE	nc_queue.h	590;"	d
+TAILQ_FOREACH_SAFE	nc_queue.h	580;"	d
+TAILQ_HEAD	nc_queue.h	503;"	d
+TAILQ_HEAD_INITIALIZER	nc_queue.h	510;"	d
+TAILQ_INIT	nc_queue.h	595;"	d
+TAILQ_INSERT_AFTER	nc_queue.h	601;"	d
+TAILQ_INSERT_BEFORE	nc_queue.h	615;"	d
+TAILQ_INSERT_HEAD	nc_queue.h	625;"	d
+TAILQ_INSERT_TAIL	nc_queue.h	638;"	d
+TAILQ_LAST	nc_queue.h	648;"	d
+TAILQ_NEXT	nc_queue.h	651;"	d
+TAILQ_PREV	nc_queue.h	653;"	d
+TAILQ_REMOVE	nc_queue.h	656;"	d
+TAILQ_SWAP	nc_queue.h	674;"	d
+TRACEBUF	nc_queue.h	162;"	d
+TRACEBUF	nc_queue.h	182;"	d
+TRASHIT	nc_queue.h	141;"	d
+TRASHIT	nc_queue.h	148;"	d
+Type2String	zkutil.c	/^const char* Type2String(int type){$/;"	f
+V0_COMPRESSION_COOKIE	hdr_histogram/hdr_histogram_log.c	/^static const int32_t V0_COMPRESSION_COOKIE = 0x1c849309;$/;"	v	file:
+V0_ENCODING_COOKIE	hdr_histogram/hdr_histogram_log.c	/^static const int32_t V0_ENCODING_COOKIE    = 0x1c849308;$/;"	v	file:
+V1_COMPRESSION_COOKIE	hdr_histogram/hdr_histogram_log.c	/^static const int32_t V1_COMPRESSION_COOKIE = 0x1c849302;$/;"	v	file:
+V1_ENCODING_COOKIE	hdr_histogram/hdr_histogram_log.c	/^static const int32_t V1_ENCODING_COOKIE    = 0x1c849301;$/;"	v	file:
+V2_COMPRESSION_COOKIE	hdr_histogram/hdr_histogram_log.c	/^static const int32_t V2_COMPRESSION_COOKIE = 0x1c849304;$/;"	v	file:
+V2_ENCODING_COOKIE	hdr_histogram/hdr_histogram_log.c	/^static const int32_t V2_ENCODING_COOKIE = 0x1c849303;$/;"	v	file:
+VAR	nc_util.h	34;"	d
+WIN32_LEAN_AND_MEAN	hdr_histogram/hdr_thread.c	23;"	d	file:
+WIN32_LEAN_AND_MEAN	hdr_histogram/hdr_time.c	12;"	d	file:
+ZKClose	zkutil.c	/^void ZKClose(zhandle_t* zkh) {$/;"	f
+ZKConnect	zkutil.c	/^zhandle_t* ZKConnect(char* zk_hosts) {$/;"	f
+ZKCreate	zkutil.c	/^int ZKCreate(zhandle_t *zkh, char* path, char *value, int value_len, int flags) {$/;"	f
+ZKDelete	zkutil.c	/^int ZKDelete(zhandle_t *zkh, char* path) {$/;"	f
+ZKExists	zkutil.c	/^int ZKExists(zhandle_t *zkh, char* path) {$/;"	f
+ZKGet	zkutil.c	/^int ZKGet(zhandle_t *zkh,$/;"	f
+ZKSet	zkutil.c	/^int ZKSet(zhandle_t *zkh, char* path, char *value, int value_len) {$/;"	f
+ZKSetExistsWatch	zkutil.c	/^int ZKSetExistsWatch(zhandle_t *zkh, char *path, watcher_fn watcher, void* ctx) {$/;"	f
+ZKSetGetWatch	zkutil.c	/^int ZKSetGetWatch(zhandle_t *zkh, char *path, watcher_fn watcher, void* ctx) {$/;"	f
+ZK_BASE	nc_conf.h	63;"	d
+_CRT_SECURE_NO_WARNINGS	parson/parson.c	24;"	d	file:
+_NC_ARRAY_H_	nc_array.h	19;"	d
+_NC_CLIENT_H_	nc_client.h	19;"	d
+_NC_CONF_H_	nc_conf.h	19;"	d
+_NC_CONNECTION_H_	nc_connection.h	19;"	d
+_NC_CORE_H_	nc_core.h	19;"	d
+_NC_EVENT_H_	event/nc_event.h	19;"	d
+_NC_HASHKIT_H_	hashkit/nc_hashkit.h	19;"	d
+_NC_LOG_H_	nc_log.h	19;"	d
+_NC_MBUF_H_	nc_mbuf.h	19;"	d
+_NC_MESSAGE_H_	nc_message.h	19;"	d
+_NC_PROTO_H_	proto/nc_proto.h	19;"	d
+_NC_PROXY_H_	nc_proxy.h	19;"	d
+_NC_QUEUE_H_	nc_queue.h	51;"	d
+_NC_RBTREE_	nc_rbtree.h	19;"	d
+_NC_SERVER_H_	nc_server.h	19;"	d
+_NC_SIGNAL_H_	nc_signal.h	19;"	d
+_NC_STATS_H_	nc_stats.h	19;"	d
+_NC_STRING_H_	nc_string.h	19;"	d
+_NC_UTIL_H_	nc_util.h	19;"	d
+_ZK_UTIL_H_	zkutil.h	2;"	d
+__BIG_ENDIAN	hdr_histogram/hdr_endian.h	106;"	d
+__BIG_ENDIAN	hdr_histogram/hdr_endian.h	39;"	d
+__BYTE_ORDER	hdr_histogram/hdr_endian.h	105;"	d
+__BYTE_ORDER	hdr_histogram/hdr_endian.h	38;"	d
+__LITTLE_ENDIAN	hdr_histogram/hdr_endian.h	107;"	d
+__LITTLE_ENDIAN	hdr_histogram/hdr_endian.h	40;"	d
+__PDP_ENDIAN	hdr_histogram/hdr_endian.h	108;"	d
+__PDP_ENDIAN	hdr_histogram/hdr_endian.h	41;"	d
+__WINDOWS__	hdr_histogram/hdr_endian.h	11;"	d
+__offsetof	nc_queue.h	56;"	d
+_all_values_iter_next	hdr_histogram/hdr_histogram.c	/^static bool _all_values_iter_next(struct hdr_iter* iter)$/;"	f	file:
+_apply_to_counts	hdr_histogram/hdr_histogram_log.c	/^static int _apply_to_counts($/;"	f	file:
+_apply_to_counts_16	hdr_histogram/hdr_histogram_log.c	/^static void _apply_to_counts_16(struct hdr_histogram* h, const int16_t* counts_data, const int32_t counts_limit)$/;"	f	file:
+_apply_to_counts_32	hdr_histogram/hdr_histogram_log.c	/^static void _apply_to_counts_32(struct hdr_histogram* h, const int32_t* counts_data, const int32_t counts_limit)$/;"	f	file:
+_apply_to_counts_64	hdr_histogram/hdr_histogram_log.c	/^static void _apply_to_counts_64(struct hdr_histogram* h, const int64_t* counts_data, const int32_t counts_limit)$/;"	f	file:
+_apply_to_counts_zz	hdr_histogram/hdr_histogram_log.c	/^static int _apply_to_counts_zz(struct hdr_histogram* h, const uint8_t* counts_data, const int32_t data_limit)$/;"	f	file:
+_basic_iter_next	hdr_histogram/hdr_histogram.c	/^static bool _basic_iter_next(struct hdr_iter *iter)$/;"	f	file:
+_compression_flyweight	hdr_histogram/hdr_histogram_log.c	/^} _compression_flyweight;$/;"	t	typeref:struct:__anon4	file:
+_conn_get	nc_connection.c	/^_conn_get(void)$/;"	f	file:
+_critical_section	hdr_histogram/hdr_thread.h	/^	uint8_t _critical_section[40];$/;"	m	struct:hdr_mutex
+_encoding_flyweight_v0	hdr_histogram/hdr_histogram_log.c	/^} _encoding_flyweight_v0;$/;"	t	typeref:struct:__anon2	file:
+_encoding_flyweight_v1	hdr_histogram/hdr_histogram_log.c	/^} _encoding_flyweight_v1;$/;"	t	typeref:struct:__anon3	file:
+_hdr_phaser_get_epoch	hdr_histogram/hdr_writer_reader_phaser.c	/^static int64_t _hdr_phaser_get_epoch(int64_t* field)$/;"	f	file:
+_hdr_phaser_reset_epoch	hdr_histogram/hdr_writer_reader_phaser.c	/^static int64_t _hdr_phaser_reset_epoch(int64_t* field, int64_t initial_value)$/;"	f	file:
+_hdr_phaser_set_epoch	hdr_histogram/hdr_writer_reader_phaser.c	/^static void _hdr_phaser_set_epoch(int64_t* field, int64_t val)$/;"	f	file:
+_iter_linear_next	hdr_histogram/hdr_histogram.c	/^static bool _iter_linear_next(struct hdr_iter* iter)$/;"	f	file:
+_log	nc_log.c	/^_log(const char *file, int line, int panic, const char *fmt, ...)$/;"	f
+_log_hexdump	nc_log.c	/^_log_hexdump(const char *file, int line, char *data, int datalen,$/;"	f
+_log_iter_next	hdr_histogram/hdr_histogram.c	/^static bool _log_iter_next(struct hdr_iter *iter)$/;"	f	file:
+_log_safe	nc_log.c	/^_log_safe(const char *fmt, ...)$/;"	f
+_log_stderr	nc_log.c	/^_log_stderr(const char *fmt, ...)$/;"	f
+_log_stderr_safe	nc_log.c	/^_log_stderr_safe(const char *fmt, ...)$/;"	f
+_mbuf_get	nc_mbuf.c	/^_mbuf_get(void)$/;"	f	file:
+_msg_get	nc_message.c	/^_msg_get(void)$/;"	f	file:
+_mutex	hdr_histogram/hdr_thread.h	/^    pthread_mutex_t _mutex;$/;"	m	struct:hdr_mutex
+_nc_alloc	nc_util.c	/^_nc_alloc(size_t size, const char *name, int line)$/;"	f
+_nc_atoi	nc_util.c	/^_nc_atoi(uint8_t *line, size_t n)$/;"	f
+_nc_calloc	nc_util.c	/^_nc_calloc(size_t nmemb, size_t size, const char *name, int line)$/;"	f
+_nc_free	nc_util.c	/^_nc_free(void *ptr, const char *name, int line)$/;"	f
+_nc_realloc	nc_util.c	/^_nc_realloc(void *ptr, size_t size, const char *name, int line)$/;"	f
+_nc_recvn	nc_util.c	/^_nc_recvn(int sd, void *vptr, size_t n)$/;"	f
+_nc_sendn	nc_util.c	/^_nc_sendn(int sd, const void *vptr, size_t n)$/;"	f
+_nc_strchr	nc_string.h	/^_nc_strchr(uint8_t *p, uint8_t *last, uint8_t c)$/;"	f
+_nc_strrchr	nc_string.h	/^_nc_strrchr(uint8_t *p, uint8_t *start, uint8_t c)$/;"	f
+_nc_zalloc	nc_util.c	/^_nc_zalloc(size_t size, const char *name, int line)$/;"	f
+_next_fp	hdr_histogram/hdr_histogram.h	/^    bool (*_next_fp)(struct hdr_iter* iter);$/;"	m	struct:hdr_iter
+_percentile_iter_next	hdr_histogram/hdr_histogram.c	/^static bool _percentile_iter_next(struct hdr_iter* iter)$/;"	f	file:
+_recorded_iter_next	hdr_histogram/hdr_histogram.c	/^static bool _recorded_iter_next(struct hdr_iter* iter)$/;"	f	file:
+_safe_check_longlong	nc_string.c	/^_safe_check_longlong(const char *fmt, int32_t * have_longlong)$/;"	f	file:
+_safe_itoa	nc_string.c	/^_safe_itoa(int base, int64_t val, char *buf)$/;"	f	file:
+_safe_snprintf	nc_string.c	/^_safe_snprintf(char *to, size_t n, const char *fmt, ...)$/;"	f
+_safe_utoa	nc_string.c	/^_safe_utoa(int _base, uint64_t val, char *buf)$/;"	f	file:
+_safe_vsnprintf	nc_string.c	/^_safe_vsnprintf(char *to, size_t size, const char *format, va_list ap)$/;"	f
+_scnprintf	nc_util.c	/^_scnprintf(char *buf, size_t size, const char *fmt, ...)$/;"	f
+_stats_pool_decr	nc_stats.c	/^_stats_pool_decr(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_pool_decr_by	nc_stats.c	/^_stats_pool_decr_by(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_pool_incr	nc_stats.c	/^_stats_pool_incr(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_pool_incr_by	nc_stats.c	/^_stats_pool_incr_by(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_pool_set_ts	nc_stats.c	/^_stats_pool_set_ts(struct context *ctx, struct server_pool *pool,$/;"	f
+_stats_server_decr	nc_stats.c	/^_stats_server_decr(struct context *ctx, struct server *server,$/;"	f
+_stats_server_decr_by	nc_stats.c	/^_stats_server_decr_by(struct context *ctx, struct server *server,$/;"	f
+_stats_server_incr	nc_stats.c	/^_stats_server_incr(struct context *ctx, struct server *server,$/;"	f
+_stats_server_incr_by	nc_stats.c	/^_stats_server_incr_by(struct context *ctx, struct server *server,$/;"	f
+_stats_server_set_ts	nc_stats.c	/^_stats_server_set_ts(struct context *ctx, struct server *server,$/;"	f
+_update_iterated_values	hdr_histogram/hdr_histogram.c	/^static void _update_iterated_values(struct hdr_iter* iter, int64_t new_value_iterated_to)$/;"	f	file:
+_vscnprintf	nc_util.c	/^_vscnprintf(char *buf, size_t size, const char *fmt, va_list args)$/;"	f
+a	hashkit/nc_md5.c	/^    MD5_u32plus a, b, c, d;$/;"	m	struct:__anon1	file:
+active	hdr_histogram/hdr_interval_recorder.h	/^    void* active;$/;"	m	struct:hdr_interval_recorder
+active	nc_connection.h	/^    conn_active_t       active;          \/* active? handler *\/$/;"	m	struct:conn
+add_auth	nc_message.h	/^    msg_add_auth_t       add_auth;        \/* add auth message when we forward msg *\/$/;"	m	struct:msg
+add_server_to_stats	nc_server.c	/^add_server_to_stats(struct server *srv, struct server_pool *pool)$/;"	f
+add_server_to_stats_pool	nc_stats.c	/^add_server_to_stats_pool(struct stats_pool *stp, struct server *srv)$/;"	f
+add_watcher_on_conf_pool	nc_conf.c	/^add_watcher_on_conf_pool(struct context *ctx)$/;"	f
+addr	nc_connection.h	/^    struct sockaddr     *addr;           \/* socket address (ref in server or server_pool) *\/$/;"	m	struct:conn	typeref:struct:conn::sockaddr
+addr	nc_stats.h	/^    struct string       addr;            \/* stats monitoring address *\/$/;"	m	struct:stats	typeref:struct:stats::string
+addr	nc_util.h	/^    } addr;$/;"	m	struct:sockinfo	typeref:union:sockinfo::__anon8
+addrlen	nc_connection.h	/^    socklen_t           addrlen;         \/* socket length *\/$/;"	m	struct:conn
+addrlen	nc_util.h	/^    socklen_t addrlen;             \/* socket address length *\/$/;"	m	struct:sockinfo
+addrstr	nc_conf.h	/^    struct string   addrstr;    \/* hostname *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::string
+addrstr	nc_server.h	/^    struct string      addrstr;              \/* pool address - hostname:port (ref in conf_pool) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+addrstr	nc_server.h	/^    struct string      addrstr;       \/* hostname (ref in conf_server) *\/$/;"	m	struct:server	typeref:struct:server::string
+aggregate	nc_stats.h	/^    volatile int        aggregate;       \/* shadow (b) aggregate? *\/$/;"	m	struct:stats
+append_indent	parson/parson.c	/^static int append_indent(char *buf, int level) {$/;"	f	file:
+append_string	parson/parson.c	/^static int append_string(char *buf, const char *string) {$/;"	f	file:
+arg	nc_conf.h	/^    struct array  arg;              \/* string[] (parsed {key, value} pairs) *\/$/;"	m	struct:conf	typeref:struct:conf::array
+array	nc_array.h	/^struct array {$/;"	s
+array	parson/parson.c	/^    JSON_Array  *array;$/;"	m	union:json_value_value	file:
+array_compare_t	nc_array.h	/^typedef int (*array_compare_t)(const void *, const void *);$/;"	t
+array_create	nc_array.c	/^array_create(uint32_t n, size_t size)$/;"	f
+array_deinit	nc_array.c	/^array_deinit(struct array *a)$/;"	f
+array_destroy	nc_array.c	/^array_destroy(struct array *a)$/;"	f
+array_each	nc_array.c	/^array_each(struct array *a, array_each_t func, void *data)$/;"	f
+array_each_t	nc_array.h	/^typedef rstatus_t (*array_each_t)(void *, void *);$/;"	t
+array_get	nc_array.c	/^array_get(struct array *a, uint32_t idx)$/;"	f
+array_idx	nc_array.c	/^array_idx(struct array *a, void *elem)$/;"	f
+array_init	nc_array.c	/^array_init(struct array *a, uint32_t n, size_t size)$/;"	f
+array_n	nc_array.h	/^array_n(const struct array *a)$/;"	f
+array_null	nc_array.h	/^array_null(struct array *a)$/;"	f
+array_pop	nc_array.c	/^array_pop(struct array *a)$/;"	f
+array_push	nc_array.c	/^array_push(struct array *a)$/;"	f
+array_set	nc_array.h	/^array_set(struct array *a, void *elem, size_t size, uint32_t nalloc)$/;"	f
+array_sort	nc_array.c	/^array_sort(struct array *a, array_compare_t compare)$/;"	f
+array_swap	nc_array.c	/^array_swap(struct array *a, struct array *b)$/;"	f
+array_top	nc_array.c	/^array_top(struct array *a)$/;"	f
+authenticated	nc_connection.h	/^    unsigned            authenticated:1; \/* authenticated? *\/$/;"	m	struct:conn
+auto_eject_hosts	nc_conf.h	/^    int                auto_eject_hosts;      \/* auto_eject_hosts: *\/$/;"	m	struct:conf_pool
+auto_eject_hosts	nc_server.h	/^    unsigned           auto_eject_hosts:1;   \/* auto_eject_hosts? *\/$/;"	m	struct:server_pool
+b	hashkit/nc_md5.c	/^    MD5_u32plus a, b, c, d;$/;"	m	struct:__anon1	file:
+backlog	nc_conf.h	/^    int                backlog;               \/* backlog: *\/$/;"	m	struct:conf_pool
+backlog	nc_server.h	/^    int                backlog;              \/* listen backlog *\/$/;"	m	struct:server_pool
+base64_table	hdr_histogram/hdr_encoding.c	/^static const char base64_table[] =$/;"	v	file:
+be16toh	hdr_histogram/hdr_endian.h	25;"	d
+be16toh	hdr_histogram/hdr_endian.h	51;"	d
+be16toh	hdr_histogram/hdr_endian.h	68;"	d
+be16toh	hdr_histogram/hdr_endian.h	86;"	d
+be32toh	hdr_histogram/hdr_endian.h	30;"	d
+be32toh	hdr_histogram/hdr_endian.h	54;"	d
+be32toh	hdr_histogram/hdr_endian.h	73;"	d
+be32toh	hdr_histogram/hdr_endian.h	91;"	d
+be64toh	hdr_histogram/hdr_endian.h	35;"	d
+be64toh	hdr_histogram/hdr_endian.h	57;"	d
+be64toh	hdr_histogram/hdr_endian.h	78;"	d
+be64toh	hdr_histogram/hdr_endian.h	96;"	d
+block	hashkit/nc_md5.c	/^    MD5_u32plus block[16];$/;"	m	struct:__anon1	file:
+body	hashkit/nc_md5.c	/^body(MD5_CTX *ctx, void *data, unsigned long size)$/;"	f	file:
+boolean	parson/parson.c	/^    int          boolean;$/;"	m	union:json_value_value	file:
+bucket_count	hdr_histogram/hdr_histogram.h	/^    int32_t bucket_count;$/;"	m	struct:hdr_histogram
+bucket_count	hdr_histogram/hdr_histogram.h	/^    int32_t bucket_count;$/;"	m	struct:hdr_histogram_bucket_config
+buckets_needed_to_cover_value	hdr_histogram/hdr_histogram.c	/^static int32_t buckets_needed_to_cover_value(int64_t value, int32_t sub_bucket_count, int32_t unit_magnitude)$/;"	f	file:
+buf	nc_stats.h	/^    struct stats_buffer buf;             \/* output buffer *\/$/;"	m	struct:stats	typeref:struct:stats::stats_buffer
+buf	zkutil.h	/^  char *buf;$/;"	m	struct:ContextGet_s
+buf_len	zkutil.h	/^  int buf_len;$/;"	m	struct:ContextGet_s
+buffer	hashkit/nc_md5.c	/^    unsigned char buffer[64];$/;"	m	struct:__anon1	file:
+c	hashkit/nc_md5.c	/^    MD5_u32plus a, b, c, d;$/;"	m	struct:__anon1	file:
+c_conn_q	nc_server.h	/^    struct conn_tqh    c_conn_q;             \/* client connection q *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::conn_tqh
+c_tqe	nc_message.h	/^    TAILQ_ENTRY(msg)     c_tqe;           \/* link in client q *\/$/;"	m	struct:msg
+can_read	nc_server.h	/^    int                 can_read;       \/\/ is this shard readable$/;"	m	struct:shard
+can_write	nc_server.h	/^    int                 can_write;      \/\/ is this shard writeable$/;"	m	struct:shard
+capacity	parson/parson.c	/^    size_t       capacity;$/;"	m	struct:json_array_t	file:
+capacity	parson/parson.c	/^    size_t       capacity;$/;"	m	struct:json_object_t	file:
+cb	event/nc_event.h	/^    event_cb_t         cb;      \/* event callback *\/$/;"	m	struct:event_base
+cb	event/nc_event.h	/^    event_cb_t    cb;          \/* event callback *\/$/;"	m	struct:event_base
+cb	event/nc_event.h	/^    event_cb_t   cb;      \/* event callback *\/$/;"	m	struct:event_base
+cf	nc_core.h	/^    struct conf        *cf;         \/* configuration *\/$/;"	m	struct:context	typeref:struct:context::conf
+change	event/nc_event.h	/^    struct kevent *change;     \/* change[] - events we want to monitor *\/$/;"	m	struct:event_base	typeref:struct:event_base::kevent
+client	nc_connection.h	/^    unsigned            client:1;        \/* client? or server? *\/$/;"	m	struct:conn
+client_active	nc_client.c	/^client_active(struct conn *conn)$/;"	f
+client_close	nc_client.c	/^client_close(struct context *ctx, struct conn *conn)$/;"	f
+client_close_stats	nc_client.c	/^client_close_stats(struct context *ctx, struct server_pool *pool, err_t err,$/;"	f	file:
+client_connections	nc_conf.h	/^    int                client_connections;    \/* client_connections: *\/$/;"	m	struct:conf_pool
+client_connections	nc_server.h	/^    uint32_t           client_connections;   \/* maximum # client connection *\/$/;"	m	struct:server_pool
+client_ref	nc_client.c	/^client_ref(struct conn *conn, void *owner)$/;"	f
+client_unref	nc_client.c	/^client_unref(struct conn *conn)$/;"	f
+close	nc_connection.h	/^    conn_close_t        close;           \/* close handler *\/$/;"	m	struct:conn
+color	nc_rbtree.h	/^    uint8_t       color;     \/* red | black *\/$/;"	m	struct:rbnode
+command	nc_conf.h	/^struct command {$/;"	s
+conf	nc_conf.h	/^struct conf {$/;"	s
+conf_add_server	nc_conf.c	/^conf_add_server(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_begin_parse	nc_conf.c	/^conf_begin_parse(struct conf *cf)$/;"	f	file:
+conf_commands	nc_conf.c	/^static struct command conf_commands[] = {$/;"	v	typeref:struct:command	file:
+conf_create	nc_conf.c	/^conf_create(char *filename)$/;"	f
+conf_destroy	nc_conf.c	/^conf_destroy(struct conf *cf)$/;"	f
+conf_dump	nc_conf.c	/^conf_dump(struct conf *cf)$/;"	f	file:
+conf_end_parse	nc_conf.c	/^conf_end_parse(struct conf *cf)$/;"	f	file:
+conf_event_done	nc_conf.c	/^conf_event_done(struct conf *cf)$/;"	f	file:
+conf_event_next	nc_conf.c	/^conf_event_next(struct conf *cf)$/;"	f	file:
+conf_filename	nc_core.h	/^    char            *conf_filename;              \/* configuration filename *\/$/;"	m	struct:instance
+conf_handler	nc_conf.c	/^conf_handler(struct conf *cf, void *data)$/;"	f	file:
+conf_json_create	nc_conf.c	/^conf_json_create(char *filename, struct instance* nci)$/;"	f
+conf_json_create_from_zk	nc_conf.c	/^conf_json_create_from_zk(char *zkservers, struct instance* nci, struct context *ctx)$/;"	f
+conf_json_dump	nc_conf.c	/^conf_json_dump(struct conf *cf)$/;"	f	file:
+conf_json_init_pool	nc_conf.c	/^conf_json_init_pool(JSON_Object* obj,$/;"	f	file:
+conf_json_parse	nc_conf.c	/^conf_json_parse(struct conf *cf, struct instance *nci)$/;"	f	file:
+conf_json_post_validate	nc_conf.c	/^conf_json_post_validate(struct conf *cf)$/;"	f	file:
+conf_json_pre_validate	nc_conf.c	/^conf_json_pre_validate(struct conf *cf)$/;"	f	file:
+conf_json_to_conf_pool	nc_conf.c	/^conf_json_to_conf_pool(JSON_Object *pobj, struct conf_pool *pool, char *pool_name)$/;"	f	file:
+conf_listen	nc_conf.h	/^struct conf_listen {$/;"	s
+conf_match_server	nc_conf.c	/^conf_match_server(struct conf_server *conf_srv, struct server *srv)$/;"	f	file:
+conf_open	nc_conf.c	/^conf_open(char *filename)$/;"	f	file:
+conf_parse	nc_conf.c	/^conf_parse(struct conf *cf)$/;"	f	file:
+conf_parse_core	nc_conf.c	/^conf_parse_core(struct conf *cf, void *data)$/;"	f	file:
+conf_pool	nc_conf.h	/^struct conf_pool {$/;"	s
+conf_pool_deinit	nc_conf.c	/^conf_pool_deinit(struct conf_pool *cp)$/;"	f	file:
+conf_pool_each_transform	nc_conf.c	/^conf_pool_each_transform(void *elem, void *data)$/;"	f
+conf_pool_init	nc_conf.c	/^conf_pool_init(struct conf_pool *cp, struct string *name)$/;"	f	file:
+conf_pool_listen_cmp	nc_conf.c	/^conf_pool_listen_cmp(const void *t1, const void *t2)$/;"	f	file:
+conf_pool_name_cmp	nc_conf.c	/^conf_pool_name_cmp(const void *t1, const void *t2)$/;"	f	file:
+conf_pool_watcher	nc_conf.c	/^conf_pool_watcher(zhandle_t *zkh, int type, int state,$/;"	f	file:
+conf_pop_scalar	nc_conf.c	/^conf_pop_scalar(struct conf *cf)$/;"	f	file:
+conf_post_validate	nc_conf.c	/^conf_post_validate(struct conf *cf)$/;"	f	file:
+conf_pre_validate	nc_conf.c	/^conf_pre_validate(struct conf *cf)$/;"	f	file:
+conf_push_scalar	nc_conf.c	/^conf_push_scalar(struct conf *cf)$/;"	f	file:
+conf_server	nc_conf.h	/^struct conf_server {$/;"	s
+conf_server_deinit	nc_conf.c	/^conf_server_deinit(struct conf_server *cs)$/;"	f	file:
+conf_server_each_transform	nc_conf.c	/^conf_server_each_transform(void *elem, void *data)$/;"	f
+conf_server_init	nc_conf.c	/^conf_server_init(struct conf_server *cs)$/;"	f	file:
+conf_server_name_cmp	nc_conf.c	/^conf_server_name_cmp(const void *t1, const void *t2)$/;"	f	file:
+conf_server_to_conf_listen	nc_conf.c	/^conf_server_to_conf_listen(struct conf_server* cs, struct conf_listen* cl)$/;"	f	file:
+conf_server_to_server	nc_conf.c	/^conf_server_to_server(struct conf_server *cs, struct server *s)$/;"	f	file:
+conf_set_bool	nc_conf.c	/^conf_set_bool(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_distribution	nc_conf.c	/^conf_set_distribution(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_hash	nc_conf.c	/^conf_set_hash(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_hashtag	nc_conf.c	/^conf_set_hashtag(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_listen	nc_conf.c	/^conf_set_listen(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_num	nc_conf.c	/^conf_set_num(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_set_string	nc_conf.c	/^conf_set_string(struct conf *cf, struct command *cmd, void *conf)$/;"	f
+conf_shard	nc_conf.h	/^struct conf_shard {$/;"	s
+conf_shard_deinit	nc_conf.c	/^conf_shard_deinit(struct conf_shard *cs) {$/;"	f	file:
+conf_shard_to_server_shard	nc_conf.c	/^conf_shard_to_server_shard(struct conf_shard *conf_sd,$/;"	f	file:
+conf_shards_to_server_shards	nc_conf.c	/^conf_shards_to_server_shards(struct array* cf_shards,$/;"	f	file:
+conf_token_done	nc_conf.c	/^conf_token_done(struct conf *cf)$/;"	f	file:
+conf_token_next	nc_conf.c	/^conf_token_next(struct conf *cf)$/;"	f	file:
+conf_validate_document	nc_conf.c	/^conf_validate_document(struct conf *cf)$/;"	f	file:
+conf_validate_pool	nc_conf.c	/^conf_validate_pool(struct conf *cf, struct conf_pool *cp)$/;"	f	file:
+conf_validate_server	nc_conf.c	/^conf_validate_server(struct conf *cf, struct conf_pool *cp)$/;"	f	file:
+conf_validate_structure	nc_conf.c	/^conf_validate_structure(struct conf *cf)$/;"	f	file:
+conf_validate_tokens	nc_conf.c	/^conf_validate_tokens(struct conf *cf)$/;"	f	file:
+conf_yaml_deinit	nc_conf.c	/^conf_yaml_deinit(struct conf *cf)$/;"	f	file:
+conf_yaml_init	nc_conf.c	/^conf_yaml_init(struct conf *cf)$/;"	f	file:
+conn	nc_connection.h	/^struct conn {$/;"	s
+conn_active_t	nc_connection.h	/^typedef bool (*conn_active_t)(struct conn *);$/;"	t
+conn_authenticated	nc_connection.c	/^conn_authenticated(struct conn *conn)$/;"	f
+conn_close_t	nc_connection.h	/^typedef void (*conn_close_t)(struct context *, struct conn *);$/;"	t
+conn_deinit	nc_connection.c	/^conn_deinit(void)$/;"	f
+conn_free	nc_connection.c	/^conn_free(struct conn *conn)$/;"	f	file:
+conn_get	nc_connection.c	/^conn_get(void *owner, bool client, bool redis)$/;"	f
+conn_get_proxy	nc_connection.c	/^conn_get_proxy(void *owner)$/;"	f
+conn_init	nc_connection.c	/^conn_init(void)$/;"	f
+conn_msgq_t	nc_connection.h	/^typedef void (*conn_msgq_t)(struct context *, struct conn *, struct msg *);$/;"	t
+conn_ncurr_cconn	nc_connection.c	/^conn_ncurr_cconn(void)$/;"	f
+conn_ncurr_conn	nc_connection.c	/^conn_ncurr_conn(void)$/;"	f
+conn_ntotal_conn	nc_connection.c	/^conn_ntotal_conn(void)$/;"	f
+conn_post_connect_t	nc_connection.h	/^typedef void (*conn_post_connect_t)(struct context *ctx, struct conn *, struct server *server);$/;"	t
+conn_put	nc_connection.c	/^conn_put(struct conn *conn)$/;"	f
+conn_recv	nc_connection.c	/^conn_recv(struct conn *conn, void *buf, size_t size)$/;"	f
+conn_recv_done_t	nc_connection.h	/^typedef void (*conn_recv_done_t)(struct context *, struct conn *, struct msg *, struct msg *);$/;"	t
+conn_recv_next_t	nc_connection.h	/^typedef struct msg* (*conn_recv_next_t)(struct context *, struct conn *, bool);$/;"	t	typeref:struct:conn_recv_next_t
+conn_recv_t	nc_connection.h	/^typedef rstatus_t (*conn_recv_t)(struct context *, struct conn*);$/;"	t
+conn_ref_t	nc_connection.h	/^typedef void (*conn_ref_t)(struct conn *, void *);$/;"	t
+conn_send_done_t	nc_connection.h	/^typedef void (*conn_send_done_t)(struct context *, struct conn *, struct msg *);$/;"	t
+conn_send_next_t	nc_connection.h	/^typedef struct msg* (*conn_send_next_t)(struct context *, struct conn *);$/;"	t	typeref:struct:conn_send_next_t
+conn_send_t	nc_connection.h	/^typedef rstatus_t (*conn_send_t)(struct context *, struct conn*);$/;"	t
+conn_sendv	nc_connection.c	/^conn_sendv(struct conn *conn, struct array *sendv, size_t nsend)$/;"	f
+conn_swallow_msg_t	nc_connection.h	/^typedef void (*conn_swallow_msg_t)(struct conn *, struct msg *, struct msg *);$/;"	t
+conn_to_ctx	nc_connection.c	/^conn_to_ctx(struct conn *conn)$/;"	f
+conn_tqe	nc_connection.h	/^    TAILQ_ENTRY(conn)   conn_tqe;        \/* link in server_pool \/ server \/ free q *\/$/;"	m	struct:conn
+conn_unref_t	nc_connection.h	/^typedef void (*conn_unref_t)(struct conn *);$/;"	t
+connected	nc_connection.h	/^    unsigned            connected:1;     \/* connected? *\/$/;"	m	struct:conn
+connected	zkutil.c	/^static int connected = 0;$/;"	v	file:
+connecting	nc_connection.h	/^    unsigned            connecting:1;    \/* connecting? *\/$/;"	m	struct:conn
+context	nc_core.h	/^struct context {$/;"	s
+context	nc_stats.h	/^    struct context     *context;         \/* owning context *\/$/;"	m	struct:stats	typeref:struct:stats::context
+continuum	nc_server.h	/^    struct continuum   *continuum;           \/* continuum *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::continuum
+continuum	nc_server.h	/^struct continuum {$/;"	s
+conversion_ratio	hdr_histogram/hdr_histogram.h	/^    double conversion_ratio;$/;"	m	struct:hdr_histogram
+conversion_ratio_bits	hdr_histogram/hdr_histogram_log.c	/^    uint64_t conversion_ratio_bits;$/;"	m	struct:__anon3	file:
+cookie	hdr_histogram/hdr_histogram_log.c	/^    int32_t cookie;$/;"	m	struct:__anon2	file:
+cookie	hdr_histogram/hdr_histogram_log.c	/^    int32_t cookie;$/;"	m	struct:__anon3	file:
+cookie	hdr_histogram/hdr_histogram_log.c	/^    int32_t cookie;$/;"	m	struct:__anon4	file:
+core_calc_connections	nc_core.c	/^core_calc_connections(struct context *ctx)$/;"	f	file:
+core_close	nc_core.c	/^core_close(struct context *ctx, struct conn *conn)$/;"	f	file:
+core_core	nc_core.c	/^core_core(void *arg, uint32_t events)$/;"	f
+core_ctx_create	nc_core.c	/^core_ctx_create(struct instance *nci)$/;"	f	file:
+core_ctx_destroy	nc_core.c	/^core_ctx_destroy(struct context *ctx)$/;"	f	file:
+core_error	nc_core.c	/^core_error(struct context *ctx, struct conn *conn)$/;"	f	file:
+core_loop	nc_core.c	/^core_loop(struct context *ctx)$/;"	f
+core_recv	nc_core.c	/^core_recv(struct context *ctx, struct conn *conn)$/;"	f	file:
+core_send	nc_core.c	/^core_send(struct context *ctx, struct conn *conn)$/;"	f	file:
+core_start	nc_core.c	/^core_start(struct instance *nci)$/;"	f
+core_stop	nc_core.c	/^core_stop(struct context *ctx)$/;"	f
+core_timeout	nc_core.c	/^core_timeout(struct context *ctx)$/;"	f	file:
+count	hdr_histogram/hdr_histogram.h	/^    int64_t count;$/;"	m	struct:hdr_iter
+count	parson/parson.c	/^    size_t       count;$/;"	m	struct:json_array_t	file:
+count	parson/parson.c	/^    size_t       count;$/;"	m	struct:json_object_t	file:
+count_added_in_this_iteration_step	hdr_histogram/hdr_histogram.h	/^    int64_t count_added_in_this_iteration_step;$/;"	m	struct:hdr_iter_linear
+count_added_in_this_iteration_step	hdr_histogram/hdr_histogram.h	/^    int64_t count_added_in_this_iteration_step;$/;"	m	struct:hdr_iter_log
+count_added_in_this_iteration_step	hdr_histogram/hdr_histogram.h	/^    int64_t count_added_in_this_iteration_step;$/;"	m	struct:hdr_iter_recorded
+counter	nc_stats.h	/^        int64_t   counter;      \/* accumulating counter *\/$/;"	m	union:stats_metric::__anon7
+counts	hdr_histogram/hdr_histogram.h	/^    int64_t counts[0];$/;"	m	struct:hdr_histogram
+counts	hdr_histogram/hdr_histogram_log.c	/^    int64_t counts[0];$/;"	m	struct:__anon2	file:
+counts	hdr_histogram/hdr_histogram_log.c	/^    uint8_t counts[0];$/;"	m	struct:__anon3	file:
+counts_get_direct	hdr_histogram/hdr_histogram.c	/^static int64_t counts_get_direct(const struct hdr_histogram* h, int32_t index)$/;"	f	file:
+counts_get_normalised	hdr_histogram/hdr_histogram.c	/^static int64_t counts_get_normalised(const struct hdr_histogram* h, int32_t index)$/;"	f	file:
+counts_inc_normalised	hdr_histogram/hdr_histogram.c	/^static void counts_inc_normalised($/;"	f	file:
+counts_index	hdr_histogram/hdr_histogram.c	/^static int32_t counts_index(const struct hdr_histogram* h, int32_t bucket_index, int32_t sub_bucket_index)$/;"	f	file:
+counts_index	hdr_histogram/hdr_histogram.h	/^    int32_t counts_index;$/;"	m	struct:hdr_iter
+counts_index_for	hdr_histogram/hdr_histogram.c	/^int32_t counts_index_for(const struct hdr_histogram* h, int64_t value)$/;"	f
+counts_len	hdr_histogram/hdr_histogram.h	/^    int32_t counts_len;$/;"	m	struct:hdr_histogram
+counts_len	hdr_histogram/hdr_histogram.h	/^    int32_t counts_len;$/;"	m	struct:hdr_histogram_bucket_config
+crc16tab	hashkit/nc_crc16.c	/^static const uint16_t crc16tab[256] = {$/;"	v	file:
+crc32tab	hashkit/nc_crc32.c	/^static const uint32_t crc32tab[256] = {$/;"	v	file:
+create_pool_conf_from_file	nc_conf.c	/^create_pool_conf_from_file(char *filepath, struct context *ctx)$/;"	f
+ctx	nc_core.h	/^    struct context  *ctx;                        \/* active context *\/$/;"	m	struct:instance	typeref:struct:instance::context
+ctx	nc_server.h	/^    struct context     *ctx;                 \/* owner context *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::context
+ctx	zkutil.h	/^  void *ctx;$/;"	m	struct:ContextExists_s
+ctx	zkutil.h	/^  void *ctx;$/;"	m	struct:ContextGet_s
+ctx_id	nc_core.c	/^static uint32_t ctx_id; \/* context generation *\/$/;"	v	file:
+cumulative_count	hdr_histogram/hdr_histogram.h	/^    int64_t cumulative_count;$/;"	m	struct:hdr_iter
+curr_servers	nc_stats.h	/^    int                 curr_servers;    \/\/ currently these many servers are covered.$/;"	m	struct:stats
+current	nc_stats.h	/^    struct array        current;         \/* stats_pool[] (a) *\/$/;"	m	struct:stats	typeref:struct:stats::array
+d	hashkit/nc_md5.c	/^    MD5_u32plus a, b, c, d;$/;"	m	struct:__anon1	file:
+d	hdr_histogram/hdr_histogram_log.c	/^    double d;$/;"	m	union:uint64_dbl_cvt	file:
+daemonize	nc.c	/^static int daemonize;$/;"	v	file:
+data	hdr_histogram/hdr_histogram_log.c	/^    uint8_t data[0];$/;"	m	struct:__anon4	file:
+data	nc_rbtree.h	/^    void          *data;     \/* opaque data *\/$/;"	m	struct:rbnode
+data	nc_stats.h	/^    uint8_t  *data; \/* buffer data *\/$/;"	m	struct:stats_buffer
+data	nc_string.h	/^    uint8_t  *data; \/* string data *\/$/;"	m	struct:string
+depth	nc_conf.h	/^    uint32_t      depth;            \/* parsed tree depth *\/$/;"	m	struct:conf
+dequeue_inq	nc_connection.h	/^    conn_msgq_t         dequeue_inq;     \/* connection inq msg dequeue handler *\/$/;"	m	struct:conn
+dequeue_outq	nc_connection.h	/^    conn_msgq_t         dequeue_outq;    \/* connection outq msg dequeue handler *\/$/;"	m	struct:conn
+desc	nc_stats.c	/^    char *desc; \/* stats description *\/$/;"	m	struct:stats_desc	file:
+describe_stats	nc.c	/^static int describe_stats;$/;"	v	file:
+display_server_shard	nc_conf.c	/^display_server_shard(struct shard *srv_sd)$/;"	f	file:
+dist_strings	nc_conf.c	/^static struct string dist_strings[] = {$/;"	v	typeref:struct:string	file:
+dist_type	hashkit/nc_hashkit.h	/^typedef enum dist_type {$/;"	g
+dist_type	nc_server.h	/^    int                dist_type;            \/* distribution type (dist_type_t) *\/$/;"	m	struct:server_pool
+dist_type_t	hashkit/nc_hashkit.h	/^} dist_type_t;$/;"	t	typeref:enum:dist_type
+distribution	nc_conf.h	/^    dist_type_t        distribution;          \/* distribution: *\/$/;"	m	struct:conf_pool
+done	nc_connection.h	/^    unsigned            done:1;          \/* done? aka close? *\/$/;"	m	struct:conn
+done	nc_message.h	/^    unsigned             done:1;          \/* done? *\/$/;"	m	struct:msg
+double_to_int64_bits	hdr_histogram/hdr_histogram_log.c	/^static uint64_t double_to_int64_bits(double d)$/;"	f	file:
+dump_server	nc_server.c	/^dump_server(struct server *srv)$/;"	f
+dump_server_pool	nc_server.c	/^dump_server_pool(struct server_pool *sp)$/;"	f
+dump_server_shard	nc_server.c	/^dump_server_shard(struct shard *sd)$/;"	f
+elem	nc_array.h	/^    void     *elem;  \/* element *\/$/;"	m	struct:array
+end	nc_mbuf.h	/^    uint8_t            *end;    \/* end of buffer (const) *\/$/;"	m	struct:mbuf
+end	nc_message.h	/^    uint8_t              *end;            \/* end marker (memcache) *\/$/;"	m	struct:msg
+end	nc_message.h	/^    uint8_t             *end;             \/* key end pos *\/$/;"	m	struct:keypos
+enqueue_inq	nc_connection.h	/^    conn_msgq_t         enqueue_inq;     \/* connection inq msg enqueue handler *\/$/;"	m	struct:conn
+enqueue_outq	nc_connection.h	/^    conn_msgq_t         enqueue_outq;    \/* connection outq msg enqueue handler *\/$/;"	m	struct:conn
+eof	nc_connection.h	/^    unsigned            eof:1;           \/* eof? aka passive close? *\/$/;"	m	struct:conn
+ep	event/nc_event.h	/^    int                ep;      \/* epoll descriptor *\/$/;"	m	struct:event_base
+err	nc_connection.h	/^    err_t               err;             \/* connection errno *\/$/;"	m	struct:conn
+err	nc_message.h	/^    err_t                err;             \/* errno on error? *\/$/;"	m	struct:msg
+err_t	nc_core.h	/^typedef int err_t;     \/* error type *\/$/;"	t
+error	nc_message.h	/^    unsigned             error:1;         \/* error? *\/$/;"	m	struct:msg
+evb	nc_core.h	/^    struct event_base  *evb;        \/* event base *\/$/;"	m	struct:context	typeref:struct:context::event_base
+even_end_epoch	hdr_histogram/hdr_writer_reader_phaser.h	/^    int64_t even_end_epoch;$/;"	m	struct:hdr_writer_reader_phaser
+event	event/nc_event.h	/^    port_event_t *event;  \/* event[] - events that were triggered *\/$/;"	m	struct:event_base
+event	event/nc_event.h	/^    struct epoll_event *event;  \/* event[] - events that were triggered *\/$/;"	m	struct:event_base	typeref:struct:event_base::epoll_event
+event	event/nc_event.h	/^    struct kevent *event;      \/* event[] - events that were triggered *\/$/;"	m	struct:event_base	typeref:struct:event_base::kevent
+event	nc_conf.h	/^    yaml_event_t  event;            \/* yaml event *\/$/;"	m	struct:conf
+event_add_conn	event/nc_epoll.c	/^event_add_conn(struct event_base *evb, struct conn *c)$/;"	f
+event_add_conn	event/nc_evport.c	/^event_add_conn(struct event_base *evb, struct conn *c)$/;"	f
+event_add_conn	event/nc_kqueue.c	/^event_add_conn(struct event_base *evb, struct conn *c)$/;"	f
+event_add_in	event/nc_epoll.c	/^event_add_in(struct event_base *evb, struct conn *c)$/;"	f
+event_add_in	event/nc_evport.c	/^event_add_in(struct event_base *evb, struct conn *c)$/;"	f
+event_add_in	event/nc_kqueue.c	/^event_add_in(struct event_base *evb, struct conn *c)$/;"	f
+event_add_out	event/nc_epoll.c	/^event_add_out(struct event_base *evb, struct conn *c)$/;"	f
+event_add_out	event/nc_evport.c	/^event_add_out(struct event_base *evb, struct conn *c)$/;"	f
+event_add_out	event/nc_kqueue.c	/^event_add_out(struct event_base *evb, struct conn *c)$/;"	f
+event_base	event/nc_event.h	/^struct event_base {$/;"	s
+event_base_create	event/nc_epoll.c	/^event_base_create(int nevent, event_cb_t cb)$/;"	f
+event_base_create	event/nc_evport.c	/^event_base_create(int nevent, event_cb_t cb)$/;"	f
+event_base_create	event/nc_kqueue.c	/^event_base_create(int nevent, event_cb_t cb)$/;"	f
+event_base_destroy	event/nc_epoll.c	/^event_base_destroy(struct event_base *evb)$/;"	f
+event_base_destroy	event/nc_evport.c	/^event_base_destroy(struct event_base *evb)$/;"	f
+event_base_destroy	event/nc_kqueue.c	/^event_base_destroy(struct event_base *evb)$/;"	f
+event_cb_t	event/nc_event.h	/^typedef int (*event_cb_t)(void *, uint32_t);$/;"	t
+event_del_conn	event/nc_epoll.c	/^event_del_conn(struct event_base *evb, struct conn *c)$/;"	f
+event_del_conn	event/nc_evport.c	/^event_del_conn(struct event_base *evb, struct conn *c)$/;"	f
+event_del_conn	event/nc_kqueue.c	/^event_del_conn(struct event_base *evb, struct conn *c)$/;"	f
+event_del_in	event/nc_epoll.c	/^event_del_in(struct event_base *evb, struct conn *c)$/;"	f
+event_del_in	event/nc_evport.c	/^event_del_in(struct event_base *evb, struct conn *c)$/;"	f
+event_del_in	event/nc_kqueue.c	/^event_del_in(struct event_base *evb, struct conn *c)$/;"	f
+event_del_out	event/nc_epoll.c	/^event_del_out(struct event_base *evb, struct conn *c)$/;"	f
+event_del_out	event/nc_evport.c	/^event_del_out(struct event_base *evb, struct conn *c)$/;"	f
+event_del_out	event/nc_kqueue.c	/^event_del_out(struct event_base *evb, struct conn *c)$/;"	f
+event_loop_stats	event/nc_epoll.c	/^event_loop_stats(event_stats_cb_t cb, void *arg)$/;"	f
+event_loop_stats	event/nc_evport.c	/^event_loop_stats(event_stats_cb_t cb, void *arg)$/;"	f
+event_loop_stats	event/nc_kqueue.c	/^event_loop_stats(event_stats_cb_t cb, void *arg)$/;"	f
+event_reassociate	event/nc_evport.c	/^event_reassociate(struct event_base *evb, struct conn *c)$/;"	f	file:
+event_stats_cb_t	event/nc_event.h	/^typedef void (*event_stats_cb_t)(void *, void *);$/;"	t
+event_wait	event/nc_epoll.c	/^event_wait(struct event_base *evb, int timeout)$/;"	f
+event_wait	event/nc_evport.c	/^event_wait(struct event_base *evb, int timeout)$/;"	f
+event_wait	event/nc_kqueue.c	/^event_wait(struct event_base *evb, int timeout)$/;"	f
+events	nc_connection.h	/^    uint32_t            events;          \/* connection io events *\/$/;"	m	struct:conn
+evp	event/nc_event.h	/^    int          evp;     \/* event port descriptor *\/$/;"	m	struct:event_base
+expired	zkutil.c	/^static int expired = 0;$/;"	v	file:
+failure	nc_message.h	/^    msg_failure_t        failure;         \/* transient failure response? *\/$/;"	m	struct:msg
+failure_count	nc_server.h	/^    uint32_t           failure_count; \/* # consecutive failures *\/$/;"	m	struct:server
+family	nc_connection.h	/^    int                 family;          \/* socket address family *\/$/;"	m	struct:conn
+family	nc_util.h	/^    int       family;              \/* socket address family *\/$/;"	m	struct:sockinfo
+fd	nc_log.h	/^    int  fd;     \/* log file descriptor *\/$/;"	m	struct:logger
+fdone	nc_message.h	/^    unsigned             fdone:1;         \/* all fragments are done? *\/$/;"	m	struct:msg
+ferror	nc_message.h	/^    unsigned             ferror:1;        \/* one or more fragments are in error? *\/$/;"	m	struct:msg
+fh	nc_conf.h	/^    FILE          *fh;              \/* file handle *\/$/;"	m	struct:conf
+final	hashkit/nc_jenkins.c	46;"	d	file:
+find_server_from_conf_server	nc_conf.c	/^find_server_from_conf_server(struct conf_server *conf_srv, struct array *srvs)$/;"	f	file:
+find_server_shard	nc_conf.c	/^find_server_shard(struct conf_shard *conf_sd, struct array *srv_shards)$/;"	f	file:
+flags	nc_signal.h	/^    int  flags;$/;"	m	struct:signal
+fname	nc_conf.h	/^    char          *fname;           \/* file name (ref in argv[]) *\/$/;"	m	struct:conf
+format_head_string	hdr_histogram/hdr_histogram.c	/^static const char* format_head_string(format_type format)$/;"	f	file:
+format_line_string	hdr_histogram/hdr_histogram.c	/^static void format_line_string(char* str, size_t len, int significant_figures, format_type format)$/;"	f	file:
+format_type	hdr_histogram/hdr_histogram.h	/^} format_type;$/;"	t	typeref:enum:__anon6
+frag_id	nc_message.c	/^static uint64_t frag_id;         \/* fragment id counter *\/$/;"	v	file:
+frag_id	nc_message.h	/^    uint64_t             frag_id;         \/* id of fragmented message *\/$/;"	m	struct:msg
+frag_owner	nc_message.h	/^    struct msg           *frag_owner;     \/* owner of fragment message *\/$/;"	m	struct:msg	typeref:struct:msg::msg
+frag_seq	nc_message.h	/^    struct msg           **frag_seq;      \/* sequence of fragment message, map from keys to fragments*\/$/;"	m	struct:msg	typeref:struct:msg::msg
+fragment	nc_message.h	/^    msg_fragment_t       fragment;        \/* message fragment *\/$/;"	m	struct:msg
+free	parson/parson.c	47;"	d	file:
+free_connq	nc_connection.c	/^static struct conn_tqh free_connq; \/* free conn q *\/$/;"	v	typeref:struct:conn_tqh	file:
+free_mbufq	nc_mbuf.c	/^static struct mhdr free_mbufq; \/* free mbuf q *\/$/;"	v	typeref:struct:mhdr	file:
+free_msgq	nc_message.c	/^static struct msg_tqh free_msgq; \/* free msg q *\/$/;"	v	typeref:struct:msg_tqh	file:
+from_base_64	hdr_histogram/hdr_encoding.c	/^static int from_base_64(int c)$/;"	f	file:
+get16bits	hashkit/nc_hsieh.c	28;"	d	file:
+get16bits	hashkit/nc_hsieh.c	30;"	d	file:
+get16bits	hashkit/nc_hsieh.c	34;"	d	file:
+get_base_64	hdr_histogram/hdr_encoding.c	/^static char get_base_64(uint32_t _24_bit_value, int shift)$/;"	f	file:
+get_bucket_index	hdr_histogram/hdr_histogram.c	/^static int32_t get_bucket_index(const struct hdr_histogram* h, int64_t value)$/;"	f	file:
+get_cookie_base	hdr_histogram/hdr_histogram_log.c	/^static int32_t get_cookie_base(int32_t cookie)$/;"	f	file:
+get_pool_conf_from_zk	nc_conf.c	/^get_pool_conf_from_zk(char* zkservers, struct context *ctx)$/;"	f
+get_quoted_string	parson/parson.c	/^static char * get_quoted_string(const char **string) {$/;"	f	file:
+get_shard_from_key	nc_server.c	/^get_shard_from_key(struct server_pool *pool, uint8_t *key, uint32_t keylen)$/;"	f	file:
+get_sub_bucket_index	hdr_histogram/hdr_histogram.c	/^static int32_t get_sub_bucket_index(int64_t value, int32_t bucket_index, int32_t unit_magnitude)$/;"	f	file:
+h	hdr_histogram/hdr_histogram.h	/^    const struct hdr_histogram* h;$/;"	m	struct:hdr_iter	typeref:struct:hdr_iter::hdr_histogram
+handler	nc_signal.h	/^    void (*handler)(int signo);$/;"	m	struct:signal
+has_buckets	hdr_histogram/hdr_histogram.c	/^static bool has_buckets(struct hdr_iter* iter)$/;"	f	file:
+has_next	hdr_histogram/hdr_histogram.c	/^static bool has_next(struct hdr_iter* iter)$/;"	f	file:
+hash	nc_conf.h	/^    hash_type_t        hash;                  \/* hash: *\/$/;"	m	struct:conf_pool
+hash_algos	nc_conf.c	/^static hash_t hash_algos[] = {$/;"	v	file:
+hash_crc16	hashkit/nc_crc16.c	/^hash_crc16(const char *key, size_t key_length)$/;"	f
+hash_crc32	hashkit/nc_crc32.c	/^hash_crc32(const char *key, size_t key_length)$/;"	f
+hash_crc32a	hashkit/nc_crc32.c	/^hash_crc32a(const char *key, size_t key_length)$/;"	f
+hash_fnv1_32	hashkit/nc_fnv.c	/^hash_fnv1_32(const char *key, size_t key_length)$/;"	f
+hash_fnv1_64	hashkit/nc_fnv.c	/^hash_fnv1_64(const char *key, size_t key_length)$/;"	f
+hash_fnv1a_32	hashkit/nc_fnv.c	/^hash_fnv1a_32(const char *key, size_t key_length)$/;"	f
+hash_fnv1a_64	hashkit/nc_fnv.c	/^hash_fnv1a_64(const char *key, size_t key_length)$/;"	f
+hash_hsieh	hashkit/nc_hsieh.c	/^hash_hsieh(const char *key, size_t key_length)$/;"	f
+hash_jenkins	hashkit/nc_jenkins.c	/^hash_jenkins(const char *key, size_t length)$/;"	f
+hash_md5	hashkit/nc_md5.c	/^hash_md5(const char *key, size_t key_length)$/;"	f
+hash_murmur	hashkit/nc_murmur.c	/^hash_murmur(const char *key, size_t length)$/;"	f
+hash_one_at_a_time	hashkit/nc_one_at_a_time.c	/^hash_one_at_a_time(const char *key, size_t key_length)$/;"	f
+hash_strings	nc_conf.c	/^static struct string hash_strings[] = {$/;"	v	typeref:struct:string	file:
+hash_t	nc_server.h	/^typedef uint32_t (*hash_t)(const char *, size_t);$/;"	t
+hash_tag	nc_conf.h	/^    struct string      hash_tag;              \/* hash_tag: *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::string
+hash_tag	nc_server.h	/^    struct string      hash_tag;             \/* key hash tag (ref in conf_pool) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+hash_type	hashkit/nc_hashkit.h	/^typedef enum hash_type {$/;"	g
+hash_type_t	hashkit/nc_hashkit.h	/^} hash_type_t;$/;"	t	typeref:enum:hash_type
+hashmask	hashkit/nc_jenkins.c	33;"	d	file:
+hashsize	hashkit/nc_jenkins.c	32;"	d	file:
+hdr_add	hdr_histogram/hdr_histogram.c	/^int64_t hdr_add(struct hdr_histogram* h, const struct hdr_histogram* from)$/;"	f
+hdr_add_while_correcting_for_coordinated_omission	hdr_histogram/hdr_histogram.c	/^int64_t hdr_add_while_correcting_for_coordinated_omission($/;"	f
+hdr_alloc	hdr_histogram/hdr_histogram.c	/^int hdr_alloc(int64_t highest_trackable_value, int significant_figures, struct hdr_histogram** result)$/;"	f
+hdr_atomic_add_fetch_64	hdr_histogram/hdr_atomic.h	/^static int64_t __inline hdr_atomic_add_fetch_64(volatile int64_t* field, int64_t value)$/;"	f
+hdr_atomic_add_fetch_64	hdr_histogram/hdr_atomic.h	56;"	d
+hdr_atomic_exchange_64	hdr_histogram/hdr_atomic.h	/^static int64_t __inline hdr_atomic_exchange_64(volatile int64_t* field, int64_t initial)$/;"	f
+hdr_atomic_exchange_64	hdr_histogram/hdr_atomic.h	55;"	d
+hdr_atomic_load_64	hdr_histogram/hdr_atomic.h	/^static int64_t __inline hdr_atomic_load_64(int64_t* field)$/;"	f
+hdr_atomic_load_64	hdr_histogram/hdr_atomic.h	53;"	d
+hdr_atomic_load_pointer	hdr_histogram/hdr_atomic.h	/^static void __inline * hdr_atomic_load_pointer(void** pointer)$/;"	f
+hdr_atomic_load_pointer	hdr_histogram/hdr_atomic.h	51;"	d
+hdr_atomic_store_64	hdr_histogram/hdr_atomic.h	/^static void __inline hdr_atomic_store_64(int64_t* field, int64_t value)$/;"	f
+hdr_atomic_store_64	hdr_histogram/hdr_atomic.h	54;"	d
+hdr_atomic_store_pointer	hdr_histogram/hdr_atomic.h	/^static void hdr_atomic_store_pointer(void** pointer, void* value)$/;"	f
+hdr_atomic_store_pointer	hdr_histogram/hdr_atomic.h	52;"	d
+hdr_base64_decode	hdr_histogram/hdr_encoding.c	/^int hdr_base64_decode($/;"	f
+hdr_base64_decode_block	hdr_histogram/hdr_encoding.c	/^void hdr_base64_decode_block(const char* input, uint8_t* output)$/;"	f
+hdr_base64_decoded_len	hdr_histogram/hdr_encoding.c	/^size_t hdr_base64_decoded_len(size_t encoded_size)$/;"	f
+hdr_base64_encode	hdr_histogram/hdr_encoding.c	/^int hdr_base64_encode($/;"	f
+hdr_base64_encode_block	hdr_histogram/hdr_encoding.c	/^void hdr_base64_encode_block(const uint8_t* input, char* output)$/;"	f
+hdr_base64_encode_block_pad	hdr_histogram/hdr_encoding.c	/^static void hdr_base64_encode_block_pad(const uint8_t* input, char* output, size_t pad)$/;"	f	file:
+hdr_base64_encoded_len	hdr_histogram/hdr_encoding.c	/^size_t hdr_base64_encoded_len(size_t decoded_size)$/;"	f
+hdr_calculate_bucket_config	hdr_histogram/hdr_histogram.c	/^int hdr_calculate_bucket_config($/;"	f
+hdr_count_at_index	hdr_histogram/hdr_histogram.c	/^int64_t hdr_count_at_index(const struct hdr_histogram* h, int32_t index)$/;"	f
+hdr_count_at_value	hdr_histogram/hdr_histogram.c	/^int64_t hdr_count_at_value(const struct hdr_histogram* h, int64_t value)$/;"	f
+hdr_decode_compressed	hdr_histogram/hdr_histogram_log.c	/^int hdr_decode_compressed($/;"	f
+hdr_decode_compressed_v0	hdr_histogram/hdr_histogram_log.c	/^static int hdr_decode_compressed_v0($/;"	f	file:
+hdr_decode_compressed_v1	hdr_histogram/hdr_histogram_log.c	/^static int hdr_decode_compressed_v1($/;"	f	file:
+hdr_decode_compressed_v2	hdr_histogram/hdr_histogram_log.c	/^static int hdr_decode_compressed_v2($/;"	f	file:
+hdr_encode_compressed	hdr_histogram/hdr_histogram_log.c	/^int hdr_encode_compressed($/;"	f
+hdr_get_memory_size	hdr_histogram/hdr_histogram.c	/^size_t hdr_get_memory_size(struct hdr_histogram *h)$/;"	f
+hdr_getline	hdr_histogram/hdr_histogram_log.c	/^static ssize_t hdr_getline(char** lineptr, FILE* stream)$/;"	f	file:
+hdr_gettime	hdr_histogram/hdr_time.c	/^void hdr_gettime(hdr_timespec* t)$/;"	f
+hdr_gettime	hdr_histogram/hdr_time.c	/^void hdr_gettime(hdr_timespec* ts)$/;"	f
+hdr_histogram	hdr_histogram/hdr_histogram.h	/^struct hdr_histogram$/;"	s
+hdr_histogram_bucket_config	hdr_histogram/hdr_histogram.h	/^struct hdr_histogram_bucket_config$/;"	s
+hdr_init	hdr_histogram/hdr_histogram.c	/^int hdr_init($/;"	f
+hdr_init_preallocated	hdr_histogram/hdr_histogram.c	/^void hdr_init_preallocated(struct hdr_histogram* h, struct hdr_histogram_bucket_config* cfg)$/;"	f
+hdr_interval_recorder	hdr_histogram/hdr_interval_recorder.h	/^struct hdr_interval_recorder$/;"	s
+hdr_interval_recorder_destroy	hdr_histogram/hdr_interval_recorder.c	/^void hdr_interval_recorder_destroy(struct hdr_interval_recorder* r)$/;"	f
+hdr_interval_recorder_init	hdr_histogram/hdr_interval_recorder.c	/^int hdr_interval_recorder_init(struct hdr_interval_recorder* r)$/;"	f
+hdr_interval_recorder_sample	hdr_histogram/hdr_interval_recorder.c	/^void* hdr_interval_recorder_sample(struct hdr_interval_recorder* r)$/;"	f
+hdr_interval_recorder_update	hdr_histogram/hdr_interval_recorder.c	/^void hdr_interval_recorder_update($/;"	f
+hdr_iter	hdr_histogram/hdr_histogram.h	/^struct hdr_iter$/;"	s
+hdr_iter_init	hdr_histogram/hdr_histogram.c	/^void hdr_iter_init(struct hdr_iter* iter, const struct hdr_histogram* h)$/;"	f
+hdr_iter_linear	hdr_histogram/hdr_histogram.h	/^struct hdr_iter_linear$/;"	s
+hdr_iter_linear_init	hdr_histogram/hdr_histogram.c	/^void hdr_iter_linear_init(struct hdr_iter* iter, const struct hdr_histogram* h, int64_t value_units_per_bucket)$/;"	f
+hdr_iter_log	hdr_histogram/hdr_histogram.h	/^struct hdr_iter_log$/;"	s
+hdr_iter_log_init	hdr_histogram/hdr_histogram.c	/^void hdr_iter_log_init($/;"	f
+hdr_iter_next	hdr_histogram/hdr_histogram.c	/^bool hdr_iter_next(struct hdr_iter* iter)$/;"	f
+hdr_iter_percentile_init	hdr_histogram/hdr_histogram.c	/^void hdr_iter_percentile_init(struct hdr_iter* iter, const struct hdr_histogram* h, int32_t ticks_per_half_distance)$/;"	f
+hdr_iter_percentiles	hdr_histogram/hdr_histogram.h	/^struct hdr_iter_percentiles$/;"	s
+hdr_iter_recorded	hdr_histogram/hdr_histogram.h	/^struct hdr_iter_recorded$/;"	s
+hdr_iter_recorded_init	hdr_histogram/hdr_histogram.c	/^void hdr_iter_recorded_init(struct hdr_iter* iter, const struct hdr_histogram* h)$/;"	f
+hdr_log_decode	hdr_histogram/hdr_histogram_log.c	/^int hdr_log_decode(struct hdr_histogram** histogram, char* base64_histogram, size_t base64_len)$/;"	f
+hdr_log_encode	hdr_histogram/hdr_histogram_log.c	/^int hdr_log_encode(struct hdr_histogram* histogram, char** encoded_histogram)$/;"	f
+hdr_log_read	hdr_histogram/hdr_histogram_log.c	/^int hdr_log_read($/;"	f
+hdr_log_read_header	hdr_histogram/hdr_histogram_log.c	/^int hdr_log_read_header(struct hdr_log_reader* reader, FILE* file)$/;"	f
+hdr_log_reader	hdr_histogram/hdr_histogram_log.h	/^struct hdr_log_reader$/;"	s
+hdr_log_reader_init	hdr_histogram/hdr_histogram_log.c	/^int hdr_log_reader_init(struct hdr_log_reader* reader)$/;"	f
+hdr_log_write	hdr_histogram/hdr_histogram_log.c	/^int hdr_log_write($/;"	f
+hdr_log_write_header	hdr_histogram/hdr_histogram_log.c	/^int hdr_log_write_header($/;"	f
+hdr_log_writer	hdr_histogram/hdr_histogram_log.h	/^struct hdr_log_writer$/;"	s
+hdr_log_writer_init	hdr_histogram/hdr_histogram_log.c	/^int hdr_log_writer_init(struct hdr_log_writer* writer)$/;"	f
+hdr_lowest_equivalent_value	hdr_histogram/hdr_histogram.c	/^int64_t hdr_lowest_equivalent_value(const struct hdr_histogram* h, int64_t value)$/;"	f
+hdr_max	hdr_histogram/hdr_histogram.c	/^int64_t hdr_max(const struct hdr_histogram* h)$/;"	f
+hdr_mean	hdr_histogram/hdr_histogram.c	/^double hdr_mean(const struct hdr_histogram* h)$/;"	f
+hdr_median_equivalent_value	hdr_histogram/hdr_histogram.c	/^int64_t hdr_median_equivalent_value(const struct hdr_histogram *h, int64_t value)$/;"	f
+hdr_min	hdr_histogram/hdr_histogram.c	/^int64_t hdr_min(const struct hdr_histogram* h)$/;"	f
+hdr_mutex	hdr_histogram/hdr_thread.h	/^typedef struct hdr_mutex$/;"	s
+hdr_mutex	hdr_histogram/hdr_thread.h	/^} hdr_mutex;$/;"	t	typeref:struct:hdr_mutex
+hdr_mutex_alloc	hdr_histogram/hdr_thread.c	/^struct hdr_mutex* hdr_mutex_alloc(void)$/;"	f
+hdr_mutex_destroy	hdr_histogram/hdr_thread.c	/^void hdr_mutex_destroy(struct hdr_mutex* mutex)$/;"	f
+hdr_mutex_free	hdr_histogram/hdr_thread.c	/^void hdr_mutex_free(struct hdr_mutex* mutex)$/;"	f
+hdr_mutex_init	hdr_histogram/hdr_thread.c	/^int hdr_mutex_init(struct hdr_mutex* mutex)$/;"	f
+hdr_mutex_lock	hdr_histogram/hdr_thread.c	/^void hdr_mutex_lock(struct hdr_mutex* mutex)$/;"	f
+hdr_mutex_unlock	hdr_histogram/hdr_thread.c	/^void hdr_mutex_unlock(struct hdr_mutex* mutex)$/;"	f
+hdr_next_non_equivalent_value	hdr_histogram/hdr_histogram.c	/^int64_t hdr_next_non_equivalent_value(const struct hdr_histogram *h, int64_t value)$/;"	f
+hdr_percentiles_print	hdr_histogram/hdr_histogram.c	/^int hdr_percentiles_print($/;"	f
+hdr_phaser_flip_phase	hdr_histogram/hdr_writer_reader_phaser.c	/^void hdr_phaser_flip_phase($/;"	f
+hdr_phaser_reader_lock	hdr_histogram/hdr_writer_reader_phaser.c	/^void hdr_phaser_reader_lock(struct hdr_writer_reader_phaser* p)$/;"	f
+hdr_phaser_reader_unlock	hdr_histogram/hdr_writer_reader_phaser.c	/^void hdr_phaser_reader_unlock(struct hdr_writer_reader_phaser* p)$/;"	f
+hdr_phaser_writer_enter	hdr_histogram/hdr_writer_reader_phaser.c	/^int64_t hdr_phaser_writer_enter(struct hdr_writer_reader_phaser* p)$/;"	f
+hdr_phaser_writer_exit	hdr_histogram/hdr_writer_reader_phaser.c	/^void hdr_phaser_writer_exit($/;"	f
+hdr_read_chunk	hdr_histogram/hdr_histogram_log.c	/^static ssize_t hdr_read_chunk(char* buffer, size_t length, char terminator, FILE* stream)$/;"	f	file:
+hdr_record_corrected_value	hdr_histogram/hdr_histogram.c	/^bool hdr_record_corrected_value(struct hdr_histogram* h, int64_t value, int64_t expected_interval)$/;"	f
+hdr_record_corrected_values	hdr_histogram/hdr_histogram.c	/^bool hdr_record_corrected_values(struct hdr_histogram* h, int64_t value, int64_t count, int64_t expected_interval)$/;"	f
+hdr_record_value	hdr_histogram/hdr_histogram.c	/^bool hdr_record_value(struct hdr_histogram* h, int64_t value)$/;"	f
+hdr_record_values	hdr_histogram/hdr_histogram.c	/^bool hdr_record_values(struct hdr_histogram* h, int64_t value, int64_t count)$/;"	f
+hdr_reset	hdr_histogram/hdr_histogram.c	/^void hdr_reset(struct hdr_histogram *h)$/;"	f
+hdr_reset_internal_counters	hdr_histogram/hdr_histogram.c	/^void hdr_reset_internal_counters(struct hdr_histogram* h)$/;"	f
+hdr_size_of_equivalent_value_range	hdr_histogram/hdr_histogram.c	/^int64_t hdr_size_of_equivalent_value_range(const struct hdr_histogram* h, int64_t value)$/;"	f
+hdr_stddev	hdr_histogram/hdr_histogram.c	/^double hdr_stddev(const struct hdr_histogram* h)$/;"	f
+hdr_strerror	hdr_histogram/hdr_histogram_log.c	/^const char* hdr_strerror(int errnum)$/;"	f
+hdr_timespec	hdr_histogram/hdr_time.h	/^typedef struct hdr_timespec$/;"	s
+hdr_timespec	hdr_histogram/hdr_time.h	/^typedef struct timespec hdr_timespec;$/;"	t	typeref:struct:timespec
+hdr_timespec	hdr_histogram/hdr_time.h	/^} hdr_timespec;$/;"	t	typeref:struct:hdr_timespec
+hdr_value_at_index	hdr_histogram/hdr_histogram.c	/^int64_t hdr_value_at_index(const struct hdr_histogram *h, int32_t index)$/;"	f
+hdr_value_at_percentile	hdr_histogram/hdr_histogram.c	/^int64_t hdr_value_at_percentile(const struct hdr_histogram* h, double percentile)$/;"	f
+hdr_values_are_equivalent	hdr_histogram/hdr_histogram.c	/^bool hdr_values_are_equivalent(const struct hdr_histogram* h, int64_t a, int64_t b)$/;"	f
+hdr_writer_reader_phaser	hdr_histogram/hdr_writer_reader_phaser.h	/^struct hdr_writer_reader_phaser$/;"	s
+hdr_writer_reader_phaser_destory	hdr_histogram/hdr_writer_reader_phaser.c	/^void hdr_writer_reader_phaser_destory(struct hdr_writer_reader_phaser* p)$/;"	f
+hdr_writer_reader_phaser_init	hdr_histogram/hdr_writer_reader_phaser.c	/^int hdr_writer_reader_phaser_init(struct hdr_writer_reader_phaser* p)$/;"	f
+hi	hashkit/nc_md5.c	/^    MD5_u32plus lo, hi;$/;"	m	struct:__anon1	file:
+highest_equivalent_value	hdr_histogram/hdr_histogram.c	/^static int64_t highest_equivalent_value(const struct hdr_histogram* h, int64_t value)$/;"	f	file:
+highest_equivalent_value	hdr_histogram/hdr_histogram.h	/^    int64_t highest_equivalent_value;$/;"	m	struct:hdr_iter
+highest_trackable_value	hdr_histogram/hdr_histogram.h	/^    int64_t highest_trackable_value;$/;"	m	struct:hdr_histogram
+highest_trackable_value	hdr_histogram/hdr_histogram.h	/^    int64_t highest_trackable_value;$/;"	m	struct:hdr_histogram_bucket_config
+highest_trackable_value	hdr_histogram/hdr_histogram_log.c	/^    int64_t highest_trackable_value;$/;"	m	struct:__anon2	file:
+highest_trackable_value	hdr_histogram/hdr_histogram_log.c	/^    int64_t highest_trackable_value;$/;"	m	struct:__anon3	file:
+histo_lock	nc_core.h	/^    pthread_mutex_t       histo_lock;$/;"	m	struct:context
+histogram	nc_core.h	/^    struct hdr_histogram *histogram;\/\/ HDR histogram to track percentile latency.$/;"	m	struct:context	typeref:struct:context::hdr_histogram
+hostname	nc_core.h	/^    char            hostname[NC_MAXHOSTNAMELEN]; \/* hostname *\/$/;"	m	struct:instance
+htobe16	hdr_histogram/hdr_endian.h	23;"	d
+htobe16	hdr_histogram/hdr_endian.h	66;"	d
+htobe16	hdr_histogram/hdr_endian.h	84;"	d
+htobe32	hdr_histogram/hdr_endian.h	28;"	d
+htobe32	hdr_histogram/hdr_endian.h	71;"	d
+htobe32	hdr_histogram/hdr_endian.h	89;"	d
+htobe64	hdr_histogram/hdr_endian.h	33;"	d
+htobe64	hdr_histogram/hdr_endian.h	76;"	d
+htobe64	hdr_histogram/hdr_endian.h	94;"	d
+htole16	hdr_histogram/hdr_endian.h	24;"	d
+htole16	hdr_histogram/hdr_endian.h	67;"	d
+htole16	hdr_histogram/hdr_endian.h	85;"	d
+htole32	hdr_histogram/hdr_endian.h	29;"	d
+htole32	hdr_histogram/hdr_endian.h	72;"	d
+htole32	hdr_histogram/hdr_endian.h	90;"	d
+htole64	hdr_histogram/hdr_endian.h	34;"	d
+htole64	hdr_histogram/hdr_endian.h	77;"	d
+htole64	hdr_histogram/hdr_endian.h	95;"	d
+id	nc_core.h	/^    uint32_t           id;          \/* unique context id *\/$/;"	m	struct:context
+id	nc_message.h	/^    uint64_t             id;              \/* message id *\/$/;"	m	struct:msg
+idx	nc_server.h	/^    uint32_t            idx;$/;"	m	struct:shard
+idx	nc_server.h	/^    uint32_t           idx;                  \/* pool index *\/$/;"	m	struct:server_pool
+idx	nc_server.h	/^    uint32_t           idx;           \/* server index *\/$/;"	m	struct:server
+imsg_q	nc_connection.h	/^    struct msg_tqh      imsg_q;          \/* incoming request Q *\/$/;"	m	struct:conn	typeref:struct:conn::msg_tqh
+in	nc_util.h	/^        struct sockaddr_in  in;    \/* ipv4 socket address *\/$/;"	m	union:sockinfo::__anon8	typeref:struct:sockinfo::__anon8::sockaddr_in
+in6	nc_util.h	/^        struct sockaddr_in6 in6;   \/* ipv6 socket address *\/$/;"	m	union:sockinfo::__anon8	typeref:struct:sockinfo::__anon8::sockaddr_in6
+inactive	hdr_histogram/hdr_interval_recorder.h	/^    void* inactive;$/;"	m	struct:hdr_interval_recorder
+index	nc_server.h	/^    uint32_t index;  \/* server index *\/$/;"	m	struct:continuum
+info	nc_conf.h	/^    struct sockinfo info;       \/* connect socket info *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::sockinfo
+info	nc_conf.h	/^    struct sockinfo info;    \/* listen socket info *\/$/;"	m	struct:conf_listen	typeref:struct:conf_listen::sockinfo
+info	nc_server.h	/^    struct sockinfo    info;                 \/* listen socket info *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::sockinfo
+info	nc_server.h	/^    struct sockinfo    info;          \/* server socket info *\/$/;"	m	struct:server	typeref:struct:server::sockinfo
+instance	nc_core.h	/^struct instance {$/;"	s
+int64_bits_to_double	hdr_histogram/hdr_histogram_log.c	/^static double int64_bits_to_double(int64_t i)$/;"	f	file:
+integer	nc_message.h	/^    uint32_t             integer;         \/* integer reply value (redis) *\/$/;"	m	struct:msg
+interval	nc_stats.h	/^    int                 interval;        \/* stats aggregation interval *\/$/;"	m	struct:stats
+is_decimal	parson/parson.c	/^static int is_decimal(const char *string, size_t length) {$/;"	f	file:
+is_server_conn_writable	nc_request.c	/^is_server_conn_writable(struct conn* s_conn)$/;"	f	file:
+is_utf16_hex	parson/parson.c	/^static int is_utf16_hex(const unsigned char *s) {$/;"	f	file:
+is_valid_conf_server	nc_conf.c	/^is_valid_conf_server(struct conf_server *conf_srv)$/;"	f	file:
+is_valid_utf8	parson/parson.c	/^static int is_valid_utf8(const char *string, size_t string_len) {$/;"	f	file:
+is_write	nc_message.h	/^    unsigned             is_write:1;      \/* is this a write rqst? *\/$/;"	m	struct:msg
+items	parson/parson.c	/^    JSON_Value **items;$/;"	m	struct:json_array_t	file:
+json_array	parson/parson.c	/^JSON_Array * json_array  (const JSON_Value *value) {$/;"	f
+json_array_add	parson/parson.c	/^static JSON_Status json_array_add(JSON_Array *array, JSON_Value *value) {$/;"	f	file:
+json_array_append_boolean	parson/parson.c	/^JSON_Status json_array_append_boolean(JSON_Array *array, int boolean) {$/;"	f
+json_array_append_null	parson/parson.c	/^JSON_Status json_array_append_null(JSON_Array *array) {$/;"	f
+json_array_append_number	parson/parson.c	/^JSON_Status json_array_append_number(JSON_Array *array, double number) {$/;"	f
+json_array_append_string	parson/parson.c	/^JSON_Status json_array_append_string(JSON_Array *array, const char *string) {$/;"	f
+json_array_append_value	parson/parson.c	/^JSON_Status json_array_append_value(JSON_Array *array, JSON_Value *value) {$/;"	f
+json_array_clear	parson/parson.c	/^JSON_Status json_array_clear(JSON_Array *array) {$/;"	f
+json_array_free	parson/parson.c	/^static void json_array_free(JSON_Array *array) {$/;"	f	file:
+json_array_get_array	parson/parson.c	/^JSON_Array * json_array_get_array(const JSON_Array *array, size_t index) {$/;"	f
+json_array_get_boolean	parson/parson.c	/^int json_array_get_boolean(const JSON_Array *array, size_t index) {$/;"	f
+json_array_get_count	parson/parson.c	/^size_t json_array_get_count(const JSON_Array *array) {$/;"	f
+json_array_get_number	parson/parson.c	/^double json_array_get_number(const JSON_Array *array, size_t index) {$/;"	f
+json_array_get_object	parson/parson.c	/^JSON_Object * json_array_get_object(const JSON_Array *array, size_t index) {$/;"	f
+json_array_get_string	parson/parson.c	/^const char * json_array_get_string(const JSON_Array *array, size_t index) {$/;"	f
+json_array_get_value	parson/parson.c	/^JSON_Value * json_array_get_value(const JSON_Array *array, size_t index) {$/;"	f
+json_array_init	parson/parson.c	/^static JSON_Array * json_array_init(void) {$/;"	f	file:
+json_array_remove	parson/parson.c	/^JSON_Status json_array_remove(JSON_Array *array, size_t ix) {$/;"	f
+json_array_replace_boolean	parson/parson.c	/^JSON_Status json_array_replace_boolean(JSON_Array *array, size_t i, int boolean) {$/;"	f
+json_array_replace_null	parson/parson.c	/^JSON_Status json_array_replace_null(JSON_Array *array, size_t i) {$/;"	f
+json_array_replace_number	parson/parson.c	/^JSON_Status json_array_replace_number(JSON_Array *array, size_t i, double number) {$/;"	f
+json_array_replace_string	parson/parson.c	/^JSON_Status json_array_replace_string(JSON_Array *array, size_t i, const char* string) {$/;"	f
+json_array_replace_value	parson/parson.c	/^JSON_Status json_array_replace_value(JSON_Array *array, size_t ix, JSON_Value *value) {$/;"	f
+json_array_resize	parson/parson.c	/^static JSON_Status json_array_resize(JSON_Array *array, size_t new_capacity) {$/;"	f	file:
+json_array_t	parson/parson.c	/^struct json_array_t {$/;"	s	file:
+json_boolean	parson/parson.c	/^int json_boolean(const JSON_Value *value) {$/;"	f
+json_cf	nc_core.h	/^    struct conf        *json_cf;    \/\/ configuration in json format$/;"	m	struct:context	typeref:struct:context::conf
+json_free_serialized_string	parson/parson.c	/^void json_free_serialized_string(char *string) {$/;"	f
+json_number	parson/parson.c	/^double json_number (const JSON_Value *value) {$/;"	f
+json_object	parson/parson.c	/^JSON_Object * json_object (const JSON_Value *value) {$/;"	f
+json_object_add	parson/parson.c	/^static JSON_Status json_object_add(JSON_Object *object, const char *name, JSON_Value *value) {$/;"	f	file:
+json_object_clear	parson/parson.c	/^JSON_Status json_object_clear(JSON_Object *object) {$/;"	f
+json_object_dotget_array	parson/parson.c	/^JSON_Array * json_object_dotget_array(const JSON_Object *object, const char *name) {$/;"	f
+json_object_dotget_boolean	parson/parson.c	/^int json_object_dotget_boolean(const JSON_Object *object, const char *name) {$/;"	f
+json_object_dotget_number	parson/parson.c	/^double json_object_dotget_number(const JSON_Object *object, const char *name) {$/;"	f
+json_object_dotget_object	parson/parson.c	/^JSON_Object * json_object_dotget_object(const JSON_Object *object, const char *name) {$/;"	f
+json_object_dotget_string	parson/parson.c	/^const char * json_object_dotget_string(const JSON_Object *object, const char *name) {$/;"	f
+json_object_dotget_value	parson/parson.c	/^JSON_Value * json_object_dotget_value(const JSON_Object *object, const char *name) {$/;"	f
+json_object_dotremove	parson/parson.c	/^JSON_Status json_object_dotremove(JSON_Object *object, const char *name) {$/;"	f
+json_object_dotset_boolean	parson/parson.c	/^JSON_Status json_object_dotset_boolean(JSON_Object *object, const char *name, int boolean) {$/;"	f
+json_object_dotset_null	parson/parson.c	/^JSON_Status json_object_dotset_null(JSON_Object *object, const char *name) {$/;"	f
+json_object_dotset_number	parson/parson.c	/^JSON_Status json_object_dotset_number(JSON_Object *object, const char *name, double number) {$/;"	f
+json_object_dotset_string	parson/parson.c	/^JSON_Status json_object_dotset_string(JSON_Object *object, const char *name, const char *string) {$/;"	f
+json_object_dotset_value	parson/parson.c	/^JSON_Status json_object_dotset_value(JSON_Object *object, const char *name, JSON_Value *value) {$/;"	f
+json_object_free	parson/parson.c	/^static void json_object_free(JSON_Object *object) {$/;"	f	file:
+json_object_get_array	parson/parson.c	/^JSON_Array * json_object_get_array(const JSON_Object *object, const char *name) {$/;"	f
+json_object_get_boolean	parson/parson.c	/^int json_object_get_boolean(const JSON_Object *object, const char *name) {$/;"	f
+json_object_get_count	parson/parson.c	/^size_t json_object_get_count(const JSON_Object *object) {$/;"	f
+json_object_get_name	parson/parson.c	/^const char * json_object_get_name(const JSON_Object *object, size_t index) {$/;"	f
+json_object_get_number	parson/parson.c	/^double json_object_get_number(const JSON_Object *object, const char *name) {$/;"	f
+json_object_get_object	parson/parson.c	/^JSON_Object * json_object_get_object(const JSON_Object *object, const char *name) {$/;"	f
+json_object_get_string	parson/parson.c	/^const char * json_object_get_string(const JSON_Object *object, const char *name) {$/;"	f
+json_object_get_value	parson/parson.c	/^JSON_Value * json_object_get_value(const JSON_Object *object, const char *name) {$/;"	f
+json_object_init	parson/parson.c	/^static JSON_Object * json_object_init(void) {$/;"	f	file:
+json_object_nget_value	parson/parson.c	/^static JSON_Value * json_object_nget_value(const JSON_Object *object, const char *name, size_t n) {$/;"	f	file:
+json_object_remove	parson/parson.c	/^JSON_Status json_object_remove(JSON_Object *object, const char *name) {$/;"	f
+json_object_resize	parson/parson.c	/^static JSON_Status json_object_resize(JSON_Object *object, size_t new_capacity) {$/;"	f	file:
+json_object_set_boolean	parson/parson.c	/^JSON_Status json_object_set_boolean(JSON_Object *object, const char *name, int boolean) {$/;"	f
+json_object_set_null	parson/parson.c	/^JSON_Status json_object_set_null(JSON_Object *object, const char *name) {$/;"	f
+json_object_set_number	parson/parson.c	/^JSON_Status json_object_set_number(JSON_Object *object, const char *name, double number) {$/;"	f
+json_object_set_string	parson/parson.c	/^JSON_Status json_object_set_string(JSON_Object *object, const char *name, const char *string) {$/;"	f
+json_object_set_value	parson/parson.c	/^JSON_Status json_object_set_value(JSON_Object *object, const char *name, JSON_Value *value) {$/;"	f
+json_object_t	parson/parson.c	/^struct json_object_t {$/;"	s	file:
+json_parse_file	parson/parson.c	/^JSON_Value * json_parse_file(const char *filename) {$/;"	f
+json_parse_file_with_comments	parson/parson.c	/^JSON_Value * json_parse_file_with_comments(const char *filename) {$/;"	f
+json_parse_string	parson/parson.c	/^JSON_Value * json_parse_string(const char *string) {$/;"	f
+json_parse_string_with_comments	parson/parson.c	/^JSON_Value * json_parse_string_with_comments(const char *string) {$/;"	f
+json_result_t	parson/parson.h	/^enum json_result_t {$/;"	g
+json_serialization_size	parson/parson.c	/^size_t json_serialization_size(const JSON_Value *value) {$/;"	f
+json_serialization_size_pretty	parson/parson.c	/^size_t json_serialization_size_pretty(const JSON_Value *value) {$/;"	f
+json_serialize_string	parson/parson.c	/^static int json_serialize_string(const char *string, char *buf) {$/;"	f	file:
+json_serialize_to_buffer	parson/parson.c	/^JSON_Status json_serialize_to_buffer(const JSON_Value *value, char *buf, size_t buf_size_in_bytes) {$/;"	f
+json_serialize_to_buffer_pretty	parson/parson.c	/^JSON_Status json_serialize_to_buffer_pretty(const JSON_Value *value, char *buf, size_t buf_size_in_bytes) {$/;"	f
+json_serialize_to_buffer_r	parson/parson.c	/^static int json_serialize_to_buffer_r(const JSON_Value *value, char *buf, int level, int is_pretty, char *num_buf)$/;"	f	file:
+json_serialize_to_file	parson/parson.c	/^JSON_Status json_serialize_to_file(const JSON_Value *value, const char *filename) {$/;"	f
+json_serialize_to_file_pretty	parson/parson.c	/^JSON_Status json_serialize_to_file_pretty(const JSON_Value *value, const char *filename) {$/;"	f
+json_serialize_to_string	parson/parson.c	/^char * json_serialize_to_string(const JSON_Value *value) {$/;"	f
+json_serialize_to_string_pretty	parson/parson.c	/^char * json_serialize_to_string_pretty(const JSON_Value *value) {$/;"	f
+json_set_allocation_functions	parson/parson.c	/^void json_set_allocation_functions(JSON_Malloc_Function malloc_fun, JSON_Free_Function free_fun) {$/;"	f
+json_string	parson/parson.c	/^const char * json_string (const JSON_Value *value) {$/;"	f
+json_type	parson/parson.c	/^JSON_Value_Type json_type(const JSON_Value *value) {$/;"	f
+json_validate	parson/parson.c	/^JSON_Status json_validate(const JSON_Value *schema, const JSON_Value *value) {$/;"	f
+json_value_deep_copy	parson/parson.c	/^JSON_Value * json_value_deep_copy(const JSON_Value *value) {$/;"	f
+json_value_equals	parson/parson.c	/^JSON_Status json_value_equals(const JSON_Value *a, const JSON_Value *b) {$/;"	f
+json_value_free	parson/parson.c	/^void json_value_free(JSON_Value *value) {$/;"	f
+json_value_get_array	parson/parson.c	/^JSON_Array * json_value_get_array(const JSON_Value *value) {$/;"	f
+json_value_get_boolean	parson/parson.c	/^int json_value_get_boolean(const JSON_Value *value) {$/;"	f
+json_value_get_number	parson/parson.c	/^double json_value_get_number(const JSON_Value *value) {$/;"	f
+json_value_get_object	parson/parson.c	/^JSON_Object * json_value_get_object(const JSON_Value *value) {$/;"	f
+json_value_get_string	parson/parson.c	/^const char * json_value_get_string(const JSON_Value *value) {$/;"	f
+json_value_get_type	parson/parson.c	/^JSON_Value_Type json_value_get_type(const JSON_Value *value) {$/;"	f
+json_value_init_array	parson/parson.c	/^JSON_Value * json_value_init_array(void) {$/;"	f
+json_value_init_boolean	parson/parson.c	/^JSON_Value * json_value_init_boolean(int boolean) {$/;"	f
+json_value_init_null	parson/parson.c	/^JSON_Value * json_value_init_null(void) {$/;"	f
+json_value_init_number	parson/parson.c	/^JSON_Value * json_value_init_number(double number) {$/;"	f
+json_value_init_object	parson/parson.c	/^JSON_Value * json_value_init_object(void) {$/;"	f
+json_value_init_string	parson/parson.c	/^JSON_Value * json_value_init_string(const char *string) {$/;"	f
+json_value_init_string_no_copy	parson/parson.c	/^static JSON_Value * json_value_init_string_no_copy(char *string) {$/;"	f	file:
+json_value_t	parson/parson.c	/^struct json_value_t {$/;"	s	file:
+json_value_type	parson/parson.h	/^enum json_value_type {$/;"	g
+json_value_value	parson/parson.c	/^typedef union json_value_value {$/;"	u	file:
+ketama_dispatch	hashkit/nc_ketama.c	/^ketama_dispatch(struct continuum *continuum, uint32_t ncontinuum, uint32_t hash)$/;"	f
+ketama_hash	hashkit/nc_ketama.c	/^ketama_hash(const char *key, size_t key_length, uint32_t alignment)$/;"	f	file:
+ketama_item_cmp	hashkit/nc_ketama.c	/^ketama_item_cmp(const void *t1, const void *t2)$/;"	f	file:
+ketama_update	hashkit/nc_ketama.c	/^ketama_update(struct server_pool *pool)$/;"	f
+key	nc_rbtree.h	/^    int64_t       key;       \/* key for ordering *\/$/;"	m	struct:rbnode
+key_hash	nc_server.h	/^    hash_t             key_hash;             \/* key hasher *\/$/;"	m	struct:server_pool
+key_hash_type	nc_server.h	/^    int                key_hash_type;        \/* key hash type (hash_type_t) *\/$/;"	m	struct:server_pool
+keypos	nc_message.h	/^struct keypos {$/;"	s
+keys	nc_message.h	/^    struct array         *keys;           \/* array of keypos, for req *\/$/;"	m	struct:msg	typeref:struct:msg::array
+kq	event/nc_event.h	/^    int           kq;          \/* kernel event queue descriptor *\/$/;"	m	struct:event_base
+l	hdr_histogram/hdr_histogram_log.c	/^    uint64_t l;$/;"	m	union:uint64_dbl_cvt	file:
+last	nc_mbuf.h	/^    uint8_t            *last;   \/* write marker *\/$/;"	m	struct:mbuf
+lastfile	nc_queue.h	/^    char *lastfile;$/;"	m	struct:qm_trace
+lastline	nc_queue.h	/^    int  lastline;$/;"	m	struct:qm_trace
+le16toh	hdr_histogram/hdr_endian.h	26;"	d
+le16toh	hdr_histogram/hdr_endian.h	52;"	d
+le16toh	hdr_histogram/hdr_endian.h	69;"	d
+le16toh	hdr_histogram/hdr_endian.h	87;"	d
+le32toh	hdr_histogram/hdr_endian.h	31;"	d
+le32toh	hdr_histogram/hdr_endian.h	55;"	d
+le32toh	hdr_histogram/hdr_endian.h	74;"	d
+le32toh	hdr_histogram/hdr_endian.h	92;"	d
+le64toh	hdr_histogram/hdr_endian.h	36;"	d
+le64toh	hdr_histogram/hdr_endian.h	58;"	d
+le64toh	hdr_histogram/hdr_endian.h	79;"	d
+le64toh	hdr_histogram/hdr_endian.h	97;"	d
+left	nc_rbtree.h	/^    struct rbnode *left;     \/* left link *\/$/;"	m	struct:rbnode	typeref:struct:rbnode::rbnode
+len	nc_stats.h	/^    size_t   len;   \/* buffer length *\/$/;"	m	struct:stats_buffer
+len	nc_string.h	/^    uint32_t len;   \/* string length *\/$/;"	m	struct:string
+length	hdr_histogram/hdr_histogram_log.c	/^    int32_t length;$/;"	m	struct:__anon4	file:
+level	nc_log.h	/^    int  level;  \/* log level *\/$/;"	m	struct:logger
+linear	hdr_histogram/hdr_histogram.h	/^        struct hdr_iter_linear linear;$/;"	m	union:hdr_iter::__anon5	typeref:struct:hdr_iter::__anon5::hdr_iter_linear
+listen	nc_conf.h	/^    struct conf_listen listen;                \/* listen: *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::conf_listen
+lo	hashkit/nc_md5.c	/^    MD5_u32plus lo, hi;$/;"	m	struct:__anon1	file:
+lock	nc_server.h	/^    pthread_mutex_t    lock;$/;"	m	struct:server_pool
+lock	nc_stats.h	/^    pthread_mutex_t    lock;             \/\/ a lock to sync update ops$/;"	m	struct:stats
+lock	zkutil.h	/^  pthread_mutex_t lock;$/;"	m	struct:ContextGet_s
+log	hdr_histogram/hdr_histogram.h	/^        struct hdr_iter_log log;$/;"	m	union:hdr_iter::__anon5	typeref:struct:hdr_iter::__anon5::hdr_iter_log
+log_base	hdr_histogram/hdr_histogram.h	/^    double log_base;$/;"	m	struct:hdr_iter_log
+log_debug	nc_log.h	56;"	d
+log_debug	nc_log.h	72;"	d
+log_deinit	nc_log.c	/^log_deinit(void)$/;"	f
+log_error	nc_log.h	99;"	d
+log_filename	nc_core.h	/^    char            *log_filename;               \/* log filename *\/$/;"	m	struct:instance
+log_hexdump	nc_log.h	62;"	d
+log_hexdump	nc_log.h	73;"	d
+log_init	nc_log.c	/^log_init(int level, char *name)$/;"	f
+log_level	nc_core.h	/^    int             log_level;                   \/* log level *\/$/;"	m	struct:instance
+log_level_down	nc_log.c	/^log_level_down(void)$/;"	f
+log_level_set	nc_log.c	/^log_level_set(int level)$/;"	f
+log_level_up	nc_log.c	/^log_level_up(void)$/;"	f
+log_loggable	nc_log.c	/^log_loggable(int level)$/;"	f
+log_panic	nc_log.h	111;"	d
+log_reopen	nc_log.c	/^log_reopen(void)$/;"	f
+log_safe	nc_log.h	81;"	d
+log_stacktrace	nc_log.c	/^log_stacktrace(void)$/;"	f
+log_stderr	nc_log.h	77;"	d
+log_stderr_safe	nc_log.h	85;"	d
+log_warn	nc_log.h	105;"	d
+loga	nc_log.h	89;"	d
+loga_hexdump	nc_log.h	93;"	d
+logger	nc_log.c	/^static struct logger logger;$/;"	v	typeref:struct:logger	file:
+logger	nc_log.h	/^struct logger {$/;"	s
+long_options	nc.c	/^static struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+lowest_equivalent_value	hdr_histogram/hdr_histogram.c	/^static int64_t lowest_equivalent_value(const struct hdr_histogram* h, int64_t value)$/;"	f	file:
+lowest_equivalent_value	hdr_histogram/hdr_histogram.h	/^    int64_t lowest_equivalent_value;$/;"	m	struct:hdr_iter
+lowest_trackable_value	hdr_histogram/hdr_histogram.h	/^    int64_t lowest_trackable_value;$/;"	m	struct:hdr_histogram
+lowest_trackable_value	hdr_histogram/hdr_histogram.h	/^    int64_t lowest_trackable_value;$/;"	m	struct:hdr_histogram_bucket_config
+lowest_trackable_value	hdr_histogram/hdr_histogram_log.c	/^    int64_t lowest_trackable_value;$/;"	m	struct:__anon2	file:
+lowest_trackable_value	hdr_histogram/hdr_histogram_log.c	/^    int64_t lowest_trackable_value;$/;"	m	struct:__anon3	file:
+m_tqe	nc_message.h	/^    TAILQ_ENTRY(msg)     m_tqe;           \/* link in send q \/ free q *\/$/;"	m	struct:msg
+magic	nc_mbuf.h	/^    uint32_t           magic;   \/* mbuf magic (const) *\/$/;"	m	struct:mbuf
+main	nc.c	/^main(int argc, char **argv)$/;"	f
+major_version	hdr_histogram/hdr_histogram_log.h	/^    int major_version;$/;"	m	struct:hdr_log_reader
+malloc	parson/parson.c	46;"	d	file:
+master	nc_conf.h	/^    struct conf_server master;  \/\/ conf_server of master$/;"	m	struct:conf_shard	typeref:struct:conf_shard::conf_server
+master	nc_server.h	/^    struct server       *master;        \/\/ pointer to master server$/;"	m	struct:shard	typeref:struct:shard::server
+max_allowed_servers	nc_stats.h	/^    int                 max_allowed_servers;$/;"	m	struct:stats
+max_ncconn	nc_core.h	/^    uint32_t           max_ncconn;  \/* max # client connections *\/$/;"	m	struct:context
+max_nfd	nc_core.h	/^    uint32_t           max_nfd;     \/* max # files *\/$/;"	m	struct:context
+max_nsconn	nc_core.h	/^    uint32_t           max_nsconn;  \/* max # server connections *\/$/;"	m	struct:context
+max_timeout	nc_core.h	/^    int                max_timeout; \/* max timeout in msec *\/$/;"	m	struct:context
+max_value	hdr_histogram/hdr_histogram.h	/^    int64_t max_value;$/;"	m	struct:hdr_histogram
+mbuf	nc_mbuf.h	/^struct mbuf {$/;"	s
+mbuf_chunk_size	nc_core.h	/^    size_t          mbuf_chunk_size;             \/* mbuf chunk size *\/$/;"	m	struct:instance
+mbuf_chunk_size	nc_mbuf.c	/^static size_t mbuf_chunk_size; \/* mbuf chunk size - header + data (const) *\/$/;"	v	file:
+mbuf_copy	nc_mbuf.c	/^mbuf_copy(struct mbuf *mbuf, uint8_t *pos, size_t n)$/;"	f
+mbuf_copy_t	nc_mbuf.h	/^typedef void (*mbuf_copy_t)(struct mbuf *, void *);$/;"	t
+mbuf_data_size	nc_mbuf.c	/^mbuf_data_size(void)$/;"	f
+mbuf_deinit	nc_mbuf.c	/^mbuf_deinit(void)$/;"	f
+mbuf_empty	nc_mbuf.h	/^mbuf_empty(struct mbuf *mbuf)$/;"	f
+mbuf_free	nc_mbuf.c	/^mbuf_free(struct mbuf *mbuf)$/;"	f	file:
+mbuf_full	nc_mbuf.h	/^mbuf_full(struct mbuf *mbuf)$/;"	f
+mbuf_get	nc_mbuf.c	/^mbuf_get(void)$/;"	f
+mbuf_init	nc_mbuf.c	/^mbuf_init(struct instance *nci)$/;"	f
+mbuf_insert	nc_mbuf.c	/^mbuf_insert(struct mhdr *mhdr, struct mbuf *mbuf)$/;"	f
+mbuf_length	nc_mbuf.c	/^mbuf_length(struct mbuf *mbuf)$/;"	f
+mbuf_offset	nc_mbuf.c	/^static size_t mbuf_offset;     \/* mbuf offset in chunk (const) *\/$/;"	v	file:
+mbuf_put	nc_mbuf.c	/^mbuf_put(struct mbuf *mbuf)$/;"	f
+mbuf_remove	nc_mbuf.c	/^mbuf_remove(struct mhdr *mhdr, struct mbuf *mbuf)$/;"	f
+mbuf_rewind	nc_mbuf.c	/^mbuf_rewind(struct mbuf *mbuf)$/;"	f
+mbuf_size	nc_mbuf.c	/^mbuf_size(struct mbuf *mbuf)$/;"	f
+mbuf_split	nc_mbuf.c	/^mbuf_split(struct mhdr *h, uint8_t *pos, mbuf_copy_t cb, void *cbarg)$/;"	f
+md5_signature	hashkit/nc_md5.c	/^md5_signature(unsigned char *key, unsigned long length, unsigned char *result)$/;"	f
+median_equivalent_value	hdr_histogram/hdr_histogram.h	/^    int64_t median_equivalent_value;$/;"	m	struct:hdr_iter
+memcache_add_auth	proto/nc_memcache.c	/^memcache_add_auth(struct context *ctx, struct conn *c_conn, struct conn *s_conn)$/;"	f
+memcache_append_key	proto/nc_memcache.c	/^memcache_append_key(struct msg *r, uint8_t *key, uint32_t keylen)$/;"	f	file:
+memcache_arithmetic	proto/nc_memcache.c	/^memcache_arithmetic(struct msg *r)$/;"	f	file:
+memcache_cas	proto/nc_memcache.c	/^memcache_cas(struct msg *r)$/;"	f	file:
+memcache_copy_bulk	proto/nc_memcache.c	/^memcache_copy_bulk(struct msg *dst, struct msg *src)$/;"	f	file:
+memcache_delete	proto/nc_memcache.c	/^memcache_delete(struct msg *r)$/;"	f	file:
+memcache_failure	proto/nc_memcache.c	/^memcache_failure(struct msg *r)$/;"	f
+memcache_fragment	proto/nc_memcache.c	/^memcache_fragment(struct msg *r, uint32_t ncontinuum, struct msg_tqh *frag_msgq)$/;"	f
+memcache_fragment_retrieval	proto/nc_memcache.c	/^memcache_fragment_retrieval(struct msg *r, uint32_t ncontinuum,$/;"	f	file:
+memcache_parse_req	proto/nc_memcache.c	/^memcache_parse_req(struct msg *r)$/;"	f
+memcache_parse_rsp	proto/nc_memcache.c	/^memcache_parse_rsp(struct msg *r)$/;"	f
+memcache_post_coalesce	proto/nc_memcache.c	/^memcache_post_coalesce(struct msg *request)$/;"	f
+memcache_post_connect	proto/nc_memcache.c	/^memcache_post_connect(struct context *ctx, struct conn *conn, struct server *server)$/;"	f
+memcache_pre_coalesce	proto/nc_memcache.c	/^memcache_pre_coalesce(struct msg *r)$/;"	f
+memcache_reply	proto/nc_memcache.c	/^memcache_reply(struct msg *r)$/;"	f
+memcache_retrieval	proto/nc_memcache.c	/^memcache_retrieval(struct msg *r)$/;"	f	file:
+memcache_storage	proto/nc_memcache.c	/^memcache_storage(struct msg *r)$/;"	f	file:
+memcache_swallow_msg	proto/nc_memcache.c	/^memcache_swallow_msg(struct conn *conn, struct msg *pmsg, struct msg *msg)$/;"	f
+memcache_touch	proto/nc_memcache.c	/^memcache_touch(struct msg *r)$/;"	f	file:
+metric	nc_stats.h	/^    struct array  metric; \/* stats_metric[] for pool codec *\/$/;"	m	struct:stats_pool	typeref:struct:stats_pool::array
+metric	nc_stats.h	/^    struct array  metric; \/* stats_metric[] for server codec *\/$/;"	m	struct:stats_server	typeref:struct:stats_server::array
+mhdr	nc_message.h	/^    struct mhdr          mhdr;            \/* message mbuf header *\/$/;"	m	struct:msg	typeref:struct:msg::mhdr
+min_value	hdr_histogram/hdr_histogram.h	/^    int64_t min_value;$/;"	m	struct:hdr_histogram
+minor_version	hdr_histogram/hdr_histogram_log.h	/^    int minor_version;$/;"	m	struct:hdr_log_reader
+mix	hashkit/nc_jenkins.c	36;"	d	file:
+mlen	nc_message.h	/^    uint32_t             mlen;            \/* message length *\/$/;"	m	struct:msg
+modula_dispatch	hashkit/nc_modula.c	/^modula_dispatch(struct continuum *continuum, uint32_t ncontinuum, uint32_t hash)$/;"	f
+modula_update	hashkit/nc_modula.c	/^modula_update(struct server_pool *pool)$/;"	f
+move_next	hdr_histogram/hdr_histogram.c	/^static bool move_next(struct hdr_iter* iter)$/;"	f	file:
+msg	nc_message.h	/^struct msg {$/;"	s
+msg_add_auth_t	nc_message.h	/^typedef rstatus_t (*msg_add_auth_t)(struct context *ctx, struct conn *c_conn, struct conn *s_conn);$/;"	t
+msg_append	nc_message.c	/^msg_append(struct msg *msg, uint8_t *pos, size_t n)$/;"	f
+msg_backend_idx	nc_message.c	/^msg_backend_idx(struct msg *msg, uint8_t *key, uint32_t keylen)$/;"	f
+msg_coalesce_t	nc_message.h	/^typedef void (*msg_coalesce_t)(struct msg *r);$/;"	t
+msg_deinit	nc_message.c	/^msg_deinit(void)$/;"	f
+msg_dump	nc_message.c	/^msg_dump(struct msg *msg, int level)$/;"	f
+msg_empty	nc_message.c	/^msg_empty(struct msg *msg)$/;"	f
+msg_ensure_mbuf	nc_message.c	/^msg_ensure_mbuf(struct msg *msg, size_t len)$/;"	f
+msg_failure_t	nc_message.h	/^typedef bool (*msg_failure_t)(struct msg *r);$/;"	t
+msg_fragment_t	nc_message.h	/^typedef rstatus_t (*msg_fragment_t)(struct msg *, uint32_t, struct msg_tqh *);$/;"	t
+msg_free	nc_message.c	/^msg_free(struct msg *msg)$/;"	f	file:
+msg_from_rbe	nc_message.c	/^msg_from_rbe(struct rbnode *node)$/;"	f	file:
+msg_gen_frag_id	nc_message.c	/^msg_gen_frag_id(void)$/;"	f
+msg_get	nc_message.c	/^msg_get(struct conn *conn, bool request, bool redis)$/;"	f
+msg_get_error	nc_message.c	/^msg_get_error(bool redis, err_t err)$/;"	f
+msg_id	nc_message.c	/^static uint64_t msg_id;          \/* message id counter *\/$/;"	v	file:
+msg_init	nc_message.c	/^msg_init(void)$/;"	f
+msg_parse	nc_message.c	/^msg_parse(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_parse_result	nc_message.h	/^typedef enum msg_parse_result {$/;"	g
+msg_parse_result_t	nc_message.h	/^} msg_parse_result_t;$/;"	t	typeref:enum:msg_parse_result
+msg_parse_t	nc_message.h	/^typedef void (*msg_parse_t)(struct msg *);$/;"	t
+msg_parsed	nc_message.c	/^msg_parsed(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_prepend	nc_message.c	/^msg_prepend(struct msg *msg, uint8_t *pos, size_t n)$/;"	f
+msg_prepend_format	nc_message.c	/^msg_prepend_format(struct msg *msg, const char *fmt, ...)$/;"	f
+msg_put	nc_message.c	/^msg_put(struct msg *msg)$/;"	f
+msg_recv	nc_message.c	/^msg_recv(struct context *ctx, struct conn *conn)$/;"	f
+msg_recv_chain	nc_message.c	/^msg_recv_chain(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_repair	nc_message.c	/^msg_repair(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_reply_t	nc_message.h	/^typedef rstatus_t (*msg_reply_t)(struct msg *r);$/;"	t
+msg_send	nc_message.c	/^msg_send(struct context *ctx, struct conn *conn)$/;"	f
+msg_send_chain	nc_message.c	/^msg_send_chain(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+msg_tmo_delete	nc_message.c	/^msg_tmo_delete(struct msg *msg)$/;"	f
+msg_tmo_insert	nc_message.c	/^msg_tmo_insert(struct msg *msg, struct conn *conn)$/;"	f
+msg_tmo_min	nc_message.c	/^msg_tmo_min(void)$/;"	f
+msg_type	nc_message.h	/^typedef enum msg_type {$/;"	g
+msg_type_string	nc_message.c	/^msg_type_string(msg_type_t type)$/;"	f
+msg_type_strings	nc_message.c	/^static struct string msg_type_strings[] = {$/;"	v	typeref:struct:string	file:
+msg_type_t	nc_message.h	/^} msg_type_t;$/;"	t	typeref:enum:msg_type
+nalloc	nc_array.h	/^    uint32_t nalloc; \/* # allocated element *\/$/;"	m	struct:array
+name	nc_conf.h	/^    struct string      name;                  \/* pool name (root node) *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::string
+name	nc_conf.h	/^    struct string   name;       \/* hostname:port or [name] *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::string
+name	nc_conf.h	/^    struct string   name;    \/* hostname:port *\/$/;"	m	struct:conf_listen	typeref:struct:conf_listen::string
+name	nc_conf.h	/^    struct string name;$/;"	m	struct:command	typeref:struct:command::string
+name	nc_log.h	/^    char *name;  \/* log file name *\/$/;"	m	struct:logger
+name	nc_server.h	/^    struct string      name;                 \/* pool name (ref in conf_pool) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+name	nc_server.h	/^    struct string      name;          \/* hostname:port or [name] (ref in conf_server) *\/$/;"	m	struct:server	typeref:struct:server::string
+name	nc_stats.c	/^    char *name; \/* stats name *\/$/;"	m	struct:stats_desc	file:
+name	nc_stats.h	/^    struct string name;         \/* name (ref) *\/$/;"	m	struct:stats_metric	typeref:struct:stats_metric::string
+name	nc_stats.h	/^    struct string name;   \/* pool name (ref) *\/$/;"	m	struct:stats_pool	typeref:struct:stats_pool::string
+name	nc_stats.h	/^    struct string name;   \/* server name (ref) *\/$/;"	m	struct:stats_server	typeref:struct:stats_server::string
+names	parson/parson.c	/^    char       **names;$/;"	m	struct:json_object_t	file:
+narg	nc_message.h	/^    uint32_t             narg;            \/* # arguments (redis) *\/$/;"	m	struct:msg
+narg_end	nc_message.h	/^    uint8_t              *narg_end;       \/* narg end (redis) *\/$/;"	m	struct:msg
+narg_start	nc_message.h	/^    uint8_t              *narg_start;     \/* narg start (redis) *\/$/;"	m	struct:msg
+nc_alloc	nc_util.h	102;"	d
+nc_assert	nc_util.c	/^nc_assert(const char *cond, const char *file, int line, int panic)$/;"	f
+nc_atoi	nc_util.h	78;"	d
+nc_calloc	nc_util.h	108;"	d
+nc_conn_q	nc_server.h	/^    uint32_t           nc_conn_q;            \/* # client connection *\/$/;"	m	struct:server_pool
+nc_create_pidfile	nc.c	/^nc_create_pidfile(struct instance *nci)$/;"	f	file:
+nc_daemonize	nc.c	/^nc_daemonize(int dump_core)$/;"	f	file:
+nc_free	nc_util.h	114;"	d
+nc_get_options	nc.c	/^nc_get_options(int argc, char **argv, struct instance *nci)$/;"	f	file:
+nc_get_rcvbuf	nc_util.c	/^nc_get_rcvbuf(int sd)$/;"	f
+nc_get_sndbuf	nc_util.c	/^nc_get_sndbuf(int sd)$/;"	f
+nc_get_soerror	nc_util.c	/^nc_get_soerror(int sd)$/;"	f
+nc_gethostname	nc_util.h	75;"	d
+nc_memchr	nc_string.h	62;"	d
+nc_memcpy	nc_string.h	56;"	d
+nc_memmove	nc_string.h	59;"	d
+nc_msec_now	nc_util.c	/^nc_msec_now(void)$/;"	f
+nc_now_us	nc_util.c	/^nc_now_us()$/;"	f
+nc_post_run	nc.c	/^nc_post_run(struct instance *nci)$/;"	f	file:
+nc_pre_run	nc.c	/^nc_pre_run(struct instance *nci)$/;"	f	file:
+nc_print_done	nc.c	/^nc_print_done(void)$/;"	f	file:
+nc_print_run	nc.c	/^nc_print_run(struct instance *nci)$/;"	f	file:
+nc_read	nc_util.h	139;"	d
+nc_readv	nc_util.h	142;"	d
+nc_realloc	nc_util.h	111;"	d
+nc_recvn	nc_util.h	132;"	d
+nc_remove_pidfile	nc.c	/^nc_remove_pidfile(struct instance *nci)$/;"	f	file:
+nc_resolve	nc_util.c	/^nc_resolve(struct string *name, int port, struct sockinfo *si)$/;"	f
+nc_resolve_inet	nc_util.c	/^nc_resolve_inet(struct string *name, int port, struct sockinfo *si)$/;"	f	file:
+nc_resolve_unix	nc_util.c	/^nc_resolve_unix(struct string *name, struct sockinfo *si)$/;"	f	file:
+nc_run	nc.c	/^nc_run(struct instance *nci)$/;"	f	file:
+nc_safe_snprintf	nc_string.h	123;"	d
+nc_safe_vsnprintf	nc_string.h	126;"	d
+nc_scnprintf	nc_string.h	97;"	d
+nc_sendn	nc_util.h	129;"	d
+nc_set_blocking	nc_util.c	/^nc_set_blocking(int sd)$/;"	f
+nc_set_default_options	nc.c	/^nc_set_default_options(struct instance *nci)$/;"	f	file:
+nc_set_linger	nc_util.c	/^nc_set_linger(int sd, int timeout)$/;"	f
+nc_set_nonblocking	nc_util.c	/^nc_set_nonblocking(int sd)$/;"	f
+nc_set_rcvbuf	nc_util.c	/^nc_set_rcvbuf(int sd, int size)$/;"	f
+nc_set_reuseaddr	nc_util.c	/^nc_set_reuseaddr(int sd)$/;"	f
+nc_set_sndbuf	nc_util.c	/^nc_set_sndbuf(int sd, int size)$/;"	f
+nc_set_tcpkeepalive	nc_util.c	/^nc_set_tcpkeepalive(int sd)$/;"	f
+nc_set_tcpnodelay	nc_util.c	/^nc_set_tcpnodelay(int sd)$/;"	f
+nc_show_usage	nc.c	/^nc_show_usage(void)$/;"	f	file:
+nc_snprintf	nc_string.h	94;"	d
+nc_stacktrace	nc_util.c	/^nc_stacktrace(int skip_count)$/;"	f
+nc_stacktrace_fd	nc_util.c	/^nc_stacktrace_fd(int fd)$/;"	f
+nc_strchr	nc_string.h	71;"	d
+nc_strftime	nc_string.h	106;"	d
+nc_strlen	nc_string.h	65;"	d
+nc_strncmp	nc_string.h	68;"	d
+nc_strndup	nc_string.h	77;"	d
+nc_strrchr	nc_string.h	74;"	d
+nc_test_conf	nc.c	/^nc_test_conf(struct instance *nci)$/;"	f	file:
+nc_unresolve_addr	nc_util.c	/^nc_unresolve_addr(struct sockaddr *addr, socklen_t addrlen)$/;"	f
+nc_unresolve_desc	nc_util.c	/^nc_unresolve_desc(int sd)$/;"	f
+nc_unresolve_peer_desc	nc_util.c	/^nc_unresolve_peer_desc(int sd)$/;"	f
+nc_usec_now	nc_util.c	/^nc_usec_now(void)$/;"	f
+nc_valid_port	nc_util.c	/^nc_valid_port(int n)$/;"	f
+nc_vscnprintf	nc_string.h	103;"	d
+nc_vsnprintf	nc_string.h	100;"	d
+nc_write	nc_util.h	145;"	d
+nc_write_file	nc_util.c	/^nc_write_file(char *filepath, char *buf, int buf_len)$/;"	f
+nc_writev	nc_util.h	148;"	d
+nc_zalloc	nc_util.h	105;"	d
+nchange	event/nc_event.h	/^    int           nchange;     \/* # change *\/$/;"	m	struct:event_base
+ncontinuum	nc_server.h	/^    uint32_t           ncontinuum;           \/* # continuum points *\/$/;"	m	struct:server_pool
+ncurr_cconn	nc_connection.c	/^static uint32_t ncurr_cconn;       \/* current # client connections *\/$/;"	v	file:
+ncurr_conn	nc_connection.c	/^static uint32_t ncurr_conn;        \/* current # connections *\/$/;"	v	file:
+ncurr_conn_str	nc_stats.h	/^    struct string       ncurr_conn_str;  \/* curr connections string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+nelem	nc_array.h	/^    uint32_t nelem;  \/* # element *\/$/;"	m	struct:array
+nerror	nc_log.h	/^    int  nerror; \/* # log error *\/$/;"	m	struct:logger
+nevent	event/nc_event.h	/^    int                nevent;  \/* # event *\/$/;"	m	struct:event_base
+nevent	event/nc_event.h	/^    int           nevent;      \/* # event *\/$/;"	m	struct:event_base
+nevent	event/nc_event.h	/^    int          nevent;  \/* # event *\/$/;"	m	struct:event_base
+next	nc_mbuf.h	/^    STAILQ_ENTRY(mbuf) next;    \/* next mbuf *\/$/;"	m	struct:mbuf
+next_rebuild	nc_server.h	/^    int64_t            next_rebuild;         \/* next distribution rebuild time in usec *\/$/;"	m	struct:server_pool
+next_retry	nc_server.h	/^    int64_t            next_retry;    \/* next retry time in usec *\/$/;"	m	struct:server
+next_value_greater_than_reporting_level_upper_bound	hdr_histogram/hdr_histogram.c	/^static bool next_value_greater_than_reporting_level_upper_bound($/;"	f	file:
+next_value_reporting_level	hdr_histogram/hdr_histogram.h	/^    int64_t next_value_reporting_level;$/;"	m	struct:hdr_iter_linear
+next_value_reporting_level	hdr_histogram/hdr_histogram.h	/^    int64_t next_value_reporting_level;$/;"	m	struct:hdr_iter_log
+next_value_reporting_level_lowest_equivalent	hdr_histogram/hdr_histogram.h	/^    int64_t next_value_reporting_level_lowest_equivalent;$/;"	m	struct:hdr_iter_linear
+next_value_reporting_level_lowest_equivalent	hdr_histogram/hdr_histogram.h	/^    int64_t next_value_reporting_level_lowest_equivalent;$/;"	m	struct:hdr_iter_log
+nfrag	nc_message.h	/^    uint32_t             nfrag;           \/* # fragment *\/$/;"	m	struct:msg
+nfrag_done	nc_message.h	/^    uint32_t             nfrag_done;      \/* # fragment done *\/$/;"	m	struct:msg
+nfree_connq	nc_connection.c	/^static uint32_t nfree_connq;       \/* # free conn q *\/$/;"	v	file:
+nfree_mbufq	nc_mbuf.c	/^static uint32_t nfree_mbufq;   \/* # free mbuf *\/$/;"	v	file:
+nfree_msgq	nc_message.c	/^static uint32_t nfree_msgq;      \/* # free msg q *\/$/;"	v	file:
+nlive_server	nc_server.h	/^    uint32_t           nlive_server;         \/* # live server *\/$/;"	m	struct:server_pool
+noforward	nc_message.h	/^    unsigned             noforward:1;     \/* not need forward (example: ping) *\/$/;"	m	struct:msg
+non_zero_min	hdr_histogram/hdr_histogram.c	/^static int64_t non_zero_min(const struct hdr_histogram* h)$/;"	f	file:
+nonce	hdr_histogram/hdr_histogram_log.h	/^	uint32_t nonce;$/;"	m	struct:hdr_log_writer
+noreply	nc_message.h	/^    unsigned             noreply:1;       \/* noreply? *\/$/;"	m	struct:msg
+normalize_index	hdr_histogram/hdr_histogram.c	/^static int32_t normalize_index(const struct hdr_histogram* h, int32_t index)$/;"	f	file:
+normalizing_index_offset	hdr_histogram/hdr_histogram.h	/^    int32_t normalizing_index_offset;$/;"	m	struct:hdr_histogram
+normalizing_index_offset	hdr_histogram/hdr_histogram_log.c	/^    int32_t normalizing_index_offset;$/;"	m	struct:__anon3	file:
+nprocessed	event/nc_event.h	/^    int           nprocessed;  \/* # event processed from event[] *\/$/;"	m	struct:event_base
+nreturned	event/nc_event.h	/^    int           nreturned;   \/* # event placed in event[] *\/$/;"	m	struct:event_base
+ns_conn_q	nc_server.h	/^    uint32_t           ns_conn_q;     \/* # server connection *\/$/;"	m	struct:server
+nserver_continuum	nc_server.h	/^    uint32_t           nserver_continuum;    \/* # servers - live and dead on continuum (const) *\/$/;"	m	struct:server_pool
+ntotal_conn	nc_connection.c	/^static uint64_t ntotal_conn;       \/* total # connections counter from start *\/$/;"	v	file:
+ntotal_conn_str	nc_stats.h	/^    struct string       ntotal_conn_str; \/* total connections string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+null	parson/parson.c	/^    int          null;$/;"	m	union:json_value_value	file:
+null_array	nc_array.h	33;"	d
+null_command	nc_conf.h	153;"	d
+null_string	nc_string.h	33;"	d
+null_trailing_whitespace	hdr_histogram/hdr_histogram_log.c	/^static ssize_t null_trailing_whitespace(char* s, ssize_t len)$/;"	f	file:
+num_bytes_in_utf8_sequence	parson/parson.c	/^static int num_bytes_in_utf8_sequence(unsigned char c) {$/;"	f	file:
+number	parson/parson.c	/^    double       number;$/;"	m	union:json_value_value	file:
+object	parson/parson.c	/^    JSON_Object *object;$/;"	m	union:json_value_value	file:
+odd_end_epoch	hdr_histogram/hdr_writer_reader_phaser.h	/^    int64_t odd_end_epoch;$/;"	m	struct:hdr_writer_reader_phaser
+offset	nc_conf.h	/^    int           offset;$/;"	m	struct:command
+omsg_q	nc_connection.h	/^    struct msg_tqh      omsg_q;          \/* outstanding request Q *\/$/;"	m	struct:conn	typeref:struct:conn::msg_tqh
+owner	nc_connection.h	/^    void                *owner;          \/* connection owner - server_pool \/ server *\/$/;"	m	struct:conn
+owner	nc_message.h	/^    struct conn          *owner;          \/* message owner - client | server *\/$/;"	m	struct:msg	typeref:struct:msg::conn
+owner	nc_server.h	/^    struct server_pool  *owner;         \/\/ a shard belongs to a pool$/;"	m	struct:shard	typeref:struct:shard::server_pool
+owner	nc_server.h	/^    struct server_pool *owner;        \/* owner pool *\/$/;"	m	struct:server	typeref:struct:server::server_pool
+owner_inst	nc_core.h	/^    struct instance   *owner_inst;  \/\/ owner instance of this context.$/;"	m	struct:context	typeref:struct:context::instance
+owner_shard	nc_server.h	/^    struct shard      *owner_shard;   \/\/ owner shard.$/;"	m	struct:server	typeref:struct:server::shard
+p_conn	nc_server.h	/^    struct conn        *p_conn;              \/* proxy connection (listener) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::conn
+parent	nc_rbtree.h	/^    struct rbnode *parent;   \/* parent link *\/$/;"	m	struct:rbnode	typeref:struct:rbnode::rbnode
+parse_array_value	parson/parson.c	/^static JSON_Value * parse_array_value(const char **string, size_t nesting) {$/;"	f	file:
+parse_boolean_value	parson/parson.c	/^static JSON_Value * parse_boolean_value(const char **string) {$/;"	f	file:
+parse_null_value	parson/parson.c	/^static JSON_Value * parse_null_value(const char **string) {$/;"	f	file:
+parse_number_value	parson/parson.c	/^static JSON_Value * parse_number_value(const char **string) {$/;"	f	file:
+parse_object_value	parson/parson.c	/^static JSON_Value * parse_object_value(const char **string, size_t nesting) {$/;"	f	file:
+parse_pool_conf_file	nc_conf.c	/^parse_pool_conf_file(struct conf *cf, char *pool_name)$/;"	f	file:
+parse_string_value	parson/parson.c	/^static JSON_Value * parse_string_value(const char **string) {$/;"	f	file:
+parse_utf_16	parson/parson.c	/^static int parse_utf_16(const char **unprocessed, char **processed) {$/;"	f	file:
+parse_value	parson/parson.c	/^static JSON_Value * parse_value(const char **string, size_t nesting) {$/;"	f	file:
+parsed	nc_conf.h	/^    unsigned      parsed:1;         \/* parsed? *\/$/;"	m	struct:conf
+parser	nc_conf.h	/^    yaml_parser_t parser;           \/* yaml parser *\/$/;"	m	struct:conf
+parser	nc_message.h	/^    msg_parse_t          parser;          \/* message parser *\/$/;"	m	struct:msg
+parson_free	parson/parson.c	/^static JSON_Free_Function parson_free = free;$/;"	v	file:
+parson_malloc	parson/parson.c	/^static JSON_Malloc_Function parson_malloc = malloc;$/;"	v	file:
+parson_parson_h	parson/parson.h	25;"	d
+parson_strdup	parson/parson.c	/^static char * parson_strdup(const char *string) {$/;"	f	file:
+parson_strndup	parson/parson.c	/^static char * parson_strndup(const char *string, size_t n) {$/;"	f	file:
+path	zkutil.h	/^  char *path;$/;"	m	struct:ContextExists_s
+path	zkutil.h	/^  char *path;$/;"	m	struct:ContextGet_s
+payload_len	hdr_histogram/hdr_histogram_log.c	/^    int32_t payload_len;$/;"	m	struct:__anon3	file:
+peek_next_value_from_index	hdr_histogram/hdr_histogram.c	/^static int64_t peek_next_value_from_index(struct hdr_iter* iter)$/;"	f	file:
+peer	nc_message.h	/^    struct msg           *peer;           \/* message peer *\/$/;"	m	struct:msg	typeref:struct:msg::msg
+percentile	hdr_histogram/hdr_histogram.h	/^    double percentile;$/;"	m	struct:hdr_iter_percentiles
+percentile_to_iterate_to	hdr_histogram/hdr_histogram.h	/^    double percentile_to_iterate_to;$/;"	m	struct:hdr_iter_percentiles
+percentiles	hdr_histogram/hdr_histogram.h	/^        struct hdr_iter_percentiles percentiles;$/;"	m	union:hdr_iter::__anon5	typeref:struct:hdr_iter::__anon5::hdr_iter_percentiles
+perm	nc_conf.h	/^    mode_t          perm;    \/* socket permissions *\/$/;"	m	struct:conf_listen
+perm	nc_server.h	/^    mode_t             perm;                 \/* socket permission *\/$/;"	m	struct:server_pool
+phaser	hdr_histogram/hdr_interval_recorder.h	/^    struct hdr_writer_reader_phaser phaser;$/;"	m	struct:hdr_interval_recorder	typeref:struct:hdr_interval_recorder::hdr_writer_reader_phaser
+pid	nc_core.h	/^    pid_t           pid;                         \/* process id *\/$/;"	m	struct:instance
+pid_filename	nc_core.h	/^    char            *pid_filename;               \/* pid filename *\/$/;"	m	struct:instance
+pidfile	nc_core.h	/^    unsigned        pidfile:1;                   \/* pid file created? *\/$/;"	m	struct:instance
+pname	nc_conf.h	/^    struct string   pname;      \/* server: as "hostname:port:weight" *\/$/;"	m	struct:conf_server	typeref:struct:conf_server::string
+pname	nc_conf.h	/^    struct string   pname;   \/* listen: as "hostname:port" *\/$/;"	m	struct:conf_listen	typeref:struct:conf_listen::string
+pname	nc_server.h	/^    struct string      pname;         \/* hostname:port:weight (ref in conf_server) *\/$/;"	m	struct:server	typeref:struct:server::string
+pool	nc_conf.h	/^    struct array  pool;             \/* conf_pool[] (parsed pools) *\/$/;"	m	struct:conf	typeref:struct:conf::array
+pool	nc_core.h	/^    struct array       pool;        \/\/ server_pool[] with shards$/;"	m	struct:context	typeref:struct:context::array
+pool_name	nc_core.h	/^    char            *pool_name;                  \/\/ this instance maps to this backend pool.$/;"	m	struct:instance
+port	nc_conf.h	/^    int             port;       \/* port *\/$/;"	m	struct:conf_server
+port	nc_conf.h	/^    int             port;    \/* port *\/$/;"	m	struct:conf_listen
+port	nc_server.h	/^    uint16_t           port;                 \/* port *\/$/;"	m	struct:server_pool
+port	nc_server.h	/^    uint16_t           port;          \/* port *\/$/;"	m	struct:server
+port	nc_stats.h	/^    uint16_t            port;            \/* stats monitoring port *\/$/;"	m	struct:stats
+pos	nc_mbuf.h	/^    uint8_t            *pos;    \/* read marker *\/$/;"	m	struct:mbuf
+pos	nc_message.h	/^    uint8_t              *pos;            \/* parser position marker *\/$/;"	m	struct:msg
+post_coalesce	nc_message.h	/^    msg_coalesce_t       post_coalesce;   \/* message post-coalesce *\/$/;"	m	struct:msg
+post_connect	nc_connection.h	/^    conn_post_connect_t post_connect;    \/* post connect handler *\/$/;"	m	struct:conn
+power	hdr_histogram/hdr_histogram.c	/^static int64_t power(int64_t base, int64_t exp)$/;"	f	file:
+pre_coalesce	nc_message.h	/^    msg_coalesce_t       pre_coalesce;    \/* message pre-coalesce *\/$/;"	m	struct:msg
+preconnect	nc_conf.h	/^    int                preconnect;            \/* preconnect: *\/$/;"	m	struct:conf_pool
+preconnect	nc_server.h	/^    unsigned           preconnect:1;         \/* preconnect? *\/$/;"	m	struct:server_pool
+prevfile	nc_queue.h	/^    char *prevfile;$/;"	m	struct:qm_trace
+prevline	nc_queue.h	/^    int  prevline;$/;"	m	struct:qm_trace
+print_header	hdr_histogram/hdr_histogram_log.c	/^static int print_header(FILE* f)$/;"	f	file:
+print_time	hdr_histogram/hdr_histogram_log.c	/^static int print_time(FILE* f, hdr_timespec* timestamp)$/;"	f	file:
+print_user_prefix	hdr_histogram/hdr_histogram_log.c	/^static int print_user_prefix(FILE* f, const char* prefix)$/;"	f	file:
+print_version	hdr_histogram/hdr_histogram_log.c	/^static int print_version(FILE* f, const char* version)$/;"	f	file:
+process_string	parson/parson.c	/^static char* process_string(const char *input, size_t len) {$/;"	f	file:
+proxies	nc_conf.h	/^    struct array proxies;  \/\/ conf_server of proxy to this pool.$/;"	m	struct:conf_pool	typeref:struct:conf_pool::array
+proxy	nc_connection.h	/^    unsigned            proxy:1;         \/* proxy? *\/$/;"	m	struct:conn
+proxy_accept	nc_proxy.c	/^proxy_accept(struct context *ctx, struct conn *p)$/;"	f	file:
+proxy_addr	nc_stats.h	/^    struct string       proxy_addr;      \/* proxy address *\/$/;"	m	struct:stats	typeref:struct:stats::string
+proxy_addr_str	nc_stats.h	/^    struct string       proxy_addr_str;  \/* proxy address string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+proxy_close	nc_proxy.c	/^proxy_close(struct context *ctx, struct conn *conn)$/;"	f
+proxy_deinit	nc_proxy.c	/^proxy_deinit(struct context *ctx)$/;"	f
+proxy_each_deinit	nc_proxy.c	/^proxy_each_deinit(void *elem, void *data)$/;"	f
+proxy_each_init	nc_proxy.c	/^proxy_each_init(void *elem, void *data)$/;"	f
+proxy_init	nc_proxy.c	/^proxy_init(struct context *ctx)$/;"	f
+proxy_ins	nc_core.h	/^    char            proxy_ins[NC_MAXHOSTNAMELEN];\/* proxy instance *\/$/;"	m	struct:instance
+proxy_ip	nc_core.h	/^    char            *proxy_ip;                   \/\/ proxy listen address$/;"	m	struct:instance
+proxy_listen	nc_proxy.c	/^proxy_listen(struct context *ctx, struct conn *p)$/;"	f	file:
+proxy_port	nc_core.h	/^    uint16_t        proxy_port;                  \/\/ proxy listen port$/;"	m	struct:instance
+proxy_recv	nc_proxy.c	/^proxy_recv(struct context *ctx, struct conn *conn)$/;"	f
+proxy_ref	nc_proxy.c	/^proxy_ref(struct conn *conn, void *owner)$/;"	f
+proxy_reuse	nc_proxy.c	/^proxy_reuse(struct conn *p)$/;"	f	file:
+proxy_unref	nc_proxy.c	/^proxy_unref(struct conn *conn)$/;"	f
+qm_trace	nc_queue.h	/^struct qm_trace {$/;"	s
+quit	nc_message.h	/^    unsigned             quit:1;          \/* quit request? *\/$/;"	m	struct:msg
+random_dispatch	hashkit/nc_random.c	/^random_dispatch(struct continuum *continuum, uint32_t ncontinuum, uint32_t hash)$/;"	f
+random_update	hashkit/nc_random.c	/^random_update(struct server_pool *pool)$/;"	f
+range_begin	nc_conf.h	/^    uint32_t range_begin;       \/\/ min hash value of keys in this shard (inclusive)$/;"	m	struct:conf_shard
+range_begin	nc_server.h	/^    uint32_t            range_begin;    \/\/ lower bound of hash key value (inclusive)$/;"	m	struct:shard
+range_end	nc_conf.h	/^    uint32_t range_end;         \/\/ max hash value of keys in this shard (inclusive)$/;"	m	struct:conf_shard
+range_end	nc_server.h	/^    uint32_t            range_end;      \/\/ higher bound of hash key value (inclusive)$/;"	m	struct:shard
+rbnode	nc_rbtree.h	/^struct rbnode {$/;"	s
+rbtree	nc_rbtree.h	/^struct rbtree {$/;"	s
+rbtree_black	nc_rbtree.h	22;"	d
+rbtree_copy_color	nc_rbtree.h	25;"	d
+rbtree_delete	nc_rbtree.c	/^rbtree_delete(struct rbtree *tree, struct rbnode *node)$/;"	f
+rbtree_init	nc_rbtree.c	/^rbtree_init(struct rbtree *tree, struct rbnode *node)$/;"	f
+rbtree_insert	nc_rbtree.c	/^rbtree_insert(struct rbtree *tree, struct rbnode *node)$/;"	f
+rbtree_is_black	nc_rbtree.h	24;"	d
+rbtree_is_red	nc_rbtree.h	23;"	d
+rbtree_left_rotate	nc_rbtree.c	/^rbtree_left_rotate(struct rbnode **root, struct rbnode *sentinel,$/;"	f	file:
+rbtree_min	nc_rbtree.c	/^rbtree_min(struct rbtree *tree)$/;"	f
+rbtree_node_init	nc_rbtree.c	/^rbtree_node_init(struct rbnode *node)$/;"	f
+rbtree_node_min	nc_rbtree.c	/^rbtree_node_min(struct rbnode *node, struct rbnode *sentinel)$/;"	f	file:
+rbtree_red	nc_rbtree.h	21;"	d
+rbtree_right_rotate	nc_rbtree.c	/^rbtree_right_rotate(struct rbnode **root, struct rbnode *sentinel,$/;"	f	file:
+rc	zkutil.h	/^  int rc;$/;"	m	struct:ContextGet_s
+read_file	parson/parson.c	/^static char * read_file(const char * filename) {$/;"	f	file:
+reader_mutex	hdr_histogram/hdr_writer_reader_phaser.h	/^    hdr_mutex* reader_mutex;$/;"	m	struct:hdr_writer_reader_phaser
+realloc_buffer	hdr_histogram/hdr_histogram_log.c	/^static int realloc_buffer($/;"	f	file:
+recorded	hdr_histogram/hdr_histogram.h	/^        struct hdr_iter_recorded recorded;$/;"	m	union:hdr_iter::__anon5	typeref:struct:hdr_iter::__anon5::hdr_iter_recorded
+recv	nc_connection.h	/^    conn_recv_t         recv;            \/* recv (read) handler *\/$/;"	m	struct:conn
+recv_active	nc_connection.h	/^    unsigned            recv_active:1;   \/* recv active? *\/$/;"	m	struct:conn
+recv_bytes	nc_connection.h	/^    size_t              recv_bytes;      \/* received (read) bytes *\/$/;"	m	struct:conn
+recv_done	nc_connection.h	/^    conn_recv_done_t    recv_done;       \/* read done handler *\/$/;"	m	struct:conn
+recv_next	nc_connection.h	/^    conn_recv_next_t    recv_next;       \/* recv next message handler *\/$/;"	m	struct:conn
+recv_ready	nc_connection.h	/^    unsigned            recv_ready:1;    \/* recv ready? *\/$/;"	m	struct:conn
+redis	nc_conf.h	/^    int                redis;                 \/* redis: *\/$/;"	m	struct:conf_pool
+redis	nc_connection.h	/^    unsigned            redis:1;         \/* redis? *\/$/;"	m	struct:conn
+redis	nc_message.h	/^    unsigned             redis:1;         \/* redis? *\/$/;"	m	struct:msg
+redis	nc_server.h	/^    unsigned           redis:1;              \/* redis? *\/$/;"	m	struct:server_pool
+redis_add_auth	proto/nc_redis.c	/^redis_add_auth(struct context *ctx, struct conn *c_conn, struct conn *s_conn)$/;"	f
+redis_append_key	proto/nc_redis.c	/^redis_append_key(struct msg *r, uint8_t *key, uint32_t keylen)$/;"	f	file:
+redis_arg0	proto/nc_redis.c	/^redis_arg0(struct msg *r)$/;"	f	file:
+redis_arg1	proto/nc_redis.c	/^redis_arg1(struct msg *r)$/;"	f	file:
+redis_arg2	proto/nc_redis.c	/^redis_arg2(struct msg *r)$/;"	f	file:
+redis_arg3	proto/nc_redis.c	/^redis_arg3(struct msg *r)$/;"	f	file:
+redis_argeval	proto/nc_redis.c	/^redis_argeval(struct msg *r)$/;"	f	file:
+redis_argkvx	proto/nc_redis.c	/^redis_argkvx(struct msg *r)$/;"	f	file:
+redis_argn	proto/nc_redis.c	/^redis_argn(struct msg *r)$/;"	f	file:
+redis_argx	proto/nc_redis.c	/^redis_argx(struct msg *r)$/;"	f	file:
+redis_argz	proto/nc_redis.c	/^redis_argz(struct msg *r)$/;"	f	file:
+redis_auth	nc_conf.h	/^    struct string      redis_auth;            \/* redis_auth: redis auth password (matches requirepass on redis) *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::string
+redis_auth	nc_server.h	/^    struct string      redis_auth;           \/* redis_auth password (matches requirepass on redis) *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::string
+redis_copy_bulk	proto/nc_redis.c	/^redis_copy_bulk(struct msg *dst, struct msg *src)$/;"	f	file:
+redis_db	nc_conf.h	/^    int                redis_db;              \/* redis_db: redis db *\/$/;"	m	struct:conf_pool
+redis_db	nc_server.h	/^    int                redis_db;             \/* redis database to connect to *\/$/;"	m	struct:server_pool
+redis_error	proto/nc_redis.c	/^redis_error(struct msg *r)$/;"	f	file:
+redis_failure	proto/nc_redis.c	/^redis_failure(struct msg *r)$/;"	f
+redis_fragment	proto/nc_redis.c	/^redis_fragment(struct msg *r, uint32_t ncontinuum, struct msg_tqh *frag_msgq)$/;"	f
+redis_fragment_argx	proto/nc_redis.c	/^redis_fragment_argx(struct msg *r, uint32_t ncontinuum, struct msg_tqh *frag_msgq,$/;"	f	file:
+redis_handle_auth_req	proto/nc_redis.c	/^redis_handle_auth_req(struct msg *req, struct msg *rsp)$/;"	f	file:
+redis_parse_req	proto/nc_redis.c	/^redis_parse_req(struct msg *r)$/;"	f
+redis_parse_rsp	proto/nc_redis.c	/^redis_parse_rsp(struct msg *r)$/;"	f
+redis_post_coalesce	proto/nc_redis.c	/^redis_post_coalesce(struct msg *r)$/;"	f
+redis_post_coalesce_del	proto/nc_redis.c	/^redis_post_coalesce_del(struct msg *request)$/;"	f
+redis_post_coalesce_mget	proto/nc_redis.c	/^redis_post_coalesce_mget(struct msg *request)$/;"	f	file:
+redis_post_coalesce_mset	proto/nc_redis.c	/^redis_post_coalesce_mset(struct msg *request)$/;"	f
+redis_post_connect	proto/nc_redis.c	/^redis_post_connect(struct context *ctx, struct conn *conn, struct server *server)$/;"	f
+redis_pre_coalesce	proto/nc_redis.c	/^redis_pre_coalesce(struct msg *r)$/;"	f
+redis_reply	proto/nc_redis.c	/^redis_reply(struct msg *r)$/;"	f
+redis_swallow_msg	proto/nc_redis.c	/^redis_swallow_msg(struct conn *conn, struct msg *pmsg, struct msg *msg)$/;"	f
+ref	nc_connection.h	/^    conn_ref_t          ref;             \/* connection reference handler *\/$/;"	m	struct:conn
+remove_comments	parson/parson.c	/^static void remove_comments(char *string, const char *start_token, const char *end_token) {$/;"	f	file:
+reply	nc_message.h	/^    msg_reply_t          reply;           \/* generate message reply (example: ping) *\/$/;"	m	struct:msg
+req_client_dequeue_omsgq	nc_request.c	/^req_client_dequeue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_client_enqueue_omsgq	nc_request.c	/^req_client_enqueue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_done	nc_request.c	/^req_done(struct conn *conn, struct msg *msg)$/;"	f
+req_error	nc_request.c	/^req_error(struct conn *conn, struct msg *msg)$/;"	f
+req_filter	nc_request.c	/^req_filter(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+req_forward	nc_request.c	/^req_forward(struct context *ctx, struct conn *c_conn, struct msg *msg)$/;"	f	file:
+req_forward_error	nc_request.c	/^req_forward_error(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+req_forward_stats	nc_request.c	/^req_forward_stats(struct context *ctx, struct server *server, struct msg *msg)$/;"	f	file:
+req_get	nc_request.c	/^req_get(struct conn *conn)$/;"	f
+req_log	nc_request.c	/^req_log(struct msg *req)$/;"	f	file:
+req_make_reply	nc_request.c	/^req_make_reply(struct context *ctx, struct conn *conn, struct msg *req)$/;"	f	file:
+req_put	nc_request.c	/^req_put(struct msg *msg)$/;"	f
+req_recv_done	nc_request.c	/^req_recv_done(struct context *ctx, struct conn *conn, struct msg *msg,$/;"	f
+req_recv_next	nc_request.c	/^req_recv_next(struct context *ctx, struct conn *conn, bool alloc)$/;"	f
+req_send_done	nc_request.c	/^req_send_done(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_send_next	nc_request.c	/^req_send_next(struct context *ctx, struct conn *conn)$/;"	f
+req_server_dequeue_imsgq	nc_request.c	/^req_server_dequeue_imsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_server_dequeue_omsgq	nc_request.c	/^req_server_dequeue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_server_enqueue_imsgq	nc_request.c	/^req_server_enqueue_imsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_server_enqueue_imsgq_head	nc_request.c	/^req_server_enqueue_imsgq_head(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+req_server_enqueue_omsgq	nc_request.c	/^req_server_enqueue_omsgq(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+request	nc_message.h	/^    unsigned             request:1;       \/* request? or response? *\/$/;"	m	struct:msg
+require_auth	nc_server.h	/^    unsigned           require_auth;         \/* require_auth? *\/$/;"	m	struct:server_pool
+resize_stats_buffer	nc_stats.c	/^resize_stats_buffer(struct stats *st)$/;"	f
+result	nc_message.h	/^    msg_parse_result_t   result;          \/* message parsing result *\/$/;"	m	struct:msg
+ret_buf_len	zkutil.h	/^  int ret_buf_len;$/;"	m	struct:ContextGet_s
+right	nc_rbtree.h	/^    struct rbnode *right;    \/* right link *\/$/;"	m	struct:rbnode	typeref:struct:rbnode::rbnode
+rlen	nc_message.h	/^    uint32_t             rlen;            \/* running length in parsing fsa (redis) *\/$/;"	m	struct:msg
+rmsg	nc_connection.h	/^    struct msg          *rmsg;           \/* current message being rcvd *\/$/;"	m	struct:conn	typeref:struct:conn::msg
+rnarg	nc_message.h	/^    uint32_t             rnarg;           \/* running # arg used by parsing fsa (redis) *\/$/;"	m	struct:msg
+root	nc_rbtree.h	/^    struct rbnode *root;     \/* root node *\/$/;"	m	struct:rbtree	typeref:struct:rbtree::rbnode
+rot	hashkit/nc_jenkins.c	34;"	d	file:
+rsp_filter	nc_response.c	/^rsp_filter(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+rsp_forward	nc_response.c	/^rsp_forward(struct context *ctx, struct conn *s_conn, struct msg *msg)$/;"	f	file:
+rsp_forward_stats	nc_response.c	/^rsp_forward_stats(struct context *ctx, struct server *server, struct msg *msg, uint32_t msgsize)$/;"	f	file:
+rsp_get	nc_response.c	/^rsp_get(struct conn *conn)$/;"	f
+rsp_make_error	nc_response.c	/^rsp_make_error(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f	file:
+rsp_put	nc_response.c	/^rsp_put(struct msg *msg)$/;"	f
+rsp_recv_done	nc_response.c	/^rsp_recv_done(struct context *ctx, struct conn *conn, struct msg *msg,$/;"	f
+rsp_recv_next	nc_response.c	/^rsp_recv_next(struct context *ctx, struct conn *conn, bool alloc)$/;"	f
+rsp_send_done	nc_response.c	/^rsp_send_done(struct context *ctx, struct conn *conn, struct msg *msg)$/;"	f
+rsp_send_next	nc_response.c	/^rsp_send_next(struct context *ctx, struct conn *conn)$/;"	f
+rstatus_t	nc_core.h	/^typedef int rstatus_t; \/* return type *\/$/;"	t
+s_clockPeriod	hdr_histogram/hdr_time.c	/^static double s_clockPeriod = 1.0;$/;"	v	file:
+s_clockPeriodSet	hdr_histogram/hdr_time.c	/^static int s_clockPeriodSet = 0;$/;"	v	file:
+s_conn_q	nc_server.h	/^    struct conn_tqh    s_conn_q;      \/* server connection q *\/$/;"	m	struct:server	typeref:struct:server::conn_tqh
+s_tqe	nc_message.h	/^    TAILQ_ENTRY(msg)     s_tqe;           \/* link in server q *\/$/;"	m	struct:msg
+sanity_check_pool_conf_json	nc_conf.c	/^sanity_check_pool_conf_json(JSON_Object *pobj)$/;"	f	file:
+sanity_check_shard_conf_json	nc_conf.c	/^sanity_check_shard_conf_json(JSON_Object *sobj)$/;"	f	file:
+scan_header_line	hdr_histogram/hdr_histogram_log.c	/^static void scan_header_line(struct hdr_log_reader* reader, const char* line)$/;"	f	file:
+scan_log_format	hdr_histogram/hdr_histogram_log.c	/^static void scan_log_format(struct hdr_log_reader* reader, const char* line)$/;"	f	file:
+scan_start_time	hdr_histogram/hdr_histogram_log.c	/^static void scan_start_time(struct hdr_log_reader* reader, const char* line)$/;"	f	file:
+sd	nc_connection.h	/^    int                 sd;              \/* socket descriptor *\/$/;"	m	struct:conn
+sd	nc_stats.h	/^    int                 sd;              \/* stats descriptor *\/$/;"	m	struct:stats
+seen_last_value	hdr_histogram/hdr_histogram.h	/^    bool seen_last_value;$/;"	m	struct:hdr_iter_percentiles
+send	nc_connection.h	/^    conn_send_t         send;            \/* send (write) handler *\/$/;"	m	struct:conn
+send_active	nc_connection.h	/^    unsigned            send_active:1;   \/* send active? *\/$/;"	m	struct:conn
+send_bytes	nc_connection.h	/^    size_t              send_bytes;      \/* sent (written) bytes *\/$/;"	m	struct:conn
+send_done	nc_connection.h	/^    conn_send_done_t    send_done;       \/* write done handler *\/$/;"	m	struct:conn
+send_next	nc_connection.h	/^    conn_send_next_t    send_next;       \/* write next message handler *\/$/;"	m	struct:conn
+send_ready	nc_connection.h	/^    unsigned            send_ready:1;    \/* send ready? *\/$/;"	m	struct:conn
+sentinel	nc_rbtree.h	/^    struct rbnode *sentinel; \/* nil node *\/$/;"	m	struct:rbtree	typeref:struct:rbtree::rbnode
+seq	nc_conf.h	/^    unsigned      seq:1;            \/* sequence? *\/$/;"	m	struct:conf
+server	nc_conf.h	/^    struct array       server;                \/* servers: conf_server[] *\/$/;"	m	struct:conf_pool	typeref:struct:conf_pool::array
+server	nc_server.h	/^    struct array       server;               \/* server[] *\/$/;"	m	struct:server_pool	typeref:struct:server_pool::array
+server	nc_server.h	/^struct server {$/;"	s
+server	nc_stats.h	/^    struct array  server; \/* stats_server[] *\/$/;"	m	struct:stats_pool	typeref:struct:stats_pool::array
+server_active	nc_server.c	/^server_active(struct conn *conn)$/;"	f
+server_close	nc_server.c	/^server_close(struct context *ctx, struct conn *conn)$/;"	f
+server_close_stats	nc_server.c	/^server_close_stats(struct context *ctx, struct server *server, err_t err,$/;"	f	file:
+server_conn	nc_server.c	/^server_conn(struct server *server)$/;"	f
+server_connect	nc_server.c	/^server_connect(struct context *ctx, struct server *server, struct conn *conn)$/;"	f
+server_connected	nc_server.c	/^server_connected(struct context *ctx, struct conn *conn)$/;"	f
+server_connections	nc_conf.h	/^    int                server_connections;    \/* server_connections: *\/$/;"	m	struct:conf_pool
+server_connections	nc_server.h	/^    uint32_t           server_connections;   \/* maximum # server connection *\/$/;"	m	struct:server_pool
+server_deinit	nc_server.c	/^server_deinit(struct array *server)$/;"	f
+server_each_disconnect	nc_server.c	/^server_each_disconnect(void *elem, void *data)$/;"	f	file:
+server_each_preconnect	nc_server.c	/^server_each_preconnect(void *elem, void *data)$/;"	f	file:
+server_each_set_owner	nc_server.c	/^server_each_set_owner(void *elem, void *data)$/;"	f	file:
+server_failure	nc_server.c	/^server_failure(struct context *ctx, struct server *server)$/;"	f	file:
+server_failure_limit	nc_conf.h	/^    uint32_t server_failure_limit;  \/* server_failure_limit: *\/$/;"	m	struct:conf_pool
+server_failure_limit	nc_server.h	/^    uint32_t           server_failure_limit; \/* server failure limit *\/$/;"	m	struct:server_pool
+server_init	nc_server.c	/^server_init(struct array *server, struct array *conf_server,$/;"	f
+server_ok	nc_server.c	/^server_ok(struct context *ctx, struct conn *conn)$/;"	f
+server_pool	nc_server.h	/^struct server_pool {$/;"	s
+server_pool_conn	nc_server.c	/^server_pool_conn(struct context *ctx, struct server_pool *pool, uint8_t *key,$/;"	f
+server_pool_deinit	nc_server.c	/^server_pool_deinit(struct array *server_pool)$/;"	f
+server_pool_disconnect	nc_server.c	/^server_pool_disconnect(struct context *ctx)$/;"	f
+server_pool_each_calc_connections	nc_server.c	/^server_pool_each_calc_connections(void *elem, void *data)$/;"	f	file:
+server_pool_each_disconnect	nc_server.c	/^server_pool_each_disconnect(void *elem, void *data)$/;"	f	file:
+server_pool_each_preconnect	nc_server.c	/^server_pool_each_preconnect(void *elem, void *data)$/;"	f	file:
+server_pool_each_run	nc_server.c	/^server_pool_each_run(void *elem, void *data)$/;"	f	file:
+server_pool_each_set_owner	nc_server.c	/^server_pool_each_set_owner(void *elem, void *data)$/;"	f	file:
+server_pool_hash	nc_server.c	/^server_pool_hash(struct server_pool *pool, uint8_t *key, uint32_t keylen)$/;"	f	file:
+server_pool_idx	nc_server.c	/^server_pool_idx(struct server_pool *pool, uint8_t *key, uint32_t keylen)$/;"	f
+server_pool_init	nc_server.c	/^server_pool_init(struct array *server_pool, struct array *conf_pool,$/;"	f
+server_pool_preconnect	nc_server.c	/^server_pool_preconnect(struct context *ctx)$/;"	f
+server_pool_run	nc_server.c	/^server_pool_run(struct server_pool *pool)$/;"	f
+server_pool_server	nc_server.c	/^server_pool_server(struct server_pool *pool, uint8_t *key, uint32_t keylen)$/;"	f	file:
+server_pool_update	nc_server.c	/^server_pool_update(struct server_pool *pool)$/;"	f	file:
+server_ref	nc_server.c	/^server_ref(struct conn *conn, void *owner)$/;"	f
+server_resolve	nc_server.c	/^server_resolve(struct server *server, struct conn *conn)$/;"	f	file:
+server_retry_timeout	nc_conf.h	/^    uint32_t server_retry_timeout;  \/* server_retry_timeout: in msec *\/$/;"	m	struct:conf_pool
+server_retry_timeout	nc_server.h	/^    int64_t            server_retry_timeout; \/* server retry timeout in usec *\/$/;"	m	struct:server_pool
+server_timeout	nc_server.c	/^server_timeout(struct conn *conn)$/;"	f
+server_unref	nc_server.c	/^server_unref(struct conn *conn)$/;"	f
+service	nc_stats.h	/^    struct string       service;         \/* service *\/$/;"	m	struct:stats	typeref:struct:stats::string
+service_str	nc_stats.h	/^    struct string       service_str;     \/* service string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+set	nc_conf.h	/^    char          *(*set)(struct conf *cf, struct command *cmd, void *data);$/;"	m	struct:command
+set_server_shard_status	nc_conf.c	/^set_server_shard_status(struct conf_shard *conf_sd, struct shard *srv_sd)$/;"	f	file:
+set_watch_on_master_status	nc_server.c	/^set_watch_on_master_status(struct array *server_pool, struct context *ctx)$/;"	f	file:
+shadow	nc_stats.h	/^    struct array        shadow;          \/* stats_pool[] (b) *\/$/;"	m	struct:stats	typeref:struct:stats::array
+shard	nc_server.h	/^struct shard {$/;"	s
+shard_range_max	nc_conf.h	/^    uint32_t shard_range_max;  \/\/ key hash code upper bound (inclusive)$/;"	m	struct:conf_pool
+shard_range_max	nc_server.h	/^    uint32_t           shard_range_max;$/;"	m	struct:server_pool
+shard_range_min	nc_conf.h	/^    uint32_t shard_range_min;  \/\/ key hash code lower bound (inclusive)$/;"	m	struct:conf_pool
+shard_range_min	nc_server.h	/^    uint32_t           shard_range_min;      \/\/ [min ~ max] value of key hash, inclusive.$/;"	m	struct:server_pool
+shards	nc_conf.h	/^    struct array shards;       \/\/ conf_shard[] of all shards in this pool$/;"	m	struct:conf_pool	typeref:struct:conf_pool::array
+shards	nc_server.h	/^    struct array       shards;               \/\/ shard[] in this pool$/;"	m	struct:server_pool	typeref:struct:server_pool::array
+short_options	nc.c	/^static char short_options[] = "hVtdDv:o:c:s:i:a:p:m:x:y:z:g:l:";$/;"	v	file:
+show_help	nc.c	/^static int show_help;$/;"	v	file:
+show_version	nc.c	/^static int show_version;$/;"	v	file:
+signal	nc_signal.h	/^struct signal {$/;"	s
+signal_deinit	nc_signal.c	/^signal_deinit(void)$/;"	f
+signal_handler	nc_signal.c	/^signal_handler(int signo)$/;"	f
+signal_init	nc_signal.c	/^signal_init(void)$/;"	f
+signals	nc_signal.c	/^static struct signal signals[] = {$/;"	v	typeref:struct:signal	file:
+signame	nc_signal.h	/^    char *signame;$/;"	m	struct:signal
+significant_figures	hdr_histogram/hdr_histogram.h	/^    int32_t significant_figures;$/;"	m	struct:hdr_histogram
+significant_figures	hdr_histogram/hdr_histogram.h	/^    int64_t significant_figures;$/;"	m	struct:hdr_histogram_bucket_config
+significant_figures	hdr_histogram/hdr_histogram_log.c	/^    int32_t significant_figures;$/;"	m	struct:__anon2	file:
+significant_figures	hdr_histogram/hdr_histogram_log.c	/^    int32_t significant_figures;$/;"	m	struct:__anon3	file:
+signo	nc_signal.h	/^    int  signo;$/;"	m	struct:signal
+size	nc_array.h	/^    size_t   size;   \/* element size *\/$/;"	m	struct:array
+size	nc_stats.h	/^    size_t   size;  \/* buffer alloc size *\/$/;"	m	struct:stats_buffer
+skip_quotes	parson/parson.c	/^static void skip_quotes(const char **string) {$/;"	f	file:
+slaves	nc_conf.h	/^    struct array  slaves;       \/\/ conf_server[] of all slaves$/;"	m	struct:conf_shard	typeref:struct:conf_shard::array
+slaves	nc_server.h	/^    struct array        slaves;         \/\/ array of POINTERs to slave servers$/;"	m	struct:shard	typeref:struct:shard::array
+smsg	nc_connection.h	/^    struct msg          *smsg;           \/* current message being sent *\/$/;"	m	struct:conn	typeref:struct:conn::msg
+snprintf	hdr_histogram/hdr_histogram.c	762;"	d	file:
+snprintf	hdr_histogram/hdr_histogram.c	780;"	d	file:
+sockinfo	nc_util.h	/^struct sockinfo {$/;"	s
+sound	nc_conf.h	/^    unsigned      sound:1;          \/* sound? *\/$/;"	m	struct:conf
+source	nc_stats.h	/^    struct string       source;          \/* source *\/$/;"	m	struct:stats	typeref:struct:stats::string
+source_str	nc_stats.h	/^    struct string       source_str;      \/* source string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+specifics	hdr_histogram/hdr_histogram.h	/^    } specifics;$/;"	m	struct:hdr_iter	typeref:union:hdr_iter::__anon5
+ssize_t	hdr_histogram/hdr_histogram_log.c	/^typedef SSIZE_T ssize_t;$/;"	t	file:
+start	nc_mbuf.h	/^    uint8_t            *start;  \/* start of buffer (const) *\/$/;"	m	struct:mbuf
+start	nc_message.h	/^    uint8_t             *start;           \/* key start pos *\/$/;"	m	struct:keypos
+start_epoch	hdr_histogram/hdr_writer_reader_phaser.h	/^    int64_t start_epoch;$/;"	m	struct:hdr_writer_reader_phaser
+start_timestamp	hdr_histogram/hdr_histogram_log.h	/^    hdr_timespec start_timestamp;$/;"	m	struct:hdr_log_reader
+start_ts	nc_message.h	/^    int64_t              start_ts;        \/* request start timestamp in usec *\/$/;"	m	struct:msg
+start_ts	nc_stats.h	/^    int64_t             start_ts;        \/* start timestamp of nutcracker *\/$/;"	m	struct:stats
+state	nc_message.h	/^    int                  state;           \/* current parser state *\/$/;"	m	struct:msg
+stats	nc_core.h	/^    struct stats       *stats;      \/* stats *\/$/;"	m	struct:context	typeref:struct:context::stats
+stats	nc_stats.h	/^struct stats {$/;"	s
+stats_add_footer	nc_stats.c	/^stats_add_footer(struct stats *st)$/;"	f	file:
+stats_add_header	nc_stats.c	/^stats_add_header(struct stats *st)$/;"	f	file:
+stats_add_num	nc_stats.c	/^stats_add_num(struct stats *st, struct string *key, int64_t val)$/;"	f	file:
+stats_add_string	nc_stats.c	/^stats_add_string(struct stats *st, struct string *key, struct string *val)$/;"	f	file:
+stats_addr	nc_core.h	/^    char            *stats_addr;                 \/* stats monitoring addr *\/$/;"	m	struct:instance
+stats_aggregate	nc_stats.c	/^stats_aggregate(struct stats *st)$/;"	f	file:
+stats_aggregate_metric	nc_stats.c	/^stats_aggregate_metric(struct array *dst, struct array *src)$/;"	f	file:
+stats_begin_nesting	nc_stats.c	/^stats_begin_nesting(struct stats *st, struct string *key)$/;"	f	file:
+stats_buffer	nc_stats.h	/^struct stats_buffer {$/;"	s
+stats_copy_metric	nc_stats.c	/^stats_copy_metric(struct stats *st, struct array *metric)$/;"	f	file:
+stats_create	nc_stats.c	/^stats_create(struct instance *nci, struct array *server_pool)$/;"	f
+stats_create_buf	nc_stats.c	/^stats_create_buf(struct stats *st)$/;"	f	file:
+stats_desc	nc_stats.c	/^struct stats_desc {$/;"	s	file:
+stats_describe	nc_stats.c	/^stats_describe(void)$/;"	f
+stats_destroy	nc_stats.c	/^stats_destroy(struct stats *st)$/;"	f
+stats_destroy_buf	nc_stats.c	/^stats_destroy_buf(struct stats *st)$/;"	f	file:
+stats_enabled	nc_stats.h	217;"	d
+stats_end_nesting	nc_stats.c	/^stats_end_nesting(struct stats *st)$/;"	f	file:
+stats_interval	nc_core.h	/^    int             stats_interval;              \/* stats aggregation interval *\/$/;"	m	struct:instance
+stats_listen	nc_stats.c	/^stats_listen(struct stats *st)$/;"	f	file:
+stats_lock	nc_stats.c	/^stats_lock(struct stats *st)$/;"	f
+stats_loop	nc_stats.c	/^stats_loop(void *arg)$/;"	f	file:
+stats_loop_callback	nc_stats.c	/^stats_loop_callback(void *arg1, void *arg2)$/;"	f	file:
+stats_make_rsp	nc_stats.c	/^stats_make_rsp(struct stats *st)$/;"	f	file:
+stats_metric	nc_stats.h	/^struct stats_metric {$/;"	s
+stats_metric_deinit	nc_stats.c	/^stats_metric_deinit(struct array *metric)$/;"	f	file:
+stats_metric_init	nc_stats.c	/^stats_metric_init(struct stats_metric *stm)$/;"	f	file:
+stats_metric_reset	nc_stats.c	/^stats_metric_reset(struct array *stats_metric)$/;"	f	file:
+stats_pool	nc_stats.h	/^struct stats_pool {$/;"	s
+stats_pool_codec	nc_stats.c	/^static struct stats_metric stats_pool_codec[] = {$/;"	v	typeref:struct:stats_metric	file:
+stats_pool_decr	nc_stats.h	161;"	d
+stats_pool_decr	nc_stats.h	201;"	d
+stats_pool_decr_by	nc_stats.h	169;"	d
+stats_pool_decr_by	nc_stats.h	205;"	d
+stats_pool_desc	nc_stats.c	/^static struct stats_desc stats_pool_desc[] = {$/;"	v	typeref:struct:stats_desc	file:
+stats_pool_field	nc_stats.h	/^typedef enum stats_pool_field {$/;"	g
+stats_pool_field_t	nc_stats.h	/^} stats_pool_field_t;$/;"	t	typeref:enum:stats_pool_field
+stats_pool_incr	nc_stats.h	157;"	d
+stats_pool_incr	nc_stats.h	199;"	d
+stats_pool_incr_by	nc_stats.h	165;"	d
+stats_pool_incr_by	nc_stats.h	203;"	d
+stats_pool_init	nc_stats.c	/^stats_pool_init(struct stats_pool *stp, struct server_pool *sp)$/;"	f	file:
+stats_pool_map	nc_stats.c	/^stats_pool_map(struct array *stats_pool, struct array *server_pool)$/;"	f	file:
+stats_pool_metric_init	nc_stats.c	/^stats_pool_metric_init(struct array *stats_metric)$/;"	f	file:
+stats_pool_reset	nc_stats.c	/^stats_pool_reset(struct array *stats_pool)$/;"	f	file:
+stats_pool_set_ts	nc_stats.h	173;"	d
+stats_pool_to_metric	nc_stats.c	/^stats_pool_to_metric(struct context *ctx, struct server_pool *pool,$/;"	f	file:
+stats_pool_unmap	nc_stats.c	/^stats_pool_unmap(struct array *stats_pool)$/;"	f	file:
+stats_port	nc_core.h	/^    uint16_t        stats_port;                  \/* stats monitoring port *\/$/;"	m	struct:instance
+stats_send_req	nc_stats.c	/^stats_send_req(struct stats *st)$/;"	f	file:
+stats_send_rsp	nc_stats.c	/^stats_send_rsp(struct stats *st)$/;"	f	file:
+stats_server	nc_stats.h	/^struct stats_server {$/;"	s
+stats_server_codec	nc_stats.c	/^static struct stats_metric stats_server_codec[] = {$/;"	v	typeref:struct:stats_metric	file:
+stats_server_decr	nc_stats.h	181;"	d
+stats_server_decr	nc_stats.h	209;"	d
+stats_server_decr_by	nc_stats.h	189;"	d
+stats_server_decr_by	nc_stats.h	213;"	d
+stats_server_desc	nc_stats.c	/^static struct stats_desc stats_server_desc[] = {$/;"	v	typeref:struct:stats_desc	file:
+stats_server_field	nc_stats.h	/^typedef enum stats_server_field {$/;"	g
+stats_server_field_t	nc_stats.h	/^} stats_server_field_t;$/;"	t	typeref:enum:stats_server_field
+stats_server_incr	nc_stats.h	177;"	d
+stats_server_incr	nc_stats.h	207;"	d
+stats_server_incr_by	nc_stats.h	185;"	d
+stats_server_incr_by	nc_stats.h	211;"	d
+stats_server_init	nc_stats.c	/^stats_server_init(struct stats_server *sts, struct server *s)$/;"	f	file:
+stats_server_map	nc_stats.c	/^stats_server_map(struct array *stats_server, struct array *server)$/;"	f	file:
+stats_server_metric_init	nc_stats.c	/^stats_server_metric_init(struct stats_server *sts)$/;"	f	file:
+stats_server_set_ts	nc_stats.h	193;"	d
+stats_server_to_metric	nc_stats.c	/^stats_server_to_metric(struct context *ctx, struct server *server,$/;"	f	file:
+stats_server_unmap	nc_stats.c	/^stats_server_unmap(struct array *stats_server)$/;"	f	file:
+stats_start_aggregator	nc_stats.c	/^stats_start_aggregator(struct stats *st)$/;"	f	file:
+stats_stop_aggregator	nc_stats.c	/^stats_stop_aggregator(struct stats *st)$/;"	f	file:
+stats_summarize_latency	nc_stats.c	/^stats_summarize_latency(struct stats *st)$/;"	f	file:
+stats_summarize_servers_to_pool	nc_stats.c	/^stats_summarize_servers_to_pool(struct stats *st)$/;"	f	file:
+stats_swap	nc_stats.c	/^stats_swap(struct stats *st)$/;"	f
+stats_type	nc_stats.h	/^typedef enum stats_type {$/;"	g
+stats_type_t	nc_stats.h	/^} stats_type_t;$/;"	t	typeref:enum:stats_type
+stats_unlock	nc_stats.c	/^stats_unlock(struct stats *st)$/;"	f
+status	nc_conf.h	/^    char status[32];            \/\/ status string.$/;"	m	struct:conf_shard
+str10cmp	proto/nc_proto.h	45;"	d
+str10cmp	proto/nc_proto.h	76;"	d
+str10icmp	proto/nc_proto.h	113;"	d
+str11cmp	proto/nc_proto.h	49;"	d
+str11cmp	proto/nc_proto.h	79;"	d
+str11icmp	proto/nc_proto.h	117;"	d
+str12cmp	proto/nc_proto.h	52;"	d
+str12cmp	proto/nc_proto.h	82;"	d
+str12icmp	proto/nc_proto.h	121;"	d
+str13icmp	proto/nc_proto.h	125;"	d
+str14icmp	proto/nc_proto.h	129;"	d
+str15icmp	proto/nc_proto.h	133;"	d
+str16icmp	proto/nc_proto.h	137;"	d
+str3icmp	proto/nc_proto.h	87;"	d
+str4cmp	proto/nc_proto.h	25;"	d
+str4cmp	proto/nc_proto.h	58;"	d
+str4icmp	proto/nc_proto.h	92;"	d
+str5cmp	proto/nc_proto.h	28;"	d
+str5cmp	proto/nc_proto.h	61;"	d
+str5icmp	proto/nc_proto.h	95;"	d
+str6cmp	proto/nc_proto.h	31;"	d
+str6cmp	proto/nc_proto.h	64;"	d
+str6icmp	proto/nc_proto.h	98;"	d
+str7cmp	proto/nc_proto.h	35;"	d
+str7cmp	proto/nc_proto.h	67;"	d
+str7icmp	proto/nc_proto.h	101;"	d
+str8cmp	proto/nc_proto.h	38;"	d
+str8cmp	proto/nc_proto.h	70;"	d
+str8icmp	proto/nc_proto.h	105;"	d
+str9cmp	proto/nc_proto.h	42;"	d
+str9cmp	proto/nc_proto.h	73;"	d
+str9icmp	proto/nc_proto.h	109;"	d
+string	nc_string.h	/^struct string {$/;"	s
+string	nc_string.h	32;"	d
+string	parson/parson.c	/^    char        *string;$/;"	m	union:json_value_value	file:
+string_compare	nc_string.c	/^string_compare(const struct string *s1, const struct string *s2)$/;"	f
+string_copy	nc_string.c	/^string_copy(struct string *dst, const uint8_t *src, uint32_t srclen)$/;"	f
+string_deinit	nc_string.c	/^string_deinit(struct string *str)$/;"	f
+string_duplicate	nc_string.c	/^string_duplicate(struct string *dst, const struct string *src)$/;"	f
+string_empty	nc_string.c	/^string_empty(const struct string *str)$/;"	f
+string_init	nc_string.c	/^string_init(struct string *str)$/;"	f
+string_set_raw	nc_string.h	40;"	d
+string_set_text	nc_string.h	35;"	d
+string_to_conf_server	nc_conf.c	/^string_to_conf_server(const uint8_t* saddr, struct conf_server* srv)$/;"	f	file:
+strm_init	hdr_histogram/hdr_histogram_log.c	/^static void strm_init(z_stream* strm)$/;"	f	file:
+sub_bucket_count	hdr_histogram/hdr_histogram.h	/^    int32_t sub_bucket_count;$/;"	m	struct:hdr_histogram
+sub_bucket_count	hdr_histogram/hdr_histogram.h	/^    int32_t sub_bucket_count;$/;"	m	struct:hdr_histogram_bucket_config
+sub_bucket_half_count	hdr_histogram/hdr_histogram.h	/^    int32_t sub_bucket_half_count;$/;"	m	struct:hdr_histogram
+sub_bucket_half_count	hdr_histogram/hdr_histogram.h	/^    int32_t sub_bucket_half_count;$/;"	m	struct:hdr_histogram_bucket_config
+sub_bucket_half_count_magnitude	hdr_histogram/hdr_histogram.h	/^    int32_t sub_bucket_half_count_magnitude;$/;"	m	struct:hdr_histogram
+sub_bucket_half_count_magnitude	hdr_histogram/hdr_histogram.h	/^    int32_t sub_bucket_half_count_magnitude;$/;"	m	struct:hdr_histogram_bucket_config
+sub_bucket_mask	hdr_histogram/hdr_histogram.h	/^    int64_t sub_bucket_mask;$/;"	m	struct:hdr_histogram
+sub_bucket_mask	hdr_histogram/hdr_histogram.h	/^    int64_t sub_bucket_mask;$/;"	m	struct:hdr_histogram_bucket_config
+sum	nc_stats.h	/^    struct array        sum;             \/* stats_pool[] (c = a + b) *\/$/;"	m	struct:stats	typeref:struct:stats::array
+swallow	nc_message.h	/^    unsigned             swallow:1;       \/* swallow response? *\/$/;"	m	struct:msg
+swallow_msg	nc_connection.h	/^    conn_swallow_msg_t  swallow_msg;     \/* react on messages to be swallowed *\/$/;"	m	struct:conn
+tcpkeepalive	nc_conf.h	/^    int                tcpkeepalive;          \/* tcpkeepalive: *\/$/;"	m	struct:conf_pool
+tcpkeepalive	nc_server.h	/^    unsigned           tcpkeepalive:1;       \/* tcpkeepalive? *\/$/;"	m	struct:server_pool
+test_conf	nc.c	/^static int test_conf;$/;"	v	file:
+ticks_per_half_distance	hdr_histogram/hdr_histogram.h	/^    int32_t ticks_per_half_distance;$/;"	m	struct:hdr_iter_percentiles
+tid	nc_stats.h	/^    pthread_t           tid;             \/* stats aggregator thread *\/$/;"	m	struct:stats
+timeout	nc_conf.h	/^    int                timeout;               \/* timeout: *\/$/;"	m	struct:conf_pool
+timeout	nc_core.h	/^    int                timeout;     \/* timeout in msec *\/$/;"	m	struct:context
+timeout	nc_server.h	/^    int                timeout;              \/* timeout in msec *\/$/;"	m	struct:server_pool
+timestamp	nc_message.h	/^    uint64_t             timestamp;       \/\/ when the msg is created, in micro-seconds$/;"	m	struct:msg
+timestamp	nc_stats.h	/^        int64_t   timestamp;    \/* monotonic timestamp *\/$/;"	m	union:stats_metric::__anon7
+timestamp_str	nc_stats.h	/^    struct string       timestamp_str;   \/* timestamp string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+tmo_rbe	nc_message.h	/^    struct rbnode        tmo_rbe;         \/* entry in rbtree *\/$/;"	m	struct:msg	typeref:struct:msg::rbnode
+tmo_rbs	nc_message.c	/^static struct rbnode tmo_rbs;    \/* timeout rbtree sentinel *\/$/;"	v	typeref:struct:rbnode	file:
+tmo_rbt	nc_message.c	/^static struct rbtree tmo_rbt;    \/* timeout rbtree *\/$/;"	v	typeref:struct:rbtree	file:
+token	nc_conf.h	/^    yaml_token_t  token;            \/* yaml token *\/$/;"	m	struct:conf
+token	nc_message.h	/^    uint8_t              *token;          \/* token marker *\/$/;"	m	struct:msg
+total_count	hdr_histogram/hdr_histogram.h	/^    int64_t total_count;$/;"	m	struct:hdr_histogram
+total_count	hdr_histogram/hdr_histogram_log.c	/^    int64_t total_count;$/;"	m	struct:__anon2	file:
+tv_nsec	hdr_histogram/hdr_time.h	/^    long tv_nsec;$/;"	m	struct:hdr_timespec
+tv_sec	hdr_histogram/hdr_time.h	/^    long tv_sec;$/;"	m	struct:hdr_timespec
+type	nc_message.h	/^    msg_type_t           type;            \/* message type *\/$/;"	m	struct:msg
+type	nc_stats.h	/^    stats_type_t  type;         \/* type *\/$/;"	m	struct:stats_metric
+type	parson/parson.c	/^    JSON_Value_Type     type;$/;"	m	struct:json_value_t	file:
+uint64_dbl_cvt	hdr_histogram/hdr_histogram_log.c	/^union uint64_dbl_cvt$/;"	u	file:
+un	nc_util.h	/^        struct sockaddr_un  un;    \/* unix domain address *\/$/;"	m	union:sockinfo::__anon8	typeref:struct:sockinfo::__anon8::sockaddr_un
+unit_magnitude	hdr_histogram/hdr_histogram.h	/^    int32_t unit_magnitude;$/;"	m	struct:hdr_histogram
+unit_magnitude	hdr_histogram/hdr_histogram.h	/^    int64_t unit_magnitude;$/;"	m	struct:hdr_histogram_bucket_config
+unref	nc_connection.h	/^    conn_unref_t        unref;           \/* connection unreference handler *\/$/;"	m	struct:conn
+update_min_max	hdr_histogram/hdr_histogram.c	/^static void update_min_max(struct hdr_histogram* h, int64_t value)$/;"	f	file:
+update_server_shards_from_conf_json	nc_conf.c	/^update_server_shards_from_conf_json(JSON_Object *pobj,$/;"	f	file:
+update_timespec	hdr_histogram/hdr_histogram_log.c	/^static void update_timespec(hdr_timespec* ts, int time_s, int time_ms)$/;"	f	file:
+updated	nc_stats.h	/^    volatile int        updated;         \/* current (a) updated? *\/$/;"	m	struct:stats
+uptime_str	nc_stats.h	/^    struct string       uptime_str;      \/* uptime string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+valid	nc_conf.h	/^    unsigned           valid:1;               \/* valid? *\/$/;"	m	struct:conf_pool
+valid	nc_conf.h	/^    unsigned        valid:1;    \/* valid? *\/$/;"	m	struct:conf_server
+valid	nc_conf.h	/^    unsigned        valid:1; \/* valid? *\/$/;"	m	struct:conf_listen
+valid	nc_conf.h	/^    unsigned      valid:1;          \/* valid? *\/$/;"	m	struct:conf
+valid_event	nc_conf.h	/^    unsigned      valid_event:1;    \/* valid event? *\/$/;"	m	struct:conf
+valid_parser	nc_conf.h	/^    unsigned      valid_parser:1;   \/* valid parser? *\/$/;"	m	struct:conf
+valid_token	nc_conf.h	/^    unsigned      valid_token:1;    \/* valid token? *\/$/;"	m	struct:conf
+validate_log_version	hdr_histogram/hdr_histogram_log.c	/^static bool validate_log_version(struct hdr_log_reader* reader)$/;"	f	file:
+value	hdr_histogram/hdr_histogram.h	/^    int64_t value;$/;"	m	struct:hdr_iter
+value	nc_server.h	/^    uint32_t value;  \/* hash value *\/$/;"	m	struct:continuum
+value	nc_stats.h	/^    } value;$/;"	m	struct:stats_metric	typeref:union:stats_metric::__anon7
+value	parson/parson.c	/^    JSON_Value_Value    value;$/;"	m	struct:json_value_t	file:
+value_from_index	hdr_histogram/hdr_histogram.c	/^static int64_t value_from_index(int32_t bucket_index, int32_t sub_bucket_index, int32_t unit_magnitude)$/;"	f	file:
+value_iterated_from	hdr_histogram/hdr_histogram.h	/^    int64_t value_iterated_from;$/;"	m	struct:hdr_iter
+value_iterated_to	hdr_histogram/hdr_histogram.h	/^    int64_t value_iterated_to;$/;"	m	struct:hdr_iter
+value_units_per_bucket	hdr_histogram/hdr_histogram.h	/^    int64_t value_units_per_bucket;$/;"	m	struct:hdr_iter_linear
+values	parson/parson.c	/^    JSON_Value **values;$/;"	m	struct:json_object_t	file:
+verify_utf8_sequence	parson/parson.c	/^static int verify_utf8_sequence(const unsigned char *string, int *len) {$/;"	f	file:
+version	nc_stats.h	/^    struct string       version;         \/* version *\/$/;"	m	struct:stats	typeref:struct:stats::string
+version_str	nc_stats.h	/^    struct string       version_str;     \/* version string *\/$/;"	m	struct:stats	typeref:struct:stats::string
+vlen	nc_message.h	/^    uint32_t             vlen;            \/* value length (memcache) *\/$/;"	m	struct:msg
+watcher	zkutil.h	/^  watcher_fn watcher;$/;"	m	struct:ContextExists_s
+watcher	zkutil.h	/^  watcher_fn watcher;$/;"	m	struct:ContextGet_s
+weight	nc_conf.h	/^    int             weight;     \/* weight *\/$/;"	m	struct:conf_server
+weight	nc_server.h	/^    uint32_t           weight;        \/* weight *\/$/;"	m	struct:server
+word_size_from_cookie	hdr_histogram/hdr_histogram_log.c	/^static int32_t word_size_from_cookie(int32_t cookie)$/;"	f	file:
+zig_zag_decode_i64	hdr_histogram/hdr_encoding.c	/^int zig_zag_decode_i64(const uint8_t* buffer, int64_t* retVal)$/;"	f
+zig_zag_encode_i64	hdr_histogram/hdr_encoding.c	/^int zig_zag_encode_i64(uint8_t* buffer, int64_t signed_value)$/;"	f
+zk_config_root	nc_core.h	/^    char            *zk_config_root;             \/* config path on zookeeper *\/$/;"	m	struct:instance
+zk_servers	nc_conf.h	/^    char          *zk_servers;      \/* zookeeper hosts *\/$/;"	m	struct:conf
+zk_servers	nc_core.h	/^    char            *zk_servers;                 \/* zookeeper hosts *\/$/;"	m	struct:instance
+zkh	nc_core.h	/^    zhandle_t       *zkh;           \/\/ zookeeper handle$/;"	m	struct:context

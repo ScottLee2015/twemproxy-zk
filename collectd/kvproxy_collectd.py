@@ -29,7 +29,7 @@ class KVProxyPlugin(object):
       self.ports.append(port)
 
     # default interval is 20 seconds.
-    self.interval = 10 
+    self.interval = 20 
     self.plugin_name = PLUGIN_NAME
     self.test = False
     self.per_server_stats = False
@@ -54,12 +54,11 @@ class KVProxyPlugin(object):
       For how to interpret config object, see here:
       https://collectd.org/documentation/manpages/collectd-python.5.shtml
     """
-    collectd.info('!!now config kvproxy {}'.format(conf))
+    collectd.info('now config kvproxy {}'.format(conf))
     for node in conf.children:
       key = node.key.lower()
 
       collectd.info('key: {0: <12}, value: {1: <12}'.format(key, node.values))
-
       if key == 'proxy':
         for s in node.values:
           tp = s.split(':')
@@ -93,7 +92,6 @@ class KVProxyPlugin(object):
     """
       dispatch a msg to collectd.
     """
-    #plugin_instance = '{}:{}'.format(server, port)
     plugin_instance = instance
 
     v = collectd.Values()
@@ -238,7 +236,17 @@ class KVProxyPlugin(object):
 
 
   def send_stats_to_collectd(self, content):
-
+    """
+      Parse stats content string, send values to collectd.
+ 
+ 
+      :param content: stats string, in json format.
+      :proxy_stats = json.loads(content)
+      :param ip:      proxy ip address
+    
+      :param port:    proxy port
+    for pk in proxy_stats.keys():
+    """
     proxy_stats = json.loads(content)
     
     for pk in proxy_stats.keys():
@@ -291,7 +299,7 @@ class KVProxyPlugin(object):
 
 def main():
   ip = '192.168.0.158'
-  port = 31000
+  port = 9997 
   proxy = KVProxyPlugin(ip, port)
   proxy.read_proxy_stats()
 
