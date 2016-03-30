@@ -308,7 +308,7 @@ event_loop_stats(event_stats_cb_t cb, void *arg)
     }
 
     ev.data.fd = st->sd;
-    ev.events = EPOLLIN;
+    ev.events = EPOLLIN|EPOLLET;
 
     status = epoll_ctl(ep, EPOLL_CTL_ADD, st->sd, &ev);
     if (status < 0) {

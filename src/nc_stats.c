@@ -917,6 +917,8 @@ stats_send_rsp(struct stats *st)
     }
 
     close(sd);
+
+    return NC_OK;
 }
 
 static rstatus_t

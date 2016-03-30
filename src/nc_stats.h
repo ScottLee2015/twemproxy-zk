@@ -97,8 +97,6 @@ struct stats_buffer {
 };
 
 struct stats {
-    //int                 proxy_port;      /* proxy instance port*/    
-
     uint16_t            port;            /* stats monitoring port */
     int                 interval;        /* stats aggregation interval */
     struct string       addr;            /* stats monitoring address */
