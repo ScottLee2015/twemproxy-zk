@@ -91,7 +91,7 @@ def write_cmd(client_socket):
          "storage_path" : "/data/NVME0/d2/store-1",
     """
     data = client_socket.recv(wbuffer_size)
-    print data
+    #print data
     # convert from string format to json format
     dataj = json.loads(data)
     #print dataj
@@ -106,7 +106,7 @@ def write_cmd(client_socket):
 
 def read_cmd(client_socket):
       data = retrieve_data()
-      print data
+      #print data
       client_socket.send(data)
 
 
